@@ -18,24 +18,17 @@ const MAX_CONCURRENT_REQUESTS : int = 40
 
 const JSON_FILE_LOCATION : String = "res://Resources/Json/Sets/"
 const PACK_FILE_LOCATION : String = "res://PackResources/"
-const BINDER_FILE_LOCATION : String = "user://BinderResources/"
 const CARD_FILE_LOCATION : String = "res://CardResources/"
 var importing_card_name : String = ""
 var downloading_card_text : String = ""
 var progress_string : String = ""
 func import_cards() -> void:
 	import_started.emit()
-	var mega_binder : BinderResource = BinderResource.new()
-	mega_binder.resource_name = "all_cards"
 	DirAccess.make_dir_absolute("res://PackResources")
 	DirAccess.make_dir_absolute("user://BinderResources")
 	DirAccess.make_dir_absolute("user://DeckResources")
 	DirAccess.make_dir_absolute("res://CardResources")
 	var pack_resources_dir : DirAccess = DirAccess.open(PACK_FILE_LOCATION)
-	var binder_dir := DirAccess.open(BINDER_FILE_LOCATION)
-	mega_binder.resource_path = BINDER_FILE_LOCATION + "all_cards.res"
-	if binder_dir.file_exists(mega_binder.resource_path):
-		binder_dir.remove(mega_binder.resource_path)
 	var pack_file_name_array : Array = pack_resources_dir.get_files()
 	pack_file_name_array.erase("HistoryPackTwo.res")
 	pack_file_name_array.erase("HistoryPackOne.res")
@@ -104,7 +97,6 @@ func import_cards() -> void:
 					card_resource.resource_path = dir_folder + card_resource.print_id + ".res"
 					ResourceSaver.save(card_resource, card_resource.resource_path)
 					assign_card_to_pack(pack_resource, card_resource)
-					mega_binder.cards.set(card_resource.id, [1, card_resource])
 				else:
 					for set_number : int in card_resource.unique_set_print_ids:
 						var print_id : String = card_resource.unique_set_print_ids[set_number]
@@ -113,12 +105,10 @@ func import_cards() -> void:
 							card_resource.resource_path = dir_folder + print_id + ".res"
 							ResourceSaver.save(card_resource, card_resource.resource_path)
 							assign_card_to_pack(pack_resource, card_resource)
-							mega_binder.cards.set(card_resource.id, [1, card_resource])
 					
 				await get_tree().create_timer(0.00000000001).timeout
 		if pack_resource.resource_path != "" and pack_resource.resource_path != null:
 			ResourceSaver.save(pack_resource, pack_resource.resource_path)
-	ResourceSaver.save(mega_binder, mega_binder.resource_path)
 	_start_next_image_batch()
 	_start_next_flip_image_batch()
 

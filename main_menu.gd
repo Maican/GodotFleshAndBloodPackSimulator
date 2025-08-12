@@ -19,7 +19,6 @@ var active_requests : int = 0
 var cards_downloaded : int = 0
 var total_cards : int = 0
 const MAX_CONCURRENT_REQUESTS : int = 40
-
 var import_started : bool = false
 var import_finished : bool = false
 var download_started : bool = false

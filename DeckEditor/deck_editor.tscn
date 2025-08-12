@@ -50,6 +50,7 @@ theme = ExtResource("1_d5sny")
 [node name="HeroArenaLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
 layout_mode = 2
 theme = ExtResource("1_d5sny")
+theme_override_font_sizes/font_size = 66
 text = "Hero + Arena"
 
 [node name="HeroArenaContainer" type="HBoxContainer" parent="ScrollContainer/VBoxContainer"]
@@ -61,6 +62,7 @@ theme_override_constants/separation = 20
 [node name="DeckLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
 layout_mode = 2
 theme = ExtResource("1_d5sny")
+theme_override_font_sizes/font_size = 66
 text = "Deck"
 
 [node name="MainDeckGridContainer" type="GridContainer" parent="ScrollContainer/VBoxContainer"]
@@ -74,6 +76,7 @@ columns = 5
 [node name="InventoryLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
 layout_mode = 2
 theme = ExtResource("1_d5sny")
+theme_override_font_sizes/font_size = 66
 text = "Inventory"
 
 [node name="InventoryGridContainer" type="GridContainer" parent="ScrollContainer/VBoxContainer"]
@@ -87,6 +90,7 @@ layout_mode = 2
 tooltip_text = "Not saved to Fabrary decklists, just used to store interesting cards with decks."
 mouse_filter = 1
 theme = ExtResource("1_d5sny")
+theme_override_font_sizes/font_size = 66
 text = "Maybe (?)"
 
 [node name="MaybeGridContainer" type="GridContainer" parent="ScrollContainer/VBoxContainer"]
