@@ -1,0 +1,35 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="FleshAndBloodProg"
+run/main_scene="uid://3m7qpcqghqa4"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+PackOpenHelper="*res://pack_open_helper.gd"
+CardHelper="*res://card_helper.gd"
+DeckHelper="*res://deck_helper.gd"
+BinderHelper="*res://binder_helper.gd"
+SceneChanger="*res://scene_changer.gd"
+
+[display]
+
+window/size/viewport_width=1440
+window/size/viewport_height=900
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="FleshAndBloodProg"

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfhhi65nblwbs"]
+
+[ext_resource type="Script" uid="uid://bfiu1gi6w8k5v" path="res://binder_editor.gd" id="1_lsr2a"]
+
+[node name="BinderEditor" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_lsr2a")
+
+[node name="MainMenuButton" type="Button" parent="."]
+layout_mode = 0
+offset_right = 89.0
+offset_bottom = 27.0
+text = "Back"

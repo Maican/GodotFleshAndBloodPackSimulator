@@ -1,0 +1,234 @@
+[gd_scene load_steps=4 format=3 uid="uid://cb045wgw5aag"]
+
+[ext_resource type="Script" uid="uid://cktfgc7ktp1gk" path="res://DeckEditor/binder_card.gd" id="1_7u3du"]
+[ext_resource type="Texture2D" uid="uid://dlr3q06mubnc5" path="res://Resources/Images/fab_card_back.webp" id="2_7u3du"]
+[ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="3_2ccbo"]
+
+[node name="BinderCard" type="Panel"]
+offset_right = 357.0
+offset_bottom = 208.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("3_2ccbo")
+script = ExtResource("1_7u3du")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+offset_right = 352.0
+offset_bottom = 207.0
+theme = ExtResource("3_2ccbo")
+theme_override_constants/separation = 1
+
+[node name="CardTexture" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme = ExtResource("3_2ccbo")
+texture = ExtResource("2_7u3du")
+expand_mode = 3
+
+[node name="NameLabel" type="Label" parent="HBoxContainer/CardTexture"]
+custom_minimum_size = Vector2(100, 12)
+layout_mode = 2
+offset_left = 148.0
+offset_right = 334.0
+offset_bottom = 16.0
+theme = ExtResource("3_2ccbo")
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = 3
+theme_override_font_sizes/font_size = 15
+text = "Card Name"
+text_overrun_behavior = 3
+
+[node name="QuantityLabel" type="Label" parent="HBoxContainer/CardTexture"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 43.0
+offset_top = -68.0
+offset_right = 91.0
+offset_bottom = -3.0
+grow_vertical = 0
+theme = ExtResource("3_2ccbo")
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 64
+text = "x1"
+
+[node name="EffectLabel" type="RichTextLabel" parent="HBoxContainer/CardTexture"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.789978
+offset_top = -139.0
+offset_right = 180.79
+offset_bottom = 1.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("3_2ccbo")
+bbcode_enabled = true
+text = "This is some temporary effect text, meant to illustrate how big the text will be here."
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+mouse_filter = 2
+theme = ExtResource("3_2ccbo")
+theme_override_constants/separation = -3
+metadata/_edit_lock_ = true
+
+[node name="Placeholder" type="Label" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(100, 12)
+layout_mode = 2
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text_overrun_behavior = 3
+metadata/_edit_lock_ = true
+
+[node name="TalentsLabel" type="Label" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(100, 12)
+layout_mode = 2
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text = "Talents"
+autowrap_mode = 3
+
+[node name="ClassLabel" type="Label" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(100, 12)
+layout_mode = 2
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text = "Classes"
+autowrap_mode = 3
+
+[node name="TypeLabel" type="Label" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(75, 20)
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text = "Types"
+autowrap_mode = 3
+text_overrun_behavior = 3
+
+[node name="LifeLabel" type="Label" parent="HBoxContainer/VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text = "Life:"
+autowrap_mode = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+mouse_filter = 2
+theme = ExtResource("3_2ccbo")
+theme_override_constants/separation = -3
+metadata/_edit_lock_ = true
+
+[node name="Placeholder" type="Label" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(100, 12)
+layout_mode = 2
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text_overrun_behavior = 3
+metadata/_edit_lock_ = true
+
+[node name="PitchLabel" type="Label" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text = "Pitch: "
+
+[node name="CostLabel" type="Label" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text = "Cost:"
+autowrap_mode = 3
+
+[node name="AttackLabel" type="Label" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text = "Power:"
+autowrap_mode = 3
+
+[node name="DefenseLabel" type="Label" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text = "Defense:"
+autowrap_mode = 3
+
+[node name="IntellectLabel" type="Label" parent="HBoxContainer/VBoxContainer2"]
+visible = false
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 15
+text = "Defense:"
+autowrap_mode = 3
+
+[node name="CardMenuPanel" type="Panel" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 110.0
+offset_bottom = 155.0
+mouse_filter = 2
+theme = ExtResource("3_2ccbo")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CardMenuPanel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -54.5
+offset_top = -78.0
+offset_right = 92.5
+offset_bottom = 130.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("3_2ccbo")
+theme_override_constants/separation = 1
+
+[node name="Main" type="Button" parent="CardMenuPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 1
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 38
+text = "Main"
+
+[node name="Inventory" type="Button" parent="CardMenuPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 1
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 38
+text = "Inventory"
+
+[node name="Maybe" type="Button" parent="CardMenuPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 1
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 38
+text = "Maybe"

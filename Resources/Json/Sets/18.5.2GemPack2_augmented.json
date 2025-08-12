@@ -1,0 +1,2855 @@
+[
+  {
+    "card_id": "riptide-lurker-of-the-deep",
+    "card_type": "regular",
+    "display_name": "Riptide, Lurker of the Deep",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM033-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM033-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM033-CF.webp"
+    },
+    "name": "Riptide, Lurker of the Deep",
+    "object_type": "hero-card",
+    "prints": [
+      {
+        "detail_url": "/card/riptide-lurker-of-the-deep/GEM033-CF/",
+        "print_id": "GEM033-CF",
+        "set_number": 33
+      }
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Riptide"
+    ],
+    "legalFormats": [
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open"
+    ],
+    "subtypes": [],
+    "types": [
+      "Hero"
+    ],
+    "typeText": "Ranger Hero",
+    "functionalText": "Whenever you play a card from hand, you may put a card from hand face down into your arsenal.\n\nWhenever a trap you control triggers, deal 1 damage to the attacking hero.",
+    "life": 38,
+    "intellect": 4,
+    "rarities": [
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Joseph Qiu"
+    ]
+  },
+  {
+    "card_id": "claw-of-vynserakai",
+    "card_type": "regular",
+    "display_name": "Claw of Vynserakai",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM034-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM034-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM034-CF.webp"
+    },
+    "name": "Claw of Vynserakai",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/claw-of-vynserakai/GEM034-CF/",
+        "print_id": "GEM034-CF",
+        "set_number": 34
+      }
+    ],
+    "classes": [
+      "NotClassed"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Dromai",
+      "Emperor",
+      "Fai",
+      "Fang",
+      "Taipanis"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Dagger"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Draconic Weapon - Dagger (1H)",
+    "functionalText": "**Once per Turn Action** - {r}: **Attack**\n\n**Spellvoid 1**",
+    "power": 1,
+    "keywords": [
+      "Spellvoid"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Majestic",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Mark Poole"
+    ]
+  },
+  {
+    "card_id": "cogwerx-blunderbuss",
+    "card_type": "regular",
+    "display_name": "Cogwerx Blunderbuss",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM035-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM035-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM035-CF.webp"
+    },
+    "name": "Cogwerx Blunderbuss",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/cogwerx-blunderbuss/GEM035-CF/",
+        "print_id": "GEM035-CF",
+        "set_number": 35
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "2H",
+      "Gun"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Mechanologist Weapon - Gun (2H)",
+    "functionalText": "**Action** - {r}{r}, {t}: **Attack**\n\n**Instant** - {t} a cog you control: This card's next attack this turn gets go again.",
+    "power": 2,
+    "rarities": [
+      "Basic",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Mariusz Gandzel"
+    ]
+  },
+  {
+    "card_id": "spitfire",
+    "card_type": "regular",
+    "display_name": "Spitfire",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM036-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM036-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM036-CF.webp"
+    },
+    "name": "Spitfire",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/spitfire/GEM036-CF/",
+        "print_id": "GEM036-CF",
+        "set_number": 36
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "2H",
+      "Gun"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Mechanologist Weapon - Gun (2H)",
+    "functionalText": "**Action** - {t}, {t} a cog you control: **Attack**\n\nWhen this attacks, you may {t} a cog you control. If you do, the attack gets +1{p}.",
+    "power": 2,
+    "rarities": [
+      "Basic",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Marcellino Tan"
+    ]
+  },
+  {
+    "card_id": "compass-of-sunken-depths",
+    "card_type": "regular",
+    "display_name": "Compass of Sunken Depths",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM037-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM037-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM037-CF.webp"
+    },
+    "name": "Compass of Sunken Depths",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/compass-of-sunken-depths/GEM037-CF/",
+        "print_id": "GEM037-CF",
+        "set_number": 37
+      }
+    ],
+    "classes": [
+      "Necromancer",
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Taylor"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Off-Hand"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Pirate Necromancer Equipment - Off-Hand",
+    "functionalText": "**Instant** - {t}: Look at the top card of your deck.\n\nThe first card with watery grave you play from your graveyard each turn gets **go again**.",
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Basic",
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Nikko Wahyudi"
+    ]
+  },
+  {
+    "card_id": "hammerhead-harpoon-cannon",
+    "card_type": "regular",
+    "display_name": "Hammerhead, Harpoon Cannon",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM038-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM038-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM038-CF.webp"
+    },
+    "name": "Hammerhead, Harpoon Cannon",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/hammerhead-harpoon-cannon/GEM038-CF/",
+        "print_id": "GEM038-CF",
+        "set_number": 38
+      }
+    ],
+    "classes": [
+      "Pirate",
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Marlynn"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "2H",
+      "Bow",
+      "Cannon"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Pirate Ranger Weapon - Bow Cannon (2H)",
+    "functionalText": "**Action** - {r}{r}{r}{r}, {t}: Your next arrow attack this turn gets +4{p}. If it has harpoon in its name, it gets **overpower**. **Go again**",
+    "keywords": [
+      "Go again",
+      "Overpower"
+    ],
+    "rarities": [
+      "Basic",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Sam Yang"
+    ]
+  },
+  {
+    "card_id": "redspine-manta",
+    "card_type": "regular",
+    "display_name": "Redspine Manta",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM039-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM039-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM039-CF.webp"
+    },
+    "name": "Redspine Manta",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/redspine-manta/GEM039-CF/",
+        "print_id": "GEM039-CF",
+        "set_number": 39
+      }
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Azalea",
+      "Lexi",
+      "Marlynn",
+      "Riptide"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "2H",
+      "Bow"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Ranger Weapon - Bow (2H)",
+    "functionalText": "**Action** - {t}: Put an arrow from your hand face-up into your arsenal. **Go again**",
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Basic",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Kanadekana"
+    ]
+  },
+  {
+    "card_id": "boom-grenade-1",
+    "card_type": "regular",
+    "display_name": "Boom Grenade (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM040-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM040-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM040-CF.webp"
+    },
+    "name": "Boom Grenade",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/boom-grenade-1/GEM040-CF/",
+        "print_id": "GEM040-CF",
+        "set_number": 40
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Mechanologist Action - Item",
+    "functionalText": "**Crank**\n\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.\n\nWhen a Mechanologist attack action card you control hits a hero, destroy this and deal 4 damage to them.",
+    "pitch": 1,
+    "cost": 0,
+    "keywords": [
+      "Crank"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Sebastian Szmyd"
+    ]
+  },
+  {
+    "card_id": "cloud-skiff-1",
+    "card_type": "regular",
+    "display_name": "Cloud Skiff (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM041.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM041.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM041.webp"
+    },
+    "name": "Cloud Skiff",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/cloud-skiff-1/GEM041/",
+        "print_id": "GEM041",
+        "set_number": 41
+      },
+      {
+        "detail_url": "/card/cloud-skiff-1/GEM041-RF/",
+        "print_id": "GEM041-RF",
+        "set_number": 41
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Mechanologist Action - Attack",
+    "functionalText": "**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or go again.",
+    "pitch": 1,
+    "power": 5,
+    "cost": 1,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Nikko Wahyudi"
+    ]
+  },
+  {
+    "card_id": "sky-skimmer-1",
+    "card_type": "regular",
+    "display_name": "Sky Skimmer (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM042.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM042.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM042.webp"
+    },
+    "name": "Sky Skimmer",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/sky-skimmer-1/GEM042/",
+        "print_id": "GEM042",
+        "set_number": 42
+      },
+      {
+        "detail_url": "/card/sky-skimmer-1/GEM042-RF/",
+        "print_id": "GEM042-RF",
+        "set_number": 42
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Mechanologist Action - Attack",
+    "functionalText": "**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or **go again**.",
+    "pitch": 1,
+    "power": 4,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Mariusz Gandzel"
+    ]
+  },
+  {
+    "card_id": "goldwing-turbine-1",
+    "card_type": "regular",
+    "display_name": "Goldwing Turbine (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM043.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM043.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM043.webp"
+    },
+    "name": "Goldwing Turbine",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/goldwing-turbine-1/GEM043/",
+        "print_id": "GEM043",
+        "set_number": 43
+      },
+      {
+        "detail_url": "/card/goldwing-turbine-1/GEM043-RF/",
+        "print_id": "GEM043-RF",
+        "set_number": 43
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Mechanologist Action",
+    "functionalText": "Your next Mechanologist attack this turn gets +3{p}.\n\nCreate a Golden Cog token.",
+    "pitch": 1,
+    "cost": 2,
+    "defense": 3,
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Andrew Chou"
+    ]
+  },
+  {
+    "card_id": "lubricate-3",
+    "card_type": "regular",
+    "display_name": "Lubricate (blu)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM044.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM044.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM044.webp"
+    },
+    "name": "Lubricate",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/lubricate-3/GEM044/",
+        "print_id": "GEM044",
+        "set_number": 44
+      },
+      {
+        "detail_url": "/card/lubricate-3/GEM044-RF/",
+        "print_id": "GEM044-RF",
+        "set_number": 44
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Instant"
+    ],
+    "typeText": "Mechanologist Instant",
+    "functionalText": "{u} up to 3 cogs you control.",
+    "pitch": 3,
+    "cost": 0,
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Nailsen Ivanderlie"
+    ]
+  },
+  {
+    "card_id": "pinion-sentry-3",
+    "card_type": "regular",
+    "display_name": "Pinion Sentry (blu)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM045.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM045.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM045.webp"
+    },
+    "name": "Pinion Sentry",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/pinion-sentry-3/GEM045/",
+        "print_id": "GEM045",
+        "set_number": 45
+      },
+      {
+        "detail_url": "/card/pinion-sentry-3/GEM045-RF/",
+        "print_id": "GEM045-RF",
+        "set_number": 45
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Block"
+    ],
+    "typeText": "Mechanologist Block",
+    "functionalText": "When this defends, you may {t} a cog you control. If you do, create a Golden Cog token.",
+    "pitch": 3,
+    "defense": 3,
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Mariusz Gandzel"
+    ]
+  },
+  {
+    "card_id": "chum-friendly-first-mate-2",
+    "card_type": "regular",
+    "display_name": "Chum, Friendly First Mate (yel)",
+    "finishes": [
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM046-RF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM046-RF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM046-RF.webp"
+    },
+    "name": "Chum, Friendly First Mate",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/chum-friendly-first-mate-2/GEM046-RF/",
+        "print_id": "GEM046-RF",
+        "set_number": 46
+      }
+    ],
+    "classes": [
+      "Necromancer",
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Ally",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Necromancer Action - Ally",
+    "functionalText": "**Action** - {t}: **Attack**\n\n**Instant** - {t}, discard a card with watery grave: Until end of turn, opponents must choose this as the target of attacks if able.\n\n**Watery Grave**",
+    "pitch": 2,
+    "power": 4,
+    "cost": 4,
+    "keywords": [
+      "Watery Grave"
+    ],
+    "life": 6,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Lius Lasahido"
+    ]
+  },
+  {
+    "card_id": "moray-le-fay-2",
+    "card_type": "regular",
+    "display_name": "Moray le Fay (yel)",
+    "finishes": [
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM047-RF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM047-RF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM047-RF.webp"
+    },
+    "name": "Moray le Fay",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/moray-le-fay-2/GEM047-RF/",
+        "print_id": "GEM047-RF",
+        "set_number": 47
+      }
+    ],
+    "classes": [
+      "Necromancer",
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Ally",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Necromancer Action - Ally",
+    "functionalText": "**Action** - {t}: **Attack**\n\n**Instant** - {r}, {t}: Put a +1{p} counter on target ally.\n\n**Watery Grave**",
+    "pitch": 2,
+    "power": 0,
+    "cost": 0,
+    "keywords": [
+      "Watery Grave"
+    ],
+    "life": 3,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Sebastian Giacobino"
+    ]
+  },
+  {
+    "card_id": "wailer-humperdinck-2",
+    "card_type": "regular",
+    "display_name": "Wailer Humperdinck (yel)",
+    "finishes": [
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM048-RF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM048-RF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM048-RF.webp"
+    },
+    "name": "Wailer Humperdinck",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/wailer-humperdinck-2/GEM048-RF/",
+        "print_id": "GEM048-RF",
+        "set_number": 48
+      }
+    ],
+    "classes": [
+      "Necromancer",
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Ally",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Necromancer Action - Ally",
+    "functionalText": "**Action** - {r}{r}{r} {r}{r}{r}, {t}: **Attack**\n\n**Watery Grave**",
+    "pitch": 2,
+    "power": 11,
+    "cost": 6,
+    "keywords": [
+      "Watery Grave"
+    ],
+    "life": 7,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Joseph Qiu"
+    ]
+  },
+  {
+    "card_id": "jittery-bones-1",
+    "card_type": "regular",
+    "display_name": "Jittery Bones (red)",
+    "finishes": [
+      "regular",
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM049.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM049.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM049.webp"
+    },
+    "name": "Jittery Bones",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/jittery-bones-1/GEM049/",
+        "print_id": "GEM049",
+        "set_number": 49
+      },
+      {
+        "detail_url": "/card/jittery-bones-1/GEM049-CF/",
+        "print_id": "GEM049-CF",
+        "set_number": 49
+      }
+    ],
+    "classes": [
+      "Necromancer",
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Necromancer Action - Attack",
+    "functionalText": "When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets **go again**.",
+    "pitch": 1,
+    "power": 4,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "restless-bones-3",
+    "card_type": "regular",
+    "display_name": "Restless Bones (blu)",
+    "finishes": [
+      "regular",
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM050.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM050.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM050.webp"
+    },
+    "name": "Restless Bones",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/restless-bones-3/GEM050/",
+        "print_id": "GEM050",
+        "set_number": 50
+      },
+      {
+        "detail_url": "/card/restless-bones-3/GEM050-CF/",
+        "print_id": "GEM050-CF",
+        "set_number": 50
+      }
+    ],
+    "classes": [
+      "Necromancer",
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Necromancer Action - Attack",
+    "functionalText": "When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets **go again**.",
+    "pitch": 3,
+    "power": 4,
+    "cost": 2,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Max Kostin"
+    ]
+  },
+  {
+    "card_id": "avast-ye-3",
+    "card_type": "regular",
+    "display_name": "Avast Ye! (blu)",
+    "finishes": [
+      "regular",
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM051.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM051.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM051.webp"
+    },
+    "name": "Avast Ye!",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/avast-ye-3/GEM051/",
+        "print_id": "GEM051",
+        "set_number": 51
+      },
+      {
+        "detail_url": "/card/avast-ye-3/GEM051-CF/",
+        "print_id": "GEM051-CF",
+        "set_number": 51
+      }
+    ],
+    "classes": [
+      "Necromancer",
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Necromancer Action",
+    "functionalText": "Your next Pirate ally attack this turn gets **go again** and \"When this hits a hero, create a Gold token.\"\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Daniel Jim\u00e9nez"
+    ]
+  },
+  {
+    "card_id": "heave-ho-3",
+    "card_type": "regular",
+    "display_name": "Heave Ho! (blu)",
+    "finishes": [
+      "regular",
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM052.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM052.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM052.webp"
+    },
+    "name": "Heave Ho!",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/heave-ho-3/GEM052/",
+        "print_id": "GEM052",
+        "set_number": 52
+      },
+      {
+        "detail_url": "/card/heave-ho-3/GEM052-CF/",
+        "print_id": "GEM052-CF",
+        "set_number": 52
+      }
+    ],
+    "classes": [
+      "Necromancer",
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Necromancer Action",
+    "functionalText": "Your next Pirate ally attack this turn gets **overpower** and \"When this hits a hero, create a Gold token.\"\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again",
+      "Overpower"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Carlos Cruchaga"
+    ]
+  },
+  {
+    "card_id": "yo-ho-ho-3",
+    "card_type": "regular",
+    "display_name": "Yo Ho Ho! (blu)",
+    "finishes": [
+      "regular",
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM053.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM053.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM053.webp"
+    },
+    "name": "Yo Ho Ho!",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/yo-ho-ho-3/GEM053/",
+        "print_id": "GEM053",
+        "set_number": 53
+      },
+      {
+        "detail_url": "/card/yo-ho-ho-3/GEM053-CF/",
+        "print_id": "GEM053-CF",
+        "set_number": 53
+      }
+    ],
+    "classes": [
+      "Necromancer",
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Necromancer Action",
+    "functionalText": "Your next Pirate ally attack this turn gets +1{p} and \"When this hits a hero, create a Gold token.\"\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Rio Sabda"
+    ]
+  },
+  {
+    "card_id": "blue-fin-harpoon-3",
+    "card_type": "regular",
+    "display_name": "Blue Fin Harpoon (blu)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM054.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM054.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM054.webp"
+    },
+    "name": "Blue Fin Harpoon",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/blue-fin-harpoon-3/GEM054/",
+        "print_id": "GEM054",
+        "set_number": 54
+      },
+      {
+        "detail_url": "/card/blue-fin-harpoon-3/GEM054-RF/",
+        "print_id": "GEM054-RF",
+        "set_number": 54
+      }
+    ],
+    "classes": [
+      "Pirate",
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Marlynn"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arrow",
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Ranger Action - Arrow Attack",
+    "functionalText": "**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's blue, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",
+    "pitch": 3,
+    "power": 4,
+    "cost": 2,
+    "defense": 3,
+    "keywords": [
+      "Go Fish"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Joseph Qiu"
+    ]
+  },
+  {
+    "card_id": "red-fin-harpoon-3",
+    "card_type": "regular",
+    "display_name": "Red Fin Harpoon (blu)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM055.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM055.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM055.webp"
+    },
+    "name": "Red Fin Harpoon",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/red-fin-harpoon-3/GEM055/",
+        "print_id": "GEM055",
+        "set_number": 55
+      },
+      {
+        "detail_url": "/card/red-fin-harpoon-3/GEM055-RF/",
+        "print_id": "GEM055-RF",
+        "set_number": 55
+      }
+    ],
+    "classes": [
+      "Pirate",
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Marlynn"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arrow",
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Ranger Action - Arrow Attack",
+    "functionalText": "**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's red, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",
+    "pitch": 3,
+    "power": 4,
+    "cost": 2,
+    "defense": 3,
+    "keywords": [
+      "Go Fish"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Ismatulloh"
+    ]
+  },
+  {
+    "card_id": "yellow-fin-harpoon-3",
+    "card_type": "regular",
+    "display_name": "Yellow Fin Harpoon (blu)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM056.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM056.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM056.webp"
+    },
+    "name": "Yellow Fin Harpoon",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/yellow-fin-harpoon-3/GEM056/",
+        "print_id": "GEM056",
+        "set_number": 56
+      },
+      {
+        "detail_url": "/card/yellow-fin-harpoon-3/GEM056-RF/",
+        "print_id": "GEM056-RF",
+        "set_number": 56
+      }
+    ],
+    "classes": [
+      "Pirate",
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Marlynn"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arrow",
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Ranger Action - Arrow Attack",
+    "functionalText": "**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's yellow, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",
+    "pitch": 3,
+    "power": 4,
+    "cost": 2,
+    "defense": 3,
+    "keywords": [
+      "Go Fish"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "M Fakhrur Rozzi"
+    ]
+  },
+  {
+    "card_id": "rusty-harpoon-3",
+    "card_type": "regular",
+    "display_name": "Rusty Harpoon (blu)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM057.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM057.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM057.webp"
+    },
+    "name": "Rusty Harpoon",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/rusty-harpoon-3/GEM057/",
+        "print_id": "GEM057",
+        "set_number": 57
+      },
+      {
+        "detail_url": "/card/rusty-harpoon-3/GEM057-RF/",
+        "print_id": "GEM057-RF",
+        "set_number": 57
+      }
+    ],
+    "classes": [
+      "Pirate",
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Marlynn"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arrow",
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Ranger Action - Arrow Attack",
+    "pitch": 3,
+    "power": 1,
+    "cost": 0,
+    "defense": 3,
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Eryk Szczygie\u0142"
+    ]
+  },
+  {
+    "card_id": "boltn-shot-1",
+    "card_type": "regular",
+    "display_name": "Bolt'n' Shot (red)",
+    "finishes": [
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM058.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM058.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM058.webp"
+    },
+    "name": "Bolt'n' Shot",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/boltn-shot-1/GEM058/",
+        "print_id": "GEM058",
+        "set_number": 58
+      }
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Azalea",
+      "Lexi",
+      "Marlynn",
+      "Riptide"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arrow",
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Ranger Action - Arrow Attack",
+    "functionalText": "If Bolt'n' Shot's {p} is greater than its base {p}, it has **go again** and \"If this hits, **reload.**\"",
+    "pitch": 1,
+    "power": 4,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again",
+      "Reload"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Cristi\u00e1n Huerta"
+    ]
+  },
+  {
+    "card_id": "dry-powder-shot-1",
+    "card_type": "regular",
+    "display_name": "Dry Powder Shot (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM059.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM059.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM059.webp"
+    },
+    "name": "Dry Powder Shot",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/dry-powder-shot-1/GEM059/",
+        "print_id": "GEM059",
+        "set_number": 59
+      },
+      {
+        "detail_url": "/card/dry-powder-shot-1/GEM059-RF/",
+        "print_id": "GEM059-RF",
+        "set_number": 59
+      }
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Azalea",
+      "Lexi",
+      "Marlynn",
+      "Riptide"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arrow",
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Ranger Action - Arrow Attack",
+    "functionalText": "When this is put face-up into your arsenal, it gets +2{p} this turn.",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 3,
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "M Fakhrur Rozzi"
+    ]
+  },
+  {
+    "card_id": "entangling-shot-1",
+    "card_type": "regular",
+    "display_name": "Entangling Shot (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM060.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM060.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM060.webp"
+    },
+    "name": "Entangling Shot",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/entangling-shot-1/GEM060/",
+        "print_id": "GEM060",
+        "set_number": 60
+      },
+      {
+        "detail_url": "/card/entangling-shot-1/GEM060-RF/",
+        "print_id": "GEM060-RF",
+        "set_number": 60
+      }
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Azalea",
+      "Lexi",
+      "Marlynn",
+      "Riptide"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arrow",
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Ranger Action - Arrow Attack",
+    "functionalText": "When this is put face-up into your arsenal, you may {t} target hero.",
+    "pitch": 1,
+    "power": 4,
+    "cost": 0,
+    "defense": 3,
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Firaz M. Rasyid"
+    ]
+  },
+  {
+    "card_id": "swift-shot-1",
+    "card_type": "regular",
+    "display_name": "Swift Shot (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM061.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM061.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM061.webp"
+    },
+    "name": "Swift Shot",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/swift-shot-1/GEM061/",
+        "print_id": "GEM061",
+        "set_number": 61
+      },
+      {
+        "detail_url": "/card/swift-shot-1/GEM061-RF/",
+        "print_id": "GEM061-RF",
+        "set_number": 61
+      }
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Azalea",
+      "Lexi",
+      "Marlynn",
+      "Riptide"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arrow",
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Ranger Action - Arrow Attack",
+    "functionalText": "When this is put face-up into your arsenal, it gets **go again** this turn.",
+    "pitch": 1,
+    "power": 4,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Soffani Soffa"
+    ]
+  },
+  {
+    "card_id": "nimby-1",
+    "card_type": "regular",
+    "display_name": "Nimby (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM062.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM062.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM062.webp"
+    },
+    "name": "Nimby",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/nimby-1/GEM062/",
+        "print_id": "GEM062",
+        "set_number": 62
+      },
+      {
+        "detail_url": "/card/nimby-1/GEM062-RF/",
+        "print_id": "GEM062-RF",
+        "set_number": 62
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Attack",
+    "functionalText": "When this attacks, you may search your deck for a Nimblism, reveal it, put it into your hand, then shuffle.",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 2,
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Yiian Kho"
+    ]
+  },
+  {
+    "card_id": "sirens-of-safe-harbor-1",
+    "card_type": "regular",
+    "display_name": "Sirens of Safe Harbor (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM063.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM063.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM063.webp"
+    },
+    "name": "Sirens of Safe Harbor",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/sirens-of-safe-harbor-1/GEM063/",
+        "print_id": "GEM063",
+        "set_number": 63
+      },
+      {
+        "detail_url": "/card/sirens-of-safe-harbor-1/GEM063-RF/",
+        "print_id": "GEM063-RF",
+        "set_number": 63
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Attack",
+    "functionalText": "When this is put into your graveyard from anywhere, gain 1{h}.",
+    "pitch": 1,
+    "power": 6,
+    "cost": 2,
+    "defense": 2,
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Yiian Kho"
+    ]
+  },
+  {
+    "card_id": "strike-gold-1",
+    "card_type": "regular",
+    "display_name": "Strike Gold (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM064.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM064.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM064.webp"
+    },
+    "name": "Strike Gold",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/strike-gold-1/GEM064/",
+        "print_id": "GEM064",
+        "set_number": 64
+      },
+      {
+        "detail_url": "/card/strike-gold-1/GEM064-RF/",
+        "print_id": "GEM064-RF",
+        "set_number": 64
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Attack",
+    "functionalText": "When this hits, create a Gold token.",
+    "pitch": 1,
+    "power": 4,
+    "cost": 0,
+    "defense": 2,
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Saad Irfan"
+    ]
+  },
+  {
+    "card_id": "nimblism-1",
+    "card_type": "regular",
+    "display_name": "Nimblism (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM065.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM065.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM065.webp"
+    },
+    "name": "Nimblism",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/nimblism-1/GEM065/",
+        "print_id": "GEM065",
+        "set_number": 65
+      },
+      {
+        "detail_url": "/card/nimblism-1/GEM065-RF/",
+        "print_id": "GEM065-RF",
+        "set_number": 65
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action",
+    "functionalText": "The next attack action card with cost 1 or less you play this turn gains +3{p}.\n\n**Go again**",
+    "pitch": 1,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Reza Afshar"
+    ]
+  },
+  {
+    "card_id": "fiddlers-green-1",
+    "card_type": "regular",
+    "display_name": "Fiddler's Green (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM066.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM066.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM066.webp"
+    },
+    "name": "Fiddler's Green",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/fiddlers-green-1/GEM066/",
+        "print_id": "GEM066",
+        "set_number": 66
+      },
+      {
+        "detail_url": "/card/fiddlers-green-1/GEM066-RF/",
+        "print_id": "GEM066-RF",
+        "set_number": 66
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Block"
+    ],
+    "typeText": "Generic Block",
+    "functionalText": "When this is put into your graveyard from anywhere, gain 3{h}.",
+    "pitch": 1,
+    "defense": 1,
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Ramza Ardyputra"
+    ]
+  },
+  {
+    "card_id": "on-the-horizon-1",
+    "card_type": "regular",
+    "display_name": "On the Horizon (red)",
+    "finishes": [
+      "rainbow-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM067.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM067.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM067.webp"
+    },
+    "name": "On the Horizon",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/on-the-horizon-1/GEM067/",
+        "print_id": "GEM067",
+        "set_number": 67
+      },
+      {
+        "detail_url": "/card/on-the-horizon-1/GEM067-RF/",
+        "print_id": "GEM067-RF",
+        "set_number": 67
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Block"
+    ],
+    "typeText": "Generic Block",
+    "functionalText": "When this defends, look at the top card of your deck.",
+    "pitch": 1,
+    "defense": 4,
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Thomas Ressuge"
+    ]
+  },
+  {
+    "card_id": "hunters-klaive",
+    "card_type": "regular",
+    "display_name": "Hunter's Klaive",
+    "finishes": [
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM068.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM068.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM068.webp"
+    },
+    "name": "Hunter's Klaive",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/hunters-klaive/GEM068/",
+        "print_id": "GEM068",
+        "set_number": 68
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Dagger"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Assassin Weapon - Dagger (1H)",
+    "functionalText": "**Once per Turn Action** - {r}{r}: **Attack**. **Go again**\n\nWhen this hits a hero, **mark** them.\n\n**Piercing 1**",
+    "power": 1,
+    "keywords": [
+      "Go again",
+      "Mark",
+      "Piercing"
+    ],
+    "rarities": [
+      "Majestic",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Thomas Ressuge"
+    ]
+  }
+]

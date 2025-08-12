@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://i5070p3pt0kw"]
+
+[ext_resource type="Script" uid="uid://b82gq1xpjyox4" path="res://banlist_editor.gd" id="1_00feo"]
+
+[node name="BanlistEditor" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_00feo")
+
+[node name="MainMenuButton" type="Button" parent="."]
+offset_right = 96.0
+offset_bottom = 28.0
+text = "Back"

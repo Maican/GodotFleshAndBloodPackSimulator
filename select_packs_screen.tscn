@@ -1,0 +1,111 @@
+[gd_scene load_steps=3 format=3 uid="uid://3nykxkeqmpla"]
+
+[ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="1_rr6st"]
+[ext_resource type="Script" uid="uid://fgoeaaqtndr4" path="res://select_packs_screen.gd" id="1_wmfq7"]
+
+[node name="PackOpenScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_rr6st")
+script = ExtResource("1_wmfq7")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1441.0
+offset_bottom = 903.0
+theme = ExtResource("1_rr6st")
+
+[node name="OpenPackButton" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -263.0
+offset_top = -172.0
+offset_right = -27.0
+offset_bottom = -27.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("1_rr6st")
+theme_override_font_sizes/font_size = 48
+text = "Open Packs"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 54.0
+offset_top = -365.5
+offset_right = 1165.0
+offset_bottom = 405.5
+grow_vertical = 2
+theme = ExtResource("1_rr6st")
+
+[node name="GridContainer" type="GridContainer" parent="Panel/ScrollContainer"]
+layout_mode = 2
+theme = ExtResource("1_rr6st")
+theme_override_constants/h_separation = 240
+theme_override_constants/v_separation = 80
+columns = 3
+
+[node name="SpinBox" type="SpinBox" parent="Panel"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -168.0
+offset_top = 119.5
+offset_right = -30.0
+offset_bottom = 196.5
+grow_horizontal = 0
+grow_vertical = 2
+theme = ExtResource("1_rr6st")
+value = 24.0
+
+[node name="Label" type="Label" parent="Panel/SpinBox"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = -28.0
+offset_right = 133.0
+offset_bottom = 5.0
+theme = ExtResource("1_rr6st")
+text = "# of Packs"
+
+[node name="MainMenuButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 101.0
+offset_bottom = 55.0
+theme = ExtResource("1_rr6st")
+theme_override_font_sizes/font_size = 32
+text = "Back
+"
+
+[node name="PackOpenLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1180.0
+offset_top = 17.0
+offset_right = 1431.0
+offset_bottom = 451.0
+text = "Disclaimer: Pull rates are approximate based on LSS provided data and crowdsourced data. They may not be entirely accurate but should be 'good enough' for sealed/draft play."
+autowrap_mode = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 478.0
+offset_top = 30.0
+offset_right = 732.0
+offset_bottom = 63.0
+text = "Select Pack to Open"
+
+[connection signal="pressed" from="MainMenuButton" to="." method="_on_main_menu_button_pressed"]

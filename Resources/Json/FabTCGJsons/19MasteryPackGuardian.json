@@ -1,0 +1,1164 @@
+[
+    {
+        "card_id": "valda-seismic-impact",
+        "card_type": "regular",
+        "display_name": "Valda, Seismic Impact",
+        "finishes": [
+            "cold-foil",
+            "regular"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG001.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG001.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG001.webp"
+        },
+        "name": "Valda, Seismic Impact",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/valda-seismic-impact/MPG001/",
+                "print_id": "MPG001",
+                "set_number": 1
+            },
+            {
+                "detail_url": "/card/valda-seismic-impact/MPG001-MV/",
+                "print_id": "MPG001-MV",
+                "set_number": 1
+            }
+        ]
+    },
+    {
+        "card_id": "high-riser",
+        "card_type": "regular",
+        "display_name": "High Riser",
+        "finishes": [
+            "regular"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG003.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG003.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG003.webp"
+        },
+        "name": "High Riser",
+        "object_type": "arena-card",
+        "prints": [
+            {
+                "detail_url": "/card/high-riser/MPG003/",
+                "print_id": "MPG003",
+                "set_number": 3
+            }
+        ]
+    },
+    {
+        "card_id": "testament-of-valahai",
+        "card_type": "regular",
+        "display_name": "Testament of Valahai",
+        "finishes": [
+            "cold-foil",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG004-MV.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG004-MV.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG004-MV.webp"
+        },
+        "name": "Testament of Valahai",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/testament-of-valahai/MPG004-MV/",
+                "print_id": "MPG004-MV",
+                "set_number": 4
+            },
+            {
+                "detail_url": "/card/testament-of-valahai/MPG004-RF/",
+                "print_id": "MPG004-RF",
+                "set_number": 4
+            }
+        ]
+    },
+    {
+        "card_id": "break-stature-2",
+        "card_type": "regular",
+        "display_name": "Break Stature (yel)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG014.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG014.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG014.webp"
+        },
+        "name": "Break Stature",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/break-stature-2/MPG014/",
+                "print_id": "MPG014",
+                "set_number": 14
+            },
+            {
+                "detail_url": "/card/break-stature-2/MPG014-RF/",
+                "print_id": "MPG014-RF",
+                "set_number": 14
+            }
+        ]
+    },
+    {
+        "card_id": "clash-of-bravado-2",
+        "card_type": "regular",
+        "display_name": "Clash of Bravado (yel)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG015.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG015.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG015.webp"
+        },
+        "name": "Clash of Bravado",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/clash-of-bravado-2/MPG015/",
+                "print_id": "MPG015",
+                "set_number": 15
+            },
+            {
+                "detail_url": "/card/clash-of-bravado-2/MPG015-RF/",
+                "print_id": "MPG015-RF",
+                "set_number": 15
+            }
+        ]
+    },
+    {
+        "card_id": "headbutt-3",
+        "card_type": "regular",
+        "display_name": "Headbutt (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG016.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG016.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG016.webp"
+        },
+        "name": "Headbutt",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/headbutt-3/MPG016/",
+                "print_id": "MPG016",
+                "set_number": 16
+            },
+            {
+                "detail_url": "/card/headbutt-3/MPG016-RF/",
+                "print_id": "MPG016-RF",
+                "set_number": 16
+            }
+        ]
+    },
+    {
+        "card_id": "pec-perfect-1",
+        "card_type": "regular",
+        "display_name": "Pec Perfect (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG017.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG017.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG017.webp"
+        },
+        "name": "Pec Perfect",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/pec-perfect-1/MPG017/",
+                "print_id": "MPG017",
+                "set_number": 17
+            },
+            {
+                "detail_url": "/card/pec-perfect-1/MPG017-RF/",
+                "print_id": "MPG017-RF",
+                "set_number": 17
+            }
+        ]
+    },
+    {
+        "card_id": "put-em-in-their-place-1",
+        "card_type": "regular",
+        "display_name": "Put 'Em In Their Place (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG018.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG018.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG018.webp"
+        },
+        "name": "Put 'Em In Their Place",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/put-em-in-their-place-1/MPG018/",
+                "print_id": "MPG018",
+                "set_number": 18
+            },
+            {
+                "detail_url": "/card/put-em-in-their-place-1/MPG018-EA/",
+                "print_id": "MPG018-EA",
+                "set_number": 18
+            },
+            {
+                "detail_url": "/card/put-em-in-their-place-1/MPG018-RF/",
+                "print_id": "MPG018-RF",
+                "set_number": 18
+            }
+        ]
+    },
+    {
+        "card_id": "solid-ground-3",
+        "card_type": "regular",
+        "display_name": "Solid Ground (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG019.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG019.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG019.webp"
+        },
+        "name": "Solid Ground",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/solid-ground-3/MPG019/",
+                "print_id": "MPG019",
+                "set_number": 19
+            },
+            {
+                "detail_url": "/card/solid-ground-3/MPG019-EA/",
+                "print_id": "MPG019-EA",
+                "set_number": 19
+            },
+            {
+                "detail_url": "/card/solid-ground-3/MPG019-RF/",
+                "print_id": "MPG019-RF",
+                "set_number": 19
+            }
+        ]
+    },
+    {
+        "card_id": "leave-a-dent-3",
+        "card_type": "regular",
+        "display_name": "Leave a Dent (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG020.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG020.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG020.webp"
+        },
+        "name": "Leave a Dent",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/leave-a-dent-3/MPG020/",
+                "print_id": "MPG020",
+                "set_number": 20
+            },
+            {
+                "detail_url": "/card/leave-a-dent-3/MPG020-RF/",
+                "print_id": "MPG020-RF",
+                "set_number": 20
+            }
+        ]
+    },
+    {
+        "card_id": "visit-anvilheim-3",
+        "card_type": "regular",
+        "display_name": "Visit Anvilheim (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG021.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG021.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG021.webp"
+        },
+        "name": "Visit Anvilheim",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/visit-anvilheim-3/MPG021/",
+                "print_id": "MPG021",
+                "set_number": 21
+            },
+            {
+                "detail_url": "/card/visit-anvilheim-3/MPG021-RF/",
+                "print_id": "MPG021-RF",
+                "set_number": 21
+            }
+        ]
+    },
+    {
+        "card_id": "daily-grind-3",
+        "card_type": "regular",
+        "display_name": "Daily Grind (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG022.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG022.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG022.webp"
+        },
+        "name": "Daily Grind",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/daily-grind-3/MPG022/",
+                "print_id": "MPG022",
+                "set_number": 22
+            },
+            {
+                "detail_url": "/card/daily-grind-3/MPG022-RF/",
+                "print_id": "MPG022-RF",
+                "set_number": 22
+            }
+        ]
+    },
+    {
+        "card_id": "seismic-eruption-2",
+        "card_type": "regular",
+        "display_name": "Seismic Eruption (yel)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG024.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG024.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG024.webp"
+        },
+        "name": "Seismic Eruption",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/seismic-eruption-2/MPG024/",
+                "print_id": "MPG024",
+                "set_number": 24
+            },
+            {
+                "detail_url": "/card/seismic-eruption-2/MPG024-EA/",
+                "print_id": "MPG024-EA",
+                "set_number": 24
+            },
+            {
+                "detail_url": "/card/seismic-eruption-2/MPG024-RF/",
+                "print_id": "MPG024-RF",
+                "set_number": 24
+            }
+        ]
+    },
+    {
+        "card_id": "test-of-iron-grip-1",
+        "card_type": "regular",
+        "display_name": "Test of Iron Grip (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG025.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG025.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG025.webp"
+        },
+        "name": "Test of Iron Grip",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/test-of-iron-grip-1/MPG025/",
+                "print_id": "MPG025",
+                "set_number": 25
+            },
+            {
+                "detail_url": "/card/test-of-iron-grip-1/MPG025-EA/",
+                "print_id": "MPG025-EA",
+                "set_number": 25
+            },
+            {
+                "detail_url": "/card/test-of-iron-grip-1/MPG025-RF/",
+                "print_id": "MPG025-RF",
+                "set_number": 25
+            }
+        ]
+    },
+    {
+        "card_id": "blinding-of-the-old-ones-1",
+        "card_type": "regular",
+        "display_name": "Blinding of the Old Ones (red)",
+        "finishes": [
+            "cold-foil",
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG026.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG026.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG026.webp"
+        },
+        "name": "Blinding of the Old Ones",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/blinding-of-the-old-ones-1/MPG026/",
+                "print_id": "MPG026",
+                "set_number": 26
+            },
+            {
+                "detail_url": "/card/blinding-of-the-old-ones-1/MPG026-MV/",
+                "print_id": "MPG026-MV",
+                "set_number": 26
+            },
+            {
+                "detail_url": "/card/blinding-of-the-old-ones-1/MPG026-RF/",
+                "print_id": "MPG026-RF",
+                "set_number": 26
+            }
+        ]
+    },
+    {
+        "card_id": "disenchantment-of-the-old-ones-1",
+        "card_type": "regular",
+        "display_name": "Disenchantment of the Old Ones (red)",
+        "finishes": [
+            "cold-foil",
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG027.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG027.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG027.webp"
+        },
+        "name": "Disenchantment of the Old Ones",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/disenchantment-of-the-old-ones-1/MPG027/",
+                "print_id": "MPG027",
+                "set_number": 27
+            },
+            {
+                "detail_url": "/card/disenchantment-of-the-old-ones-1/MPG027-MV/",
+                "print_id": "MPG027-MV",
+                "set_number": 27
+            },
+            {
+                "detail_url": "/card/disenchantment-of-the-old-ones-1/MPG027-RF/",
+                "print_id": "MPG027-RF",
+                "set_number": 27
+            }
+        ]
+    },
+    {
+        "card_id": "smelting-of-the-old-ones-1",
+        "card_type": "regular",
+        "display_name": "Smelting of the Old Ones (red)",
+        "finishes": [
+            "cold-foil",
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG028.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG028.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG028.webp"
+        },
+        "name": "Smelting of the Old Ones",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/smelting-of-the-old-ones-1/MPG028/",
+                "print_id": "MPG028",
+                "set_number": 28
+            },
+            {
+                "detail_url": "/card/smelting-of-the-old-ones-1/MPG028-MV/",
+                "print_id": "MPG028-MV",
+                "set_number": 28
+            },
+            {
+                "detail_url": "/card/smelting-of-the-old-ones-1/MPG028-RF/",
+                "print_id": "MPG028-RF",
+                "set_number": 28
+            }
+        ]
+    },
+    {
+        "card_id": "fault-line-1",
+        "card_type": "regular",
+        "display_name": "Fault Line (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG032.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG032.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG032.webp"
+        },
+        "name": "Fault Line",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/fault-line-1/MPG032/",
+                "print_id": "MPG032",
+                "set_number": 32
+            },
+            {
+                "detail_url": "/card/fault-line-1/MPG032-RF/",
+                "print_id": "MPG032-RF",
+                "set_number": 32
+            }
+        ]
+    },
+    {
+        "card_id": "hostile-encroachment-1",
+        "card_type": "regular",
+        "display_name": "Hostile Encroachment (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG033.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG033.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG033.webp"
+        },
+        "name": "Hostile Encroachment",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/hostile-encroachment-1/MPG033/",
+                "print_id": "MPG033",
+                "set_number": 33
+            },
+            {
+                "detail_url": "/card/hostile-encroachment-1/MPG033-RF/",
+                "print_id": "MPG033-RF",
+                "set_number": 33
+            }
+        ]
+    },
+    {
+        "card_id": "renounce-grandeur-1",
+        "card_type": "regular",
+        "display_name": "Renounce Grandeur (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG034.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG034.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG034.webp"
+        },
+        "name": "Renounce Grandeur",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/renounce-grandeur-1/MPG034/",
+                "print_id": "MPG034",
+                "set_number": 34
+            },
+            {
+                "detail_url": "/card/renounce-grandeur-1/MPG034-RF/",
+                "print_id": "MPG034-RF",
+                "set_number": 34
+            }
+        ]
+    },
+    {
+        "card_id": "macho-grande-1",
+        "card_type": "regular",
+        "display_name": "Macho Grande (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG041.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG041.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG041.webp"
+        },
+        "name": "Macho Grande",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/macho-grande-1/MPG041/",
+                "print_id": "MPG041",
+                "set_number": 41
+            },
+            {
+                "detail_url": "/card/macho-grande-1/MPG041-RF/",
+                "print_id": "MPG041-RF",
+                "set_number": 41
+            }
+        ]
+    },
+    {
+        "card_id": "macho-grande-2",
+        "card_type": "regular",
+        "display_name": "Macho Grande (yel)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG042.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG042.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG042.webp"
+        },
+        "name": "Macho Grande",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/macho-grande-2/MPG042/",
+                "print_id": "MPG042",
+                "set_number": 42
+            },
+            {
+                "detail_url": "/card/macho-grande-2/MPG042-RF/",
+                "print_id": "MPG042-RF",
+                "set_number": 42
+            }
+        ]
+    },
+    {
+        "card_id": "macho-grande-3",
+        "card_type": "regular",
+        "display_name": "Macho Grande (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG043.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG043.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG043.webp"
+        },
+        "name": "Macho Grande",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/macho-grande-3/MPG043/",
+                "print_id": "MPG043",
+                "set_number": 43
+            },
+            {
+                "detail_url": "/card/macho-grande-3/MPG043-RF/",
+                "print_id": "MPG043-RF",
+                "set_number": 43
+            }
+        ]
+    },
+    {
+        "card_id": "draw-a-crowd-3",
+        "card_type": "regular",
+        "display_name": "Draw a Crowd (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG044.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG044.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG044.webp"
+        },
+        "name": "Draw a Crowd",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/draw-a-crowd-3/MPG044/",
+                "print_id": "MPG044",
+                "set_number": 44
+            },
+            {
+                "detail_url": "/card/draw-a-crowd-3/MPG044-RF/",
+                "print_id": "MPG044-RF",
+                "set_number": 44
+            }
+        ]
+    },
+    {
+        "card_id": "promising-terrain-3",
+        "card_type": "regular",
+        "display_name": "Promising Terrain (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG045.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG045.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG045.webp"
+        },
+        "name": "Promising Terrain",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/promising-terrain-3/MPG045/",
+                "print_id": "MPG045",
+                "set_number": 45
+            },
+            {
+                "detail_url": "/card/promising-terrain-3/MPG045-RF/",
+                "print_id": "MPG045-RF",
+                "set_number": 45
+            }
+        ]
+    },
+    {
+        "card_id": "clash-of-mountains-1",
+        "card_type": "regular",
+        "display_name": "Clash of Mountains (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG061.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG061.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG061.webp"
+        },
+        "name": "Clash of Mountains",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/clash-of-mountains-1/MPG061/",
+                "print_id": "MPG061",
+                "set_number": 61
+            },
+            {
+                "detail_url": "/card/clash-of-mountains-1/MPG061-RF/",
+                "print_id": "MPG061-RF",
+                "set_number": 61
+            }
+        ]
+    },
+    {
+        "card_id": "clash-of-mountains-2",
+        "card_type": "regular",
+        "display_name": "Clash of Mountains (yel)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG062.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG062.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG062.webp"
+        },
+        "name": "Clash of Mountains",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/clash-of-mountains-2/MPG062/",
+                "print_id": "MPG062",
+                "set_number": 62
+            },
+            {
+                "detail_url": "/card/clash-of-mountains-2/MPG062-RF/",
+                "print_id": "MPG062-RF",
+                "set_number": 62
+            }
+        ]
+    },
+    {
+        "card_id": "clash-of-mountains-3",
+        "card_type": "regular",
+        "display_name": "Clash of Mountains (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG063.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG063.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG063.webp"
+        },
+        "name": "Clash of Mountains",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/clash-of-mountains-3/MPG063/",
+                "print_id": "MPG063",
+                "set_number": 63
+            },
+            {
+                "detail_url": "/card/clash-of-mountains-3/MPG063-RF/",
+                "print_id": "MPG063-RF",
+                "set_number": 63
+            }
+        ]
+    },
+    {
+        "card_id": "flatten-the-field-1",
+        "card_type": "regular",
+        "display_name": "Flatten the Field (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG076.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG076.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG076.webp"
+        },
+        "name": "Flatten the Field",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/flatten-the-field-1/MPG076/",
+                "print_id": "MPG076",
+                "set_number": 76
+            },
+            {
+                "detail_url": "/card/flatten-the-field-1/MPG076-RF/",
+                "print_id": "MPG076-RF",
+                "set_number": 76
+            }
+        ]
+    },
+    {
+        "card_id": "flatten-the-field-2",
+        "card_type": "regular",
+        "display_name": "Flatten the Field (yel)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG077.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG077.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG077.webp"
+        },
+        "name": "Flatten the Field",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/flatten-the-field-2/MPG077/",
+                "print_id": "MPG077",
+                "set_number": 77
+            },
+            {
+                "detail_url": "/card/flatten-the-field-2/MPG077-RF/",
+                "print_id": "MPG077-RF",
+                "set_number": 77
+            }
+        ]
+    },
+    {
+        "card_id": "flatten-the-field-3",
+        "card_type": "regular",
+        "display_name": "Flatten the Field (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG078.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG078.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG078.webp"
+        },
+        "name": "Flatten the Field",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/flatten-the-field-3/MPG078/",
+                "print_id": "MPG078",
+                "set_number": 78
+            },
+            {
+                "detail_url": "/card/flatten-the-field-3/MPG078-RF/",
+                "print_id": "MPG078-RF",
+                "set_number": 78
+            }
+        ]
+    },
+    {
+        "card_id": "grind-them-down-1",
+        "card_type": "regular",
+        "display_name": "Grind Them Down (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG079.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG079.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG079.webp"
+        },
+        "name": "Grind Them Down",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/grind-them-down-1/MPG079/",
+                "print_id": "MPG079",
+                "set_number": 79
+            },
+            {
+                "detail_url": "/card/grind-them-down-1/MPG079-RF/",
+                "print_id": "MPG079-RF",
+                "set_number": 79
+            }
+        ]
+    },
+    {
+        "card_id": "grind-them-down-2",
+        "card_type": "regular",
+        "display_name": "Grind Them Down (yel)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG080.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG080.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG080.webp"
+        },
+        "name": "Grind Them Down",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/grind-them-down-2/MPG080/",
+                "print_id": "MPG080",
+                "set_number": 80
+            },
+            {
+                "detail_url": "/card/grind-them-down-2/MPG080-RF/",
+                "print_id": "MPG080-RF",
+                "set_number": 80
+            }
+        ]
+    },
+    {
+        "card_id": "grind-them-down-3",
+        "card_type": "regular",
+        "display_name": "Grind Them Down (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG081.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG081.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG081.webp"
+        },
+        "name": "Grind Them Down",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/grind-them-down-3/MPG081/",
+                "print_id": "MPG081",
+                "set_number": 81
+            },
+            {
+                "detail_url": "/card/grind-them-down-3/MPG081-RF/",
+                "print_id": "MPG081-RF",
+                "set_number": 81
+            }
+        ]
+    },
+    {
+        "card_id": "crash-and-bash-1",
+        "card_type": "regular",
+        "display_name": "Crash and Bash (red)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG109.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG109.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG109.webp"
+        },
+        "name": "Crash and Bash",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/crash-and-bash-1/MPG109/",
+                "print_id": "MPG109",
+                "set_number": 109
+            },
+            {
+                "detail_url": "/card/crash-and-bash-1/MPG109-RF/",
+                "print_id": "MPG109-RF",
+                "set_number": 109
+            }
+        ]
+    },
+    {
+        "card_id": "crash-and-bash-2",
+        "card_type": "regular",
+        "display_name": "Crash and Bash (yel)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG110.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG110.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG110.webp"
+        },
+        "name": "Crash and Bash",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/crash-and-bash-2/MPG110/",
+                "print_id": "MPG110",
+                "set_number": 110
+            },
+            {
+                "detail_url": "/card/crash-and-bash-2/MPG110-RF/",
+                "print_id": "MPG110-RF",
+                "set_number": 110
+            }
+        ]
+    },
+    {
+        "card_id": "crash-and-bash-3",
+        "card_type": "regular",
+        "display_name": "Crash and Bash (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG111.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG111.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG111.webp"
+        },
+        "name": "Crash and Bash",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/crash-and-bash-3/MPG111/",
+                "print_id": "MPG111",
+                "set_number": 111
+            },
+            {
+                "detail_url": "/card/crash-and-bash-3/MPG111-RF/",
+                "print_id": "MPG111-RF",
+                "set_number": 111
+            }
+        ]
+    },
+    {
+        "card_id": "seismic-surge",
+        "card_type": "regular",
+        "display_name": "Seismic Surge",
+        "finishes": [
+            "cold-foil",
+            "regular"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG112.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG112.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG112.webp"
+        },
+        "name": "Seismic Surge",
+        "object_type": "token",
+        "prints": [
+            {
+                "detail_url": "/card/seismic-surge/MPG112/",
+                "print_id": "MPG112",
+                "set_number": 112
+            },
+            {
+                "detail_url": "/card/seismic-surge/MPG112-A/",
+                "print_id": "MPG112-A",
+                "set_number": 112
+            },
+            {
+                "detail_url": "/card/seismic-surge/MPG112-B/",
+                "print_id": "MPG112-B",
+                "set_number": 112
+            },
+            {
+                "detail_url": "/card/seismic-surge/MPG112-C/",
+                "print_id": "MPG112-C",
+                "set_number": 112
+            }
+        ]
+    },
+    {
+        "card_id": "base-of-the-mountain",
+        "card_type": "regular",
+        "display_name": "Base of the Mountain",
+        "finishes": [
+            "cold-foil",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG113-CF.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG113-CF.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG113-CF.webp"
+        },
+        "name": "Base of the Mountain",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/base-of-the-mountain/MPG113-CF/",
+                "print_id": "MPG113-CF",
+                "set_number": 113
+            },
+            {
+                "detail_url": "/card/base-of-the-mountain/MPG113-RF/",
+                "print_id": "MPG113-RF",
+                "set_number": 113
+            }
+        ]
+    },
+    {
+        "card_id": "fearless-confrontation-3",
+        "card_type": "regular",
+        "display_name": "Fearless Confrontation (blu)",
+        "finishes": [
+            "regular",
+            "rainbow-foil"
+        ],
+        "image": {
+            "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG128.webp",
+            "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG128.webp",
+            "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG128.webp"
+        },
+        "name": "Fearless Confrontation",
+        "object_type": "deck-card",
+        "prints": [
+            {
+                "detail_url": "/card/fearless-confrontation-3/MPG128/",
+                "print_id": "MPG128",
+                "set_number": 128
+            },
+            {
+                "detail_url": "/card/fearless-confrontation-3/MPG128-RF/",
+                "print_id": "MPG128-RF",
+                "set_number": 128
+            }
+        ]
+    }
+]

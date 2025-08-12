@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://3r0383radg8x"]
+
+[ext_resource type="Script" uid="uid://cncehkc2xkyk2" path="res://Sets/set_panel.gd" id="1_goaxn"]
+
+[sub_resource type="Theme" id="Theme_hk61m"]
+
+[node name="SetTexture" type="TextureRect"]
+theme = SubResource("Theme_hk61m")
+script = ExtResource("1_goaxn")
+
+[node name="CheckBox" type="CheckBox" parent="."]
+layout_mode = 2
+offset_top = 4.0
+offset_right = 96.0
+offset_bottom = 55.0
+text = "High Seas"

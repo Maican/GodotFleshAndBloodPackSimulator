@@ -1,0 +1,197 @@
+[gd_scene load_steps=4 format=3 uid="uid://cpf2rkwu4snkb"]
+
+[ext_resource type="Script" uid="uid://c62vbyhloaduh" path="res://pack_open_screen.gd" id="1_3eq66"]
+[ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="1_s4nar"]
+[ext_resource type="PackedScene" uid="uid://ecm7t8qssguc" path="res://Resources/Cards/card_hover_panel.tscn" id="2_gxgix"]
+
+[node name="PackOpenScreen" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_s4nar")
+script = ExtResource("1_3eq66")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 34.0
+offset_right = 1252.0
+offset_bottom = 856.0
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer"]
+layout_mode = 2
+theme = ExtResource("1_s4nar")
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 1
+columns = 4
+
+[node name="OpenedCardsLabel" type="Label" parent="."]
+layout_mode = 2
+offset_left = 1066.0
+offset_right = 1244.0
+offset_bottom = 33.0
+text = "Opened Cards"
+
+[node name="ScrollContainer2" type="ScrollContainer" parent="."]
+layout_mode = 2
+offset_left = 1254.0
+offset_right = 1439.0
+offset_bottom = 898.0
+
+[node name="CardsOpenedContainer" type="VBoxContainer" parent="ScrollContainer2"]
+layout_mode = 2
+
+[node name="Fabled" type="VBoxContainer" parent="ScrollContainer2/CardsOpenedContainer"]
+layout_mode = 2
+
+[node name="FabledLabel" type="Label" parent="ScrollContainer2/CardsOpenedContainer/Fabled"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+text = "Fabled"
+
+[node name="Marvel" type="VBoxContainer" parent="ScrollContainer2/CardsOpenedContainer"]
+layout_mode = 2
+
+[node name="MarvelLabel" type="Label" parent="ScrollContainer2/CardsOpenedContainer/Marvel"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+text = "Marvel"
+
+[node name="Legendary" type="VBoxContainer" parent="ScrollContainer2/CardsOpenedContainer"]
+layout_mode = 2
+
+[node name="LegendaryLabel" type="Label" parent="ScrollContainer2/CardsOpenedContainer/Legendary"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+text = "Legendary"
+
+[node name="Majestic" type="VBoxContainer" parent="ScrollContainer2/CardsOpenedContainer"]
+layout_mode = 2
+
+[node name="MajesticLabel" type="Label" parent="ScrollContainer2/CardsOpenedContainer/Majestic"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+text = "Majestic"
+
+[node name="SuperRare" type="VBoxContainer" parent="ScrollContainer2/CardsOpenedContainer"]
+visible = false
+layout_mode = 2
+
+[node name="SuperRareLabel" type="Label" parent="ScrollContainer2/CardsOpenedContainer/SuperRare"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+text = "Super Rare"
+
+[node name="Rare" type="VBoxContainer" parent="ScrollContainer2/CardsOpenedContainer"]
+layout_mode = 2
+
+[node name="RareLabel" type="Label" parent="ScrollContainer2/CardsOpenedContainer/Rare"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+text = "Rare"
+
+[node name="Common" type="VBoxContainer" parent="ScrollContainer2/CardsOpenedContainer"]
+layout_mode = 2
+
+[node name="CommonLabel" type="Label" parent="ScrollContainer2/CardsOpenedContainer/Common"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+text = "Common"
+
+[node name="Token" type="VBoxContainer" parent="ScrollContainer2/CardsOpenedContainer"]
+layout_mode = 2
+
+[node name="TokenLabel" type="Label" parent="ScrollContainer2/CardsOpenedContainer/Token"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+text = "Token"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 860.0
+offset_right = 370.0
+offset_bottom = 896.0
+theme = ExtResource("1_s4nar")
+theme_override_constants/separation = 8
+
+[node name="AddBinderButton" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(90, 0)
+layout_mode = 2
+theme = ExtResource("1_s4nar")
+text = "Add New Binder"
+autowrap_mode = 3
+
+[node name="BinderList" type="OptionButton" parent="HBoxContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("1_s4nar")
+
+[node name="SaveCardsButton" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme = ExtResource("1_s4nar")
+text = "Save"
+autowrap_mode = 3
+
+[node name="SaveAsCardsButton" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme = ExtResource("1_s4nar")
+text = "Save As..."
+autowrap_mode = 3
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -78.0
+offset_top = -37.0
+offset_right = 504.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("1_s4nar")
+theme_override_constants/separation = 25
+
+[node name="NextPackButton" type="Button" parent="HBoxContainer2"]
+layout_mode = 2
+theme = ExtResource("1_s4nar")
+text = "Next Pack"
+
+[node name="FlipCardsButton" type="Button" parent="HBoxContainer2"]
+layout_mode = 2
+theme = ExtResource("1_s4nar")
+text = "Flip All Cards"
+
+[node name="AutoFlipButton" type="CheckButton" parent="HBoxContainer2"]
+layout_mode = 2
+theme = ExtResource("1_s4nar")
+text = "AutoFlip"
+
+[node name="OpenRemainingButton" type="Button" parent="HBoxContainer2"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("1_s4nar")
+text = "Open Remaining Packs"
+autowrap_mode = 3
+
+[node name="MainMenuButton" type="Button" parent="."]
+layout_mode = 1
+offset_right = 77.0
+offset_bottom = 31.0
+theme = ExtResource("1_s4nar")
+text = "Main Menu"
+
+[node name="HoverPanel" parent="." instance=ExtResource("2_gxgix")]
+visible = false
+layout_mode = 0
+offset_bottom = 477.0
+theme = ExtResource("1_s4nar")
+
+[connection signal="pressed" from="MainMenuButton" to="." method="_on_main_menu_button_pressed"]

@@ -1,0 +1,3329 @@
+[
+  {
+    "card_id": "valda-seismic-impact",
+    "card_type": "regular",
+    "display_name": "Valda, Seismic Impact",
+    "finishes": [
+      "cold-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG001.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG001.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG001.webp"
+    },
+    "name": "Valda, Seismic Impact",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/valda-seismic-impact/MPG001/",
+        "print_id": "MPG001",
+        "set_number": 1
+      },
+      {
+        "detail_url": "/card/valda-seismic-impact/MPG001-MV/",
+        "print_id": "MPG001-MV",
+        "set_number": 1
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Valda"
+    ],
+    "legalFormats": [
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open"
+    ],
+    "subtypes": [],
+    "types": [
+      "Hero"
+    ],
+    "typeText": "Guardian Hero",
+    "functionalText": "Whenever an opponent draws 1 or more cards during an action phase, create that many Seismic Surge tokens.\n\nAt the start of your turn, if you control 3 or more Siesmic Surge tokens, cards you own with **crush** get **dominate** this turn.",
+    "keywords": [
+      "Dominate"
+    ],
+    "life": 40,
+    "intellect": 4,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+      "Promo"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Wisnu Tan"
+    ]
+  },
+  {
+    "card_id": "high-riser",
+    "card_type": "regular",
+    "display_name": "High Riser",
+    "finishes": [
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG003.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG003.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG003.webp"
+    },
+    "name": "High Riser",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/high-riser/MPG003/",
+        "print_id": "MPG003",
+        "set_number": 3
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Hammer"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Guardian Weapon - Hammer (1H)",
+    "functionalText": "**Once per Turn Action** - {r}{r}{r}: **Attack**\n\nIf you've drawn a card this turn, this gets +1{p}.",
+    "power": 3,
+    "rarities": [
+      "Common",
+      "Promo",
+      "Rare",
+      "Token"
+    ],
+    "rarity": "Token",
+    "artists": [
+      "Brian Adriel"
+    ]
+  },
+  {
+    "card_id": "testament-of-valahai",
+    "card_type": "regular",
+    "display_name": "Testament of Valahai",
+    "finishes": [
+      "cold-foil",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG004-MV.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG004-MV.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG004-MV.webp"
+    },
+    "name": "Testament of Valahai",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/testament-of-valahai/MPG004-MV/",
+        "print_id": "MPG004-MV",
+        "set_number": 4
+      },
+      {
+        "detail_url": "/card/testament-of-valahai/MPG004-RF/",
+        "print_id": "MPG004-RF",
+        "set_number": 4
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Taylor",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Off-Hand"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Guardian Equipment - Off-Hand",
+    "functionalText": "If you control three or more Seismic Surge tokens, this gets +2{d}. If you control six or more, instead this gets +4{d}.\n\n**Guardwell**",
+    "defense": 1,
+    "keywords": [
+      "Guardwell"
+    ],
+    "rarities": [
+      "Legendary",
+      "Marvel"
+    ],
+    "rarity": "Legendary",
+    "artists": [
+      "Jessada Sutthi"
+    ]
+  },
+  {
+    "card_id": "break-stature-2",
+    "card_type": "regular",
+    "display_name": "Break Stature (yel)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG014.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG014.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG014.webp"
+    },
+    "name": "Break Stature",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/break-stature-2/MPG014/",
+        "print_id": "MPG014",
+        "set_number": 14
+      },
+      {
+        "detail_url": "/card/break-stature-2/MPG014-RF/",
+        "print_id": "MPG014-RF",
+        "set_number": 14
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Brutus",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Crush** - When this deals 4 or more damage to a hero, destroy an aura token they control. They can't create auras with that token's name until the end of their next turn.",
+    "pitch": 2,
+    "power": 8,
+    "cost": 5,
+    "defense": 3,
+    "keywords": [
+      "Clash"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Federico Musetti"
+    ]
+  },
+  {
+    "card_id": "clash-of-bravado-2",
+    "card_type": "regular",
+    "display_name": "Clash of Bravado (yel)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG015.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG015.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG015.webp"
+    },
+    "name": "Clash of Bravado",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/clash-of-bravado-2/MPG015/",
+        "print_id": "MPG015",
+        "set_number": 15
+      },
+      {
+        "detail_url": "/card/clash-of-bravado-2/MPG015-RF/",
+        "print_id": "MPG015-RF",
+        "set_number": 15
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Brutus",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "When this defends, **clash** with the attacking hero. The winner destroys an aura the other hero controls.",
+    "pitch": 2,
+    "power": 7,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "Clash"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Edward Chee"
+    ]
+  },
+  {
+    "card_id": "headbutt-3",
+    "card_type": "regular",
+    "display_name": "Headbutt (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG016.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG016.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG016.webp"
+    },
+    "name": "Headbutt",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/headbutt-3/MPG016/",
+        "print_id": "MPG016",
+        "set_number": 16
+      },
+      {
+        "detail_url": "/card/headbutt-3/MPG016-RF/",
+        "print_id": "MPG016-RF",
+        "set_number": 16
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "This can't be defended by non-head equipment.\n\nIf you have a head equipped and the defending hero doesn't, this gets +1{p}.\n\n**Crush** - When this deals 4 or more damage to a hero, put a -1{d} counter on a head they have equipped, then if it has 0{d}, destroy it.",
+    "pitch": 3,
+    "power": 6,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "Crush"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Esty Swandana"
+    ]
+  },
+  {
+    "card_id": "pec-perfect-1",
+    "card_type": "regular",
+    "display_name": "Pec Perfect (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG017.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG017.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG017.webp"
+    },
+    "name": "Pec Perfect",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/pec-perfect-1/MPG017/",
+        "print_id": "MPG017",
+        "set_number": 17
+      },
+      {
+        "detail_url": "/card/pec-perfect-1/MPG017-RF/",
+        "print_id": "MPG017-RF",
+        "set_number": 17
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Brutus",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "Whenever a card defends this, **clash** with the defending hero. The winner destroys the top card of the other hero's deck.",
+    "pitch": 1,
+    "power": 9,
+    "cost": 5,
+    "defense": 3,
+    "keywords": [
+      "Clash"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "put-em-in-their-place-1",
+    "card_type": "regular",
+    "display_name": "Put 'Em In Their Place (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG018.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG018.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG018.webp"
+    },
+    "name": "Put 'Em In Their Place",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/put-em-in-their-place-1/MPG018/",
+        "print_id": "MPG018",
+        "set_number": 18
+      },
+      {
+        "detail_url": "/card/put-em-in-their-place-1/MPG018-EA/",
+        "print_id": "MPG018-EA",
+        "set_number": 18
+      },
+      {
+        "detail_url": "/card/put-em-in-their-place-1/MPG018-RF/",
+        "print_id": "MPG018-RF",
+        "set_number": 18
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Shiyana",
+      "Valda"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Valda Specialization**\n\n**Crush** - When this deals 4 or more damage to a hero, they discard their hand, then they draw that many cards.",
+    "pitch": 1,
+    "power": 10,
+    "cost": 6,
+    "defense": 3,
+    "keywords": [
+      "Crush",
+      "Specialization"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Fajareka Setiawan"
+    ]
+  },
+  {
+    "card_id": "solid-ground-3",
+    "card_type": "regular",
+    "display_name": "Solid Ground (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG019.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG019.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG019.webp"
+    },
+    "name": "Solid Ground",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/solid-ground-3/MPG019/",
+        "print_id": "MPG019",
+        "set_number": 19
+      },
+      {
+        "detail_url": "/card/solid-ground-3/MPG019-EA/",
+        "print_id": "MPG019-EA",
+        "set_number": 19
+      },
+      {
+        "detail_url": "/card/solid-ground-3/MPG019-RF/",
+        "print_id": "MPG019-RF",
+        "set_number": 19
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Defense Reaction"
+    ],
+    "typeText": "Guardian Defense Reaction",
+    "functionalText": "This costs {r} less to play for each Seismic Surge you control.",
+    "pitch": 3,
+    "cost": 3,
+    "defense": 5,
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Sebastian Szmyd"
+    ]
+  },
+  {
+    "card_id": "leave-a-dent-3",
+    "card_type": "regular",
+    "display_name": "Leave a Dent (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG020.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG020.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG020.webp"
+    },
+    "name": "Leave a Dent",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/leave-a-dent-3/MPG020/",
+        "print_id": "MPG020",
+        "set_number": 20
+      },
+      {
+        "detail_url": "/card/leave-a-dent-3/MPG020-RF/",
+        "print_id": "MPG020-RF",
+        "set_number": 20
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action",
+    "functionalText": "Your next Guardian attack this turn gets \"**Crush** - When this deals 4 or more damage to a hero, destroy the top 4 cards of their deck.\"\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Crush",
+      "Go again"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Carlos Cruchaga"
+    ]
+  },
+  {
+    "card_id": "visit-anvilheim-3",
+    "card_type": "regular",
+    "display_name": "Visit Anvilheim (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG021.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG021.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG021.webp"
+    },
+    "name": "Visit Anvilheim",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/visit-anvilheim-3/MPG021/",
+        "print_id": "MPG021",
+        "set_number": 21
+      },
+      {
+        "detail_url": "/card/visit-anvilheim-3/MPG021-RF/",
+        "print_id": "MPG021-RF",
+        "set_number": 21
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action",
+    "functionalText": "Remove X -1{d} counters from a Guardian off-hand you have equipped.",
+    "pitch": 3,
+    "defense": 3,
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "daily-grind-3",
+    "card_type": "regular",
+    "display_name": "Daily Grind (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG022.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG022.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG022.webp"
+    },
+    "name": "Daily Grind",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/daily-grind-3/MPG022/",
+        "print_id": "MPG022",
+        "set_number": 22
+      },
+      {
+        "detail_url": "/card/daily-grind-3/MPG022-RF/",
+        "print_id": "MPG022-RF",
+        "set_number": 22
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Brutus",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Aura",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Aura",
+    "functionalText": "Attack action cards you control get \"When this defends, **clash** with the attacking hero. The winner destroys the top card of the other hero's deck.\"\n\nAt the start of your turn, destroy this.",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Clash"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Sebastian Giacobino"
+    ]
+  },
+  {
+    "card_id": "seismic-eruption-2",
+    "card_type": "regular",
+    "display_name": "Seismic Eruption (yel)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG024.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG024.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG024.webp"
+    },
+    "name": "Seismic Eruption",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/seismic-eruption-2/MPG024/",
+        "print_id": "MPG024",
+        "set_number": 24
+      },
+      {
+        "detail_url": "/card/seismic-eruption-2/MPG024-EA/",
+        "print_id": "MPG024-EA",
+        "set_number": 24
+      },
+      {
+        "detail_url": "/card/seismic-eruption-2/MPG024-RF/",
+        "print_id": "MPG024-RF",
+        "set_number": 24
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Instant"
+    ],
+    "typeText": "Guardian Instant",
+    "functionalText": "Create 3 Seismic Surge tokens.",
+    "pitch": 2,
+    "cost": 0,
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Carlos Cruchaga"
+    ]
+  },
+  {
+    "card_id": "test-of-iron-grip-1",
+    "card_type": "regular",
+    "display_name": "Test of Iron Grip (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG025.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG025.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG025.webp"
+    },
+    "name": "Test of Iron Grip",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/test-of-iron-grip-1/MPG025/",
+        "print_id": "MPG025",
+        "set_number": 25
+      },
+      {
+        "detail_url": "/card/test-of-iron-grip-1/MPG025-EA/",
+        "print_id": "MPG025-EA",
+        "set_number": 25
+      },
+      {
+        "detail_url": "/card/test-of-iron-grip-1/MPG025-RF/",
+        "print_id": "MPG025-RF",
+        "set_number": 25
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Brutus",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Block"
+    ],
+    "typeText": "Guardian Block",
+    "functionalText": "When this defends, **clash** with the attacking hero. If there is a winner, the other hero discards a card.",
+    "pitch": 1,
+    "defense": 4,
+    "keywords": [
+      "Clash"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "blinding-of-the-old-ones-1",
+    "card_type": "regular",
+    "display_name": "Blinding of the Old Ones (red)",
+    "finishes": [
+      "cold-foil",
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG026.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG026.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG026.webp"
+    },
+    "name": "Blinding of the Old Ones",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/blinding-of-the-old-ones-1/MPG026/",
+        "print_id": "MPG026",
+        "set_number": 26
+      },
+      {
+        "detail_url": "/card/blinding-of-the-old-ones-1/MPG026-MV/",
+        "print_id": "MPG026-MV",
+        "set_number": 26
+      },
+      {
+        "detail_url": "/card/blinding-of-the-old-ones-1/MPG026-RF/",
+        "print_id": "MPG026-RF",
+        "set_number": 26
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Crush** - When this deals 4 or more damage to a Guardian hero, cards they own lose all abilities during their next turn.\n\n**Heave 2**",
+    "pitch": 1,
+    "power": 10,
+    "cost": 6,
+    "defense": 3,
+    "keywords": [
+      "Crush",
+      "Heave"
+    ],
+    "rarities": [
+      "Marvel",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Federico Musetti"
+    ]
+  },
+  {
+    "card_id": "disenchantment-of-the-old-ones-1",
+    "card_type": "regular",
+    "display_name": "Disenchantment of the Old Ones (red)",
+    "finishes": [
+      "cold-foil",
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG027.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG027.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG027.webp"
+    },
+    "name": "Disenchantment of the Old Ones",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/disenchantment-of-the-old-ones-1/MPG027/",
+        "print_id": "MPG027",
+        "set_number": 27
+      },
+      {
+        "detail_url": "/card/disenchantment-of-the-old-ones-1/MPG027-MV/",
+        "print_id": "MPG027-MV",
+        "set_number": 27
+      },
+      {
+        "detail_url": "/card/disenchantment-of-the-old-ones-1/MPG027-RF/",
+        "print_id": "MPG027-RF",
+        "set_number": 27
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Crush** - When this deals 4 or more damage to a Guardian hero, destroy all auras they control.\n\n**Heave 2**",
+    "pitch": 1,
+    "power": 10,
+    "cost": 6,
+    "defense": 3,
+    "keywords": [
+      "Crush",
+      "Heave"
+    ],
+    "rarities": [
+      "Marvel",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Narendra B Adi"
+    ]
+  },
+  {
+    "card_id": "smelting-of-the-old-ones-1",
+    "card_type": "regular",
+    "display_name": "Smelting of the Old Ones (red)",
+    "finishes": [
+      "cold-foil",
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG028.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG028.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG028.webp"
+    },
+    "name": "Smelting of the Old Ones",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/smelting-of-the-old-ones-1/MPG028/",
+        "print_id": "MPG028",
+        "set_number": 28
+      },
+      {
+        "detail_url": "/card/smelting-of-the-old-ones-1/MPG028-MV/",
+        "print_id": "MPG028-MV",
+        "set_number": 28
+      },
+      {
+        "detail_url": "/card/smelting-of-the-old-ones-1/MPG028-RF/",
+        "print_id": "MPG028-RF",
+        "set_number": 28
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Crush** - When this deals 4 or more damage to a Guardian hero, destroy all equipment they control with -1{d} counters.\n\n**Heave 2**",
+    "pitch": 1,
+    "power": 10,
+    "cost": 6,
+    "defense": 3,
+    "keywords": [
+      "Crush",
+      "Heave"
+    ],
+    "rarities": [
+      "Marvel",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Simon Dominic"
+    ]
+  },
+  {
+    "card_id": "fault-line-1",
+    "card_type": "regular",
+    "display_name": "Fault Line (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG032.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG032.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG032.webp"
+    },
+    "name": "Fault Line",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/fault-line-1/MPG032/",
+        "print_id": "MPG032",
+        "set_number": 32
+      },
+      {
+        "detail_url": "/card/fault-line-1/MPG032-RF/",
+        "print_id": "MPG032-RF",
+        "set_number": 32
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "If you have a card in your arsenal, this gets +1{p}.\n\n**Crush** - When this deals 4 or more damage to a hero, put all cards in all arsenals on bottom of their owner's deck.",
+    "pitch": 1,
+    "power": 7,
+    "cost": 3,
+    "defense": 3,
+    "keywords": [
+      "Crush"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Ramza Ardyputra"
+    ]
+  },
+  {
+    "card_id": "hostile-encroachment-1",
+    "card_type": "regular",
+    "display_name": "Hostile Encroachment (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG033.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG033.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG033.webp"
+    },
+    "name": "Hostile Encroachment",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/hostile-encroachment-1/MPG033/",
+        "print_id": "MPG033",
+        "set_number": 33
+      },
+      {
+        "detail_url": "/card/hostile-encroachment-1/MPG033-RF/",
+        "print_id": "MPG033-RF",
+        "set_number": 33
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "When this attacks a hero, they draw a card.\n\n**Crush** - When this deals 4 or more damage to a hero, they discard a card.",
+    "pitch": 1,
+    "power": 8,
+    "cost": 3,
+    "defense": 3,
+    "keywords": [
+      "Crush"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Ausonia"
+    ]
+  },
+  {
+    "card_id": "renounce-grandeur-1",
+    "card_type": "regular",
+    "display_name": "Renounce Grandeur (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG034.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG034.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG034.webp"
+    },
+    "name": "Renounce Grandeur",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/renounce-grandeur-1/MPG034/",
+        "print_id": "MPG034",
+        "set_number": 34
+      },
+      {
+        "detail_url": "/card/renounce-grandeur-1/MPG034-RF/",
+        "print_id": "MPG034-RF",
+        "set_number": 34
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "If the defending hero controls an aura token, this gets +1{p}.\n\n**Crush** - When this deals 4 or more damage to a hero, they can't create aura tokens during their next turn.",
+    "pitch": 1,
+    "power": 7,
+    "cost": 3,
+    "defense": 3,
+    "keywords": [
+      "Crush"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "macho-grande-1",
+    "card_type": "regular",
+    "display_name": "Macho Grande (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG041.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG041.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG041.webp"
+    },
+    "name": "Macho Grande",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/macho-grande-1/MPG041/",
+        "print_id": "MPG041",
+        "set_number": 41
+      },
+      {
+        "detail_url": "/card/macho-grande-1/MPG041-RF/",
+        "print_id": "MPG041-RF",
+        "set_number": 41
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Dominate**",
+    "pitch": 1,
+    "power": 10,
+    "cost": 7,
+    "defense": 3,
+    "keywords": [
+      "Dominate"
+    ],
+    "rarities": [
+      "Common",
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Marco Wulfr"
+    ]
+  },
+  {
+    "card_id": "macho-grande-2",
+    "card_type": "regular",
+    "display_name": "Macho Grande (yel)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG042.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG042.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG042.webp"
+    },
+    "name": "Macho Grande",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/macho-grande-2/MPG042/",
+        "print_id": "MPG042",
+        "set_number": 42
+      },
+      {
+        "detail_url": "/card/macho-grande-2/MPG042-RF/",
+        "print_id": "MPG042-RF",
+        "set_number": 42
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Dominate**",
+    "pitch": 2,
+    "power": 9,
+    "cost": 7,
+    "defense": 3,
+    "keywords": [
+      "Dominate"
+    ],
+    "rarities": [
+      "Common",
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Marco Wulfr"
+    ]
+  },
+  {
+    "card_id": "macho-grande-3",
+    "card_type": "regular",
+    "display_name": "Macho Grande (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG043.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG043.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG043.webp"
+    },
+    "name": "Macho Grande",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/macho-grande-3/MPG043/",
+        "print_id": "MPG043",
+        "set_number": 43
+      },
+      {
+        "detail_url": "/card/macho-grande-3/MPG043-RF/",
+        "print_id": "MPG043-RF",
+        "set_number": 43
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Dominate**",
+    "pitch": 3,
+    "power": 8,
+    "cost": 7,
+    "defense": 3,
+    "keywords": [
+      "Dominate"
+    ],
+    "rarities": [
+      "Common",
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Marco Wulfr"
+    ]
+  },
+  {
+    "card_id": "draw-a-crowd-3",
+    "card_type": "regular",
+    "display_name": "Draw a Crowd (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG044.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG044.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG044.webp"
+    },
+    "name": "Draw a Crowd",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/draw-a-crowd-3/MPG044/",
+        "print_id": "MPG044",
+        "set_number": 44
+      },
+      {
+        "detail_url": "/card/draw-a-crowd-3/MPG044-RF/",
+        "print_id": "MPG044-RF",
+        "set_number": 44
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Aura",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Aura",
+    "functionalText": "**Go again**\n\nWhen this enters the arena, each hero draws a card.\n\nAt the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn gets +3{p}.",
+    "pitch": 3,
+    "cost": 2,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Rio Sabda"
+    ]
+  },
+  {
+    "card_id": "promising-terrain-3",
+    "card_type": "regular",
+    "display_name": "Promising Terrain (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG045.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG045.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG045.webp"
+    },
+    "name": "Promising Terrain",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/promising-terrain-3/MPG045/",
+        "print_id": "MPG045",
+        "set_number": 45
+      },
+      {
+        "detail_url": "/card/promising-terrain-3/MPG045-RF/",
+        "print_id": "MPG045-RF",
+        "set_number": 45
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Aura",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Aura",
+    "functionalText": "**Go again**\n\nIf you would create 1 or more Seismic Surge tokens, instead create that many plus 1.\n\nAt the beginning of your action phase, destroy this, then if you control 3 or more Seismic Surge tokens, draw a card and gain 1{h}.",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Simon Wong"
+    ]
+  },
+  {
+    "card_id": "clash-of-mountains-1",
+    "card_type": "regular",
+    "display_name": "Clash of Mountains (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG061.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG061.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG061.webp"
+    },
+    "name": "Clash of Mountains",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/clash-of-mountains-1/MPG061/",
+        "print_id": "MPG061",
+        "set_number": 61
+      },
+      {
+        "detail_url": "/card/clash-of-mountains-1/MPG061-RF/",
+        "print_id": "MPG061-RF",
+        "set_number": 61
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Brutus",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "When this defends a Guardian attack, **clash** with the attacking hero. The winner creates a Seismic Surge token.",
+    "pitch": 1,
+    "power": 8,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "Clash"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "clash-of-mountains-2",
+    "card_type": "regular",
+    "display_name": "Clash of Mountains (yel)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG062.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG062.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG062.webp"
+    },
+    "name": "Clash of Mountains",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/clash-of-mountains-2/MPG062/",
+        "print_id": "MPG062",
+        "set_number": 62
+      },
+      {
+        "detail_url": "/card/clash-of-mountains-2/MPG062-RF/",
+        "print_id": "MPG062-RF",
+        "set_number": 62
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Brutus",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "When this defends a Guardian attack, **clash** with the attacking hero. The winner creates a Seismic Surge token.",
+    "pitch": 2,
+    "power": 7,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "Clash"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "clash-of-mountains-3",
+    "card_type": "regular",
+    "display_name": "Clash of Mountains (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG063.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG063.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG063.webp"
+    },
+    "name": "Clash of Mountains",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/clash-of-mountains-3/MPG063/",
+        "print_id": "MPG063",
+        "set_number": 63
+      },
+      {
+        "detail_url": "/card/clash-of-mountains-3/MPG063-RF/",
+        "print_id": "MPG063-RF",
+        "set_number": 63
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Brutus",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "When this defends a Guardian attack, **clash** with the attacking hero. The winner creates a Seismic Surge token.",
+    "pitch": 3,
+    "power": 6,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "Clash"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "flatten-the-field-1",
+    "card_type": "regular",
+    "display_name": "Flatten the Field (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG076.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG076.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG076.webp"
+    },
+    "name": "Flatten the Field",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/flatten-the-field-1/MPG076/",
+        "print_id": "MPG076",
+        "set_number": 76
+      },
+      {
+        "detail_url": "/card/flatten-the-field-1/MPG076-RF/",
+        "print_id": "MPG076-RF",
+        "set_number": 76
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Crush** - When this deals 4 or more damage to a hero, destroy a Seismic Surge token they control.",
+    "pitch": 1,
+    "power": 8,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "Crush"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Camille Alquier"
+    ]
+  },
+  {
+    "card_id": "flatten-the-field-2",
+    "card_type": "regular",
+    "display_name": "Flatten the Field (yel)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG077.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG077.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG077.webp"
+    },
+    "name": "Flatten the Field",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/flatten-the-field-2/MPG077/",
+        "print_id": "MPG077",
+        "set_number": 77
+      },
+      {
+        "detail_url": "/card/flatten-the-field-2/MPG077-RF/",
+        "print_id": "MPG077-RF",
+        "set_number": 77
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Crush** - When this deals 4 or more damage to a hero, destroy a Seismic Surge token they control.",
+    "pitch": 2,
+    "power": 7,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "Crush"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Camille Alquier"
+    ]
+  },
+  {
+    "card_id": "flatten-the-field-3",
+    "card_type": "regular",
+    "display_name": "Flatten the Field (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG078.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG078.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG078.webp"
+    },
+    "name": "Flatten the Field",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/flatten-the-field-3/MPG078/",
+        "print_id": "MPG078",
+        "set_number": 78
+      },
+      {
+        "detail_url": "/card/flatten-the-field-3/MPG078-RF/",
+        "print_id": "MPG078-RF",
+        "set_number": 78
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Crush** - When this deals 4 or more damage to a hero, destroy a Seismic Surge token they control.",
+    "pitch": 3,
+    "power": 6,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "Crush"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Camille Alquier"
+    ]
+  },
+  {
+    "card_id": "grind-them-down-1",
+    "card_type": "regular",
+    "display_name": "Grind Them Down (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG079.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG079.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG079.webp"
+    },
+    "name": "Grind Them Down",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/grind-them-down-1/MPG079/",
+        "print_id": "MPG079",
+        "set_number": 79
+      },
+      {
+        "detail_url": "/card/grind-them-down-1/MPG079-RF/",
+        "print_id": "MPG079-RF",
+        "set_number": 79
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Crush** - When this deals 4 or more damage to a hero, destroy the top card of their deck.",
+    "pitch": 1,
+    "power": 7,
+    "cost": 3,
+    "defense": 3,
+    "keywords": [
+      "Crush"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Carlos Cruchaga"
+    ]
+  },
+  {
+    "card_id": "grind-them-down-2",
+    "card_type": "regular",
+    "display_name": "Grind Them Down (yel)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG080.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG080.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG080.webp"
+    },
+    "name": "Grind Them Down",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/grind-them-down-2/MPG080/",
+        "print_id": "MPG080",
+        "set_number": 80
+      },
+      {
+        "detail_url": "/card/grind-them-down-2/MPG080-RF/",
+        "print_id": "MPG080-RF",
+        "set_number": 80
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Crush** - When this deals 4 or more damage to a hero, destroy the top card of their deck.",
+    "pitch": 2,
+    "power": 6,
+    "cost": 3,
+    "defense": 3,
+    "keywords": [
+      "Crush"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Carlos Cruchaga"
+    ]
+  },
+  {
+    "card_id": "grind-them-down-3",
+    "card_type": "regular",
+    "display_name": "Grind Them Down (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG081.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG081.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG081.webp"
+    },
+    "name": "Grind Them Down",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/grind-them-down-3/MPG081/",
+        "print_id": "MPG081",
+        "set_number": 81
+      },
+      {
+        "detail_url": "/card/grind-them-down-3/MPG081-RF/",
+        "print_id": "MPG081-RF",
+        "set_number": 81
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Guardian Action - Attack",
+    "functionalText": "**Crush** - When this deals 4 or more damage to a hero, destroy the top card of their deck.",
+    "pitch": 3,
+    "power": 5,
+    "cost": 3,
+    "defense": 3,
+    "keywords": [
+      "Crush"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Carlos Cruchaga"
+    ]
+  },
+  {
+    "card_id": "crash-and-bash-1",
+    "card_type": "regular",
+    "display_name": "Crash and Bash (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG109.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG109.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG109.webp"
+    },
+    "name": "Crash and Bash",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/crash-and-bash-1/MPG109/",
+        "print_id": "MPG109",
+        "set_number": 109
+      },
+      {
+        "detail_url": "/card/crash-and-bash-1/MPG109-RF/",
+        "print_id": "MPG109-RF",
+        "set_number": 109
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Block"
+    ],
+    "typeText": "Guardian Block",
+    "functionalText": "When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.",
+    "pitch": 1,
+    "defense": 4,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Jessada Sutthi"
+    ]
+  },
+  {
+    "card_id": "crash-and-bash-2",
+    "card_type": "regular",
+    "display_name": "Crash and Bash (yel)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG110.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG110.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG110.webp"
+    },
+    "name": "Crash and Bash",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/crash-and-bash-2/MPG110/",
+        "print_id": "MPG110",
+        "set_number": 110
+      },
+      {
+        "detail_url": "/card/crash-and-bash-2/MPG110-RF/",
+        "print_id": "MPG110-RF",
+        "set_number": 110
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Block"
+    ],
+    "typeText": "Guardian Block",
+    "functionalText": "When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.",
+    "pitch": 2,
+    "defense": 3,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Jessada Sutthi"
+    ]
+  },
+  {
+    "card_id": "crash-and-bash-3",
+    "card_type": "regular",
+    "display_name": "Crash and Bash (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG111.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG111.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG111.webp"
+    },
+    "name": "Crash and Bash",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/crash-and-bash-3/MPG111/",
+        "print_id": "MPG111",
+        "set_number": 111
+      },
+      {
+        "detail_url": "/card/crash-and-bash-3/MPG111-RF/",
+        "print_id": "MPG111-RF",
+        "set_number": 111
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Open",
+      "Project Blue",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Block"
+    ],
+    "typeText": "Guardian Block",
+    "functionalText": "When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.",
+    "pitch": 3,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Jessada Sutthi"
+    ]
+  },
+  {
+    "card_id": "seismic-surge",
+    "card_type": "regular",
+    "display_name": "Seismic Surge",
+    "finishes": [
+      "cold-foil",
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG112.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG112.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG112.webp"
+    },
+    "name": "Seismic Surge",
+    "object_type": "token",
+    "prints": [
+      {
+        "detail_url": "/card/seismic-surge/MPG112/",
+        "print_id": "MPG112",
+        "set_number": 112
+      },
+      {
+        "detail_url": "/card/seismic-surge/MPG112-A/",
+        "print_id": "MPG112-A",
+        "set_number": 112
+      },
+      {
+        "detail_url": "/card/seismic-surge/MPG112-B/",
+        "print_id": "MPG112-B",
+        "set_number": 112
+      },
+      {
+        "detail_url": "/card/seismic-surge/MPG112-C/",
+        "print_id": "MPG112-C",
+        "set_number": 112
+      }
+    ],
+    "classes": [
+      "Guardian"
+    ],
+    "legalHeroes": [
+      "Betsy",
+      "Bolfar",
+      "Bravo",
+      "Brevant",
+      "Crix",
+      "Jarl",
+      "Kox",
+      "Lyath",
+      "Oldhim",
+      "Pleiades",
+      "Reya",
+      "Shiyana",
+      "Starvo",
+      "Terra",
+      "Valda",
+      "Victor",
+      "Yoji",
+      "Yorick"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Aura"
+    ],
+    "types": [
+      "Token"
+    ],
+    "typeText": "Guardian Token - Aura",
+    "functionalText": "At the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play.",
+    "rarities": [
+      "Basic",
+      "Common",
+      "Marvel",
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Asur Misoa"
+    ]
+  },
+  {
+    "card_id": "base-of-the-mountain",
+    "card_type": "regular",
+    "display_name": "Base of the Mountain",
+    "finishes": [
+      "cold-foil",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG113-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG113-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG113-CF.webp"
+    },
+    "name": "Base of the Mountain",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/base-of-the-mountain/MPG113-CF/",
+        "print_id": "MPG113-CF",
+        "set_number": 113
+      },
+      {
+        "detail_url": "/card/base-of-the-mountain/MPG113-RF/",
+        "print_id": "MPG113-RF",
+        "set_number": 113
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Legs"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Generic Equipment - Legs",
+    "functionalText": "When this defends, banish any number of action cards from your hand, then add them to the chain link as defending cards.\n\nThis card's {d} is equal to the number of action cards defending on the active chain link.\n\n**Blade Break**",
+    "keywords": [
+      "Blade Break"
+    ],
+    "rarities": [
+      "Legendary"
+    ],
+    "rarity": "Legendary",
+    "artists": [
+      "Simon Dominic"
+    ]
+  },
+  {
+    "card_id": "fearless-confrontation-3",
+    "card_type": "regular",
+    "display_name": "Fearless Confrontation (blu)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/MPG128.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/MPG128.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/MPG128.webp"
+    },
+    "name": "Fearless Confrontation",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/fearless-confrontation-3/MPG128/",
+        "print_id": "MPG128",
+        "set_number": 128
+      },
+      {
+        "detail_url": "/card/fearless-confrontation-3/MPG128-RF/",
+        "print_id": "MPG128-RF",
+        "set_number": 128
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Attack",
+    "functionalText": "**Instant** - Discard this: Target attack gets -1{p} and loses and can't gain **dominate**.",
+    "pitch": 3,
+    "power": 5,
+    "cost": 3,
+    "defense": 3,
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "soyameii"
+    ]
+  }
+]

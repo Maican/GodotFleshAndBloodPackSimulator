@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8igigqi00gil"]
+
+[ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="1_knvcl"]
+
+[node name="CardOpenedLabel" type="Label"]
+custom_minimum_size = Vector2(0, 15)
+size_flags_vertical = 3
+theme = ExtResource("1_knvcl")
+theme_override_font_sizes/font_size = 16
+text = "x1 Card Name"

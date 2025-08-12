@@ -1,0 +1,2468 @@
+[
+  {
+    "card_id": "uzuri-switchblade",
+    "card_type": "regular",
+    "display_name": "Uzuri, Switchblade",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM001-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM001-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM001-CF.webp"
+    },
+    "name": "Uzuri, Switchblade",
+    "object_type": "hero-card",
+    "prints": [
+      {
+        "detail_url": "/card/uzuri-switchblade/GEM001-CF/",
+        "print_id": "GEM001-CF",
+        "set_number": 1
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open"
+    ],
+    "subtypes": [],
+    "types": [
+      "Hero"
+    ],
+    "typeText": "Assassin Hero",
+    "functionalText": "**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of its owner's deck, then put the banished card onto the active chain link as the attacking card.",
+    "life": 40,
+    "intellect": 4,
+    "rarities": [
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Jessada Sutthi"
+    ]
+  },
+  {
+    "card_id": "kunai-of-retribution",
+    "card_type": "regular",
+    "display_name": "Kunai of Retribution",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM002-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM002-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM002-CF.webp"
+    },
+    "name": "Kunai of Retribution",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/kunai-of-retribution/GEM002-CF/",
+        "print_id": "GEM002-CF",
+        "set_number": 2
+      },
+      {
+        "detail_url": "/card/kunai-of-retribution/GEM003-CF/",
+        "print_id": "GEM003-CF",
+        "set_number": 3
+      }
+    ],
+    "classes": [
+      "Ninja"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Fai"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Dagger"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Draconic Ninja Weapon - Dagger (1H)",
+    "functionalText": "**Once per Turn Action** - {r}, destroy this when the combat chain closes: **Attack**. **Go again**",
+    "power": 1,
+    "keywords": [
+      "Go again"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Common",
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Widya Wang"
+    ]
+  },
+  {
+    "card_id": "kunai-of-retribution",
+    "card_type": "regular",
+    "display_name": "Kunai of Retribution",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM002-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM002-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM002-CF.webp"
+    },
+    "name": "Kunai of Retribution",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/kunai-of-retribution/GEM002-CF/",
+        "print_id": "GEM002-CF",
+        "set_number": 2
+      },
+      {
+        "detail_url": "/card/kunai-of-retribution/GEM003-CF/",
+        "print_id": "GEM003-CF",
+        "set_number": 3
+      }
+    ],
+    "classes": [
+      "Ninja"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Fai"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Dagger"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Draconic Ninja Weapon - Dagger (1H)",
+    "functionalText": "**Once per Turn Action** - {r}, destroy this when the combat chain closes: **Attack**. **Go again**",
+    "power": 1,
+    "keywords": [
+      "Go again"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Common",
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Widya Wang"
+    ]
+  },
+  {
+    "card_id": "obsidian-fire-vein",
+    "card_type": "regular",
+    "display_name": "Obsidian Fire Vein",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM004-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM004-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM004-CF.webp"
+    },
+    "name": "Obsidian Fire Vein",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/obsidian-fire-vein/GEM004-CF/",
+        "print_id": "GEM004-CF",
+        "set_number": 4
+      },
+      {
+        "detail_url": "/card/obsidian-fire-vein/GEM005-CF/",
+        "print_id": "GEM005-CF",
+        "set_number": 5
+      }
+    ],
+    "classes": [
+      "Warrior"
+    ],
+    "legalHeroes": [
+      "Emperor",
+      "Fang"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Dagger"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Draconic Warrior Weapon - Dagger (1H)",
+    "functionalText": "**Once per Turn Action** - {r}: **Attack**. If you've played a Draconic card this chain link, this attack gets +1{p} and **go again**.",
+    "power": 1,
+    "keywords": [
+      "Go again"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Common",
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "M Fakhrur Rozzi"
+    ]
+  },
+  {
+    "card_id": "obsidian-fire-vein",
+    "card_type": "regular",
+    "display_name": "Obsidian Fire Vein",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM004-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM004-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM004-CF.webp"
+    },
+    "name": "Obsidian Fire Vein",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/obsidian-fire-vein/GEM004-CF/",
+        "print_id": "GEM004-CF",
+        "set_number": 4
+      },
+      {
+        "detail_url": "/card/obsidian-fire-vein/GEM005-CF/",
+        "print_id": "GEM005-CF",
+        "set_number": 5
+      }
+    ],
+    "classes": [
+      "Warrior"
+    ],
+    "legalHeroes": [
+      "Emperor",
+      "Fang"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Dagger"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Draconic Warrior Weapon - Dagger (1H)",
+    "functionalText": "**Once per Turn Action** - {r}: **Attack**. If you've played a Draconic card this chain link, this attack gets +1{p} and **go again**.",
+    "power": 1,
+    "keywords": [
+      "Go again"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Common",
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "M Fakhrur Rozzi"
+    ]
+  },
+  {
+    "card_id": "mark-of-the-huntsman",
+    "card_type": "regular",
+    "display_name": "Mark of the Huntsman",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM006-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM006-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM006-CF.webp"
+    },
+    "name": "Mark of the Huntsman",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/mark-of-the-huntsman/GEM006-CF/",
+        "print_id": "GEM006-CF",
+        "set_number": 6
+      },
+      {
+        "detail_url": "/card/mark-of-the-huntsman/GEM007-CF/",
+        "print_id": "GEM007-CF",
+        "set_number": 7
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Dagger"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Assassin Weapon - Dagger (1H)",
+    "functionalText": "**Once per Turn Action** - {r}{r}: **Attack**. **Go again**\n\nWhen this hits a hero, you may choose to destroy this and **mark** them.\n\nIf this is attacking a **marked** hero, this gets +1{p}.",
+    "power": 1,
+    "keywords": [
+      "Go again",
+      "Mark"
+    ],
+    "rarities": [
+      "Common",
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Marcus Reyno"
+    ]
+  },
+  {
+    "card_id": "mark-of-the-huntsman",
+    "card_type": "regular",
+    "display_name": "Mark of the Huntsman",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM006-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM006-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM006-CF.webp"
+    },
+    "name": "Mark of the Huntsman",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/mark-of-the-huntsman/GEM006-CF/",
+        "print_id": "GEM006-CF",
+        "set_number": 6
+      },
+      {
+        "detail_url": "/card/mark-of-the-huntsman/GEM007-CF/",
+        "print_id": "GEM007-CF",
+        "set_number": 7
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Dagger"
+    ],
+    "types": [
+      "Weapon"
+    ],
+    "typeText": "Assassin Weapon - Dagger (1H)",
+    "functionalText": "**Once per Turn Action** - {r}{r}: **Attack**. **Go again**\n\nWhen this hits a hero, you may choose to destroy this and **mark** them.\n\nIf this is attacking a **marked** hero, this gets +1{p}.",
+    "power": 1,
+    "keywords": [
+      "Go again",
+      "Mark"
+    ],
+    "rarities": [
+      "Common",
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Marcus Reyno"
+    ]
+  },
+  {
+    "card_id": "graphene-chelicera",
+    "card_type": "regular",
+    "display_name": "Graphene Chelicera",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM008-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM008-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM008-CF.webp"
+    },
+    "name": "Graphene Chelicera",
+    "object_type": "token",
+    "prints": [
+      {
+        "detail_url": "/card/graphene-chelicera/GEM008-CF/",
+        "print_id": "GEM008-CF",
+        "set_number": 8
+      },
+      {
+        "detail_url": "/card/graphene-chelicera/GEM009-CF/",
+        "print_id": "GEM009-CF",
+        "set_number": 9
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Shiyana",
+      "Slippy",
+      "Uzuri",
+      "Yorick"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Dagger"
+    ],
+    "types": [
+      "Token",
+      "Weapon"
+    ],
+    "typeText": "Assassin Token Weapon - Dagger (1H)",
+    "functionalText": "**Stealth**\n\n**Once per Turn Action** - {r}: **Attack**\n\nWhen this attacks a **marked** hero, the attack gets **go again**.",
+    "power": 1,
+    "keywords": [
+      "Go again",
+      "Stealth"
+    ],
+    "rarities": [
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Satriasa"
+    ]
+  },
+  {
+    "card_id": "graphene-chelicera",
+    "card_type": "regular",
+    "display_name": "Graphene Chelicera",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM008-CF.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM008-CF.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM008-CF.webp"
+    },
+    "name": "Graphene Chelicera",
+    "object_type": "token",
+    "prints": [
+      {
+        "detail_url": "/card/graphene-chelicera/GEM008-CF/",
+        "print_id": "GEM008-CF",
+        "set_number": 8
+      },
+      {
+        "detail_url": "/card/graphene-chelicera/GEM009-CF/",
+        "print_id": "GEM009-CF",
+        "set_number": 9
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Shiyana",
+      "Slippy",
+      "Uzuri",
+      "Yorick"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "1H",
+      "Dagger"
+    ],
+    "types": [
+      "Token",
+      "Weapon"
+    ],
+    "typeText": "Assassin Token Weapon - Dagger (1H)",
+    "functionalText": "**Stealth**\n\n**Once per Turn Action** - {r}: **Attack**\n\nWhen this attacks a **marked** hero, the attack gets **go again**.",
+    "power": 1,
+    "keywords": [
+      "Go again",
+      "Stealth"
+    ],
+    "rarities": [
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Satriasa"
+    ]
+  },
+  {
+    "card_id": "display-loyalty-1",
+    "card_type": "regular",
+    "display_name": "Display Loyalty (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM010.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM010.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM010.webp"
+    },
+    "name": "Display Loyalty",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/display-loyalty-1/GEM010/",
+        "print_id": "GEM010",
+        "set_number": 10
+      },
+      {
+        "detail_url": "/card/display-loyalty-1/GEM010-RF/",
+        "print_id": "GEM010-RF",
+        "set_number": 10
+      }
+    ],
+    "classes": [
+      "Ninja"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Fai"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Draconic Ninja Action - Attack",
+    "functionalText": "If you control 2 or more Draconic chain links, this gets **go again** and \"When this attacks a hero, create a Fealty token.\"",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Wisnu Tan"
+    ]
+  },
+  {
+    "card_id": "demonstrate-devotion-1",
+    "card_type": "regular",
+    "display_name": "Demonstrate Devotion (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM011.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM011.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM011.webp"
+    },
+    "name": "Demonstrate Devotion",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/demonstrate-devotion-1/GEM011/",
+        "print_id": "GEM011",
+        "set_number": 11
+      },
+      {
+        "detail_url": "/card/demonstrate-devotion-1/GEM011-RF/",
+        "print_id": "GEM011-RF",
+        "set_number": 11
+      }
+    ],
+    "classes": [
+      "Ninja"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Fai"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Draconic Ninja Action - Attack",
+    "functionalText": "If you control 2 or more Draconic chain links, this gets **go again** and \"When this attacks a hero, create a Fealty token.\"",
+    "pitch": 1,
+    "power": 4,
+    "cost": 1,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Maerel Hibadita"
+    ]
+  },
+  {
+    "card_id": "affirm-loyalty-1",
+    "card_type": "regular",
+    "display_name": "Affirm Loyalty (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM012.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM012.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM012.webp"
+    },
+    "name": "Affirm Loyalty",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/affirm-loyalty-1/GEM012/",
+        "print_id": "GEM012",
+        "set_number": 12
+      },
+      {
+        "detail_url": "/card/affirm-loyalty-1/GEM012-RF/",
+        "print_id": "GEM012-RF",
+        "set_number": 12
+      }
+    ],
+    "classes": [
+      "Warrior"
+    ],
+    "legalHeroes": [
+      "Emperor",
+      "Fang"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Attack Reaction"
+    ],
+    "typeText": "Draconic Warrior Attack Reaction",
+    "functionalText": "Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, create a Fealty token.",
+    "pitch": 1,
+    "cost": 0,
+    "defense": 2,
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Ramza Ardyputra"
+    ]
+  },
+  {
+    "card_id": "endear-devotion-1",
+    "card_type": "regular",
+    "display_name": "Endear Devotion (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM013.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM013.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM013.webp"
+    },
+    "name": "Endear Devotion",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/endear-devotion-1/GEM013/",
+        "print_id": "GEM013",
+        "set_number": 13
+      },
+      {
+        "detail_url": "/card/endear-devotion-1/GEM013-RF/",
+        "print_id": "GEM013-RF",
+        "set_number": 13
+      }
+    ],
+    "classes": [
+      "Warrior"
+    ],
+    "legalHeroes": [
+      "Emperor",
+      "Fang"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Attack Reaction"
+    ],
+    "typeText": "Draconic Warrior Attack Reaction",
+    "functionalText": "Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, create a Fealty token.",
+    "pitch": 1,
+    "cost": 1,
+    "defense": 2,
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Federico Musetti"
+    ]
+  },
+  {
+    "card_id": "hunt-the-hunter-1",
+    "card_type": "regular",
+    "display_name": "Hunt the Hunter (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM014.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM014.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM014.webp"
+    },
+    "name": "Hunt the Hunter",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/hunt-the-hunter-1/GEM014/",
+        "print_id": "GEM014",
+        "set_number": 14
+      },
+      {
+        "detail_url": "/card/hunt-the-hunter-1/GEM014-RF/",
+        "print_id": "GEM014-RF",
+        "set_number": 14
+      }
+    ],
+    "classes": [
+      "NotClassed"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Dromai",
+      "Emperor",
+      "Fai",
+      "Fang",
+      "Taipanis"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Draconic Action - Attack",
+    "functionalText": "When this attacks a hero, if you've played another red card this turn, **mark** them.",
+    "pitch": 1,
+    "power": 5,
+    "cost": 1,
+    "defense": 3,
+    "keywords": [
+      "Mark"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Nathaniel Himawan"
+    ]
+  },
+  {
+    "card_id": "hunt-to-the-ends-of-rathe-1",
+    "card_type": "regular",
+    "display_name": "Hunt to the Ends of Rathe (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM015.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM015.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM015.webp"
+    },
+    "name": "Hunt to the Ends of Rathe",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/hunt-to-the-ends-of-rathe-1/GEM015/",
+        "print_id": "GEM015",
+        "set_number": 15
+      },
+      {
+        "detail_url": "/card/hunt-to-the-ends-of-rathe-1/GEM015-RF/",
+        "print_id": "GEM015-RF",
+        "set_number": 15
+      }
+    ],
+    "classes": [
+      "NotClassed"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Dromai",
+      "Emperor",
+      "Fai",
+      "Fang",
+      "Taipanis"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Draconic Action - Attack",
+    "functionalText": "When this attacks Arakni, **mark** them.\n\nIf this is attacking a **marked** hero, this gets +2{p}.\n\n**Go again**",
+    "pitch": 1,
+    "power": 2,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again",
+      "Mark"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Sariya Asavametha"
+    ]
+  },
+  {
+    "card_id": "march-of-loyalty-1",
+    "card_type": "regular",
+    "display_name": "March of Loyalty (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM016.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM016.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM016.webp"
+    },
+    "name": "March of Loyalty",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/march-of-loyalty-1/GEM016/",
+        "print_id": "GEM016",
+        "set_number": 16
+      },
+      {
+        "detail_url": "/card/march-of-loyalty-1/GEM016-RF/",
+        "print_id": "GEM016-RF",
+        "set_number": 16
+      }
+    ],
+    "classes": [
+      "NotClassed"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Dromai",
+      "Emperor",
+      "Fai",
+      "Fang",
+      "Taipanis"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Draconic Action - Attack",
+    "functionalText": "If you've created a Fealty token this turn, this gets **go again**",
+    "pitch": 1,
+    "power": 4,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Nathaniel Himawan"
+    ]
+  },
+  {
+    "card_id": "smoke-out-1",
+    "card_type": "regular",
+    "display_name": "Smoke Out (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM017.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM017.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM017.webp"
+    },
+    "name": "Smoke Out",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/smoke-out-1/GEM017/",
+        "print_id": "GEM017",
+        "set_number": 17
+      },
+      {
+        "detail_url": "/card/smoke-out-1/GEM017-RF/",
+        "print_id": "GEM017-RF",
+        "set_number": 17
+      }
+    ],
+    "classes": [
+      "NotClassed"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Dromai",
+      "Emperor",
+      "Fai",
+      "Fang",
+      "Taipanis"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Defense Reaction"
+    ],
+    "typeText": "Draconic Defense Reaction",
+    "functionalText": "When this defends a red card, **mark** the attacking hero.",
+    "pitch": 1,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Mark"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Carlos Cruchaga"
+    ]
+  },
+  {
+    "card_id": "proclaim-vengeance-1",
+    "card_type": "regular",
+    "display_name": "Proclaim Vengeance (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM018.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM018.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM018.webp"
+    },
+    "name": "Proclaim Vengeance",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/proclaim-vengeance-1/GEM018/",
+        "print_id": "GEM018",
+        "set_number": 18
+      },
+      {
+        "detail_url": "/card/proclaim-vengeance-1/GEM018-RF/",
+        "print_id": "GEM018-RF",
+        "set_number": 18
+      }
+    ],
+    "classes": [
+      "NotClassed"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Dromai",
+      "Emperor",
+      "Fai",
+      "Fang",
+      "Taipanis"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Instant"
+    ],
+    "typeText": "Draconic Instant",
+    "functionalText": "**Mark** target opposing hero. If that hero is Arakni, gain {r}.",
+    "pitch": 1,
+    "cost": 0,
+    "keywords": [
+      "Mark"
+    ],
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Thomas Ressuge"
+    ]
+  },
+  {
+    "card_id": "rake-over-the-coals-1",
+    "card_type": "regular",
+    "display_name": "Rake Over the Coals (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM019.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM019.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM019.webp"
+    },
+    "name": "Rake Over the Coals",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/rake-over-the-coals-1/GEM019/",
+        "print_id": "GEM019",
+        "set_number": 19
+      },
+      {
+        "detail_url": "/card/rake-over-the-coals-1/GEM019-RF/",
+        "print_id": "GEM019-RF",
+        "set_number": 19
+      }
+    ],
+    "classes": [
+      "NotClassed"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Dromai",
+      "Emperor",
+      "Fai",
+      "Fang",
+      "Taipanis"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Instant"
+    ],
+    "typeText": "Draconic Instant",
+    "functionalText": "Draconic attacks get +1{p} this turn.",
+    "pitch": 1,
+    "cost": 0,
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Kevin Sidharta"
+    ]
+  },
+  {
+    "card_id": "tooth-of-the-dragon-1",
+    "card_type": "regular",
+    "display_name": "Tooth of the Dragon (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM020.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM020.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM020.webp"
+    },
+    "name": "Tooth of the Dragon",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/tooth-of-the-dragon-1/GEM020/",
+        "print_id": "GEM020",
+        "set_number": 20
+      },
+      {
+        "detail_url": "/card/tooth-of-the-dragon-1/GEM020-RF/",
+        "print_id": "GEM020-RF",
+        "set_number": 20
+      }
+    ],
+    "classes": [
+      "NotClassed"
+    ],
+    "legalHeroes": [
+      "Cindra",
+      "Dromai",
+      "Emperor",
+      "Fai",
+      "Fang",
+      "Taipanis"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Instant"
+    ],
+    "typeText": "Draconic Instant",
+    "functionalText": "Your next Draconic attack this turn gets +3{p}.",
+    "pitch": 1,
+    "cost": 0,
+    "talents": [
+      "Draconic"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "YDZ"
+    ]
+  },
+  {
+    "card_id": "mark-of-the-black-widow-1",
+    "card_type": "regular",
+    "display_name": "Mark of the Black Widow (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM021.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM021.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM021.webp"
+    },
+    "name": "Mark of the Black Widow",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/mark-of-the-black-widow-1/GEM021/",
+        "print_id": "GEM021",
+        "set_number": 21
+      },
+      {
+        "detail_url": "/card/mark-of-the-black-widow-1/GEM021-RF/",
+        "print_id": "GEM021-RF",
+        "set_number": 21
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Assassin Action - Attack",
+    "functionalText": "**Stealth**\n\nWhen this hits a **marked** hero, they banish a card from their hand.",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Stealth"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Rio Sabda"
+    ]
+  },
+  {
+    "card_id": "mark-of-the-funnel-web-1",
+    "card_type": "regular",
+    "display_name": "Mark of the Funnel Web (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM022.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM022.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM022.webp"
+    },
+    "name": "Mark of the Funnel Web",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/mark-of-the-funnel-web-1/GEM022/",
+        "print_id": "GEM022",
+        "set_number": 22
+      },
+      {
+        "detail_url": "/card/mark-of-the-funnel-web-1/GEM022-RF/",
+        "print_id": "GEM022-RF",
+        "set_number": 22
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Assassin Action - Attack",
+    "functionalText": "**Stealth**\n\nWhen this hits a **marked** hero, banish a card in their arsenal.",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Stealth"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Saad Irfan"
+    ]
+  },
+  {
+    "card_id": "mark-the-prey-1",
+    "card_type": "regular",
+    "display_name": "Mark the Prey (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM023.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM023.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM023.webp"
+    },
+    "name": "Mark the Prey",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/mark-the-prey-1/GEM023/",
+        "print_id": "GEM023",
+        "set_number": 23
+      },
+      {
+        "detail_url": "/card/mark-the-prey-1/GEM023-RF/",
+        "print_id": "GEM023-RF",
+        "set_number": 23
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Assassin Action - Attack",
+    "functionalText": "**Stealth**\n\nWhen this hits a hero, **mark** them.",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Mark",
+      "Stealth"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Kimberly Pantoni"
+    ]
+  },
+  {
+    "card_id": "plunge-the-prospect-1",
+    "card_type": "regular",
+    "display_name": "Plunge the Prospect (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM024.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM024.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM024.webp"
+    },
+    "name": "Plunge the Prospect",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/plunge-the-prospect-1/GEM024/",
+        "print_id": "GEM024",
+        "set_number": 24
+      },
+      {
+        "detail_url": "/card/plunge-the-prospect-1/GEM024-RF/",
+        "print_id": "GEM024-RF",
+        "set_number": 24
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Assassin Action - Attack",
+    "functionalText": "**Stealth**\n\nIf this is attacking a **marked** hero, this gets +1{p}.",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Stealth"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Nikolay Moskvin"
+    ]
+  },
+  {
+    "card_id": "scuttle-the-canal-1",
+    "card_type": "regular",
+    "display_name": "Scuttle the Canal (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM025.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM025.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM025.webp"
+    },
+    "name": "Scuttle the Canal",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/scuttle-the-canal-1/GEM025/",
+        "print_id": "GEM025",
+        "set_number": 25
+      },
+      {
+        "detail_url": "/card/scuttle-the-canal-1/GEM025-RF/",
+        "print_id": "GEM025-RF",
+        "set_number": 25
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Assassin Action - Attack",
+    "functionalText": "**Stealth**\n\nWhen this attacks a **marked** hero, this gets **go again**.",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again",
+      "Stealth"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "whittle-from-bone-1",
+    "card_type": "regular",
+    "display_name": "Whittle from Bone (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM026.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM026.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM026.webp"
+    },
+    "name": "Whittle from Bone",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/whittle-from-bone-1/GEM026/",
+        "print_id": "GEM026",
+        "set_number": 26
+      },
+      {
+        "detail_url": "/card/whittle-from-bone-1/GEM026-RF/",
+        "print_id": "GEM026-RF",
+        "set_number": 26
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Crackni",
+      "Nuu",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Assassin Action - Attack",
+    "functionalText": "**Stealth**\n\nWhen this attacks a **marked** hero, equip a Graphene Chelicera token.",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Stealth"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Max Kostin"
+    ]
+  },
+  {
+    "card_id": "cut-through-1",
+    "card_type": "regular",
+    "display_name": "Cut Through (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM027.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM027.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM027.webp"
+    },
+    "name": "Cut Through",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/cut-through-1/GEM027/",
+        "print_id": "GEM027",
+        "set_number": 27
+      },
+      {
+        "detail_url": "/card/cut-through-1/GEM027-RF/",
+        "print_id": "GEM027-RF",
+        "set_number": 27
+      }
+    ],
+    "classes": [
+      "Assassin",
+      "Ninja"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Benji",
+      "Cindra",
+      "Crackni",
+      "Fai",
+      "Ira",
+      "Katsu",
+      "Nuu",
+      "Slippy",
+      "Uzuri",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Assassin / Ninja Action - Attack",
+    "functionalText": "If you've hit with a dagger this combat chain, this gets +1{p} and **go again**.",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Faizal Fikri"
+    ]
+  },
+  {
+    "card_id": "pick-up-the-point-1",
+    "card_type": "regular",
+    "display_name": "Pick Up the Point (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM028.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM028.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM028.webp"
+    },
+    "name": "Pick Up the Point",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/pick-up-the-point-1/GEM028/",
+        "print_id": "GEM028",
+        "set_number": 28
+      },
+      {
+        "detail_url": "/card/pick-up-the-point-1/GEM028-RF/",
+        "print_id": "GEM028-RF",
+        "set_number": 28
+      }
+    ],
+    "classes": [
+      "Assassin",
+      "Ninja"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Benji",
+      "Cindra",
+      "Crackni",
+      "Fai",
+      "Ira",
+      "Katsu",
+      "Nuu",
+      "Slippy",
+      "Uzuri",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Assassin / Ninja Action - Attack",
+    "functionalText": "When this attacks, you may **retrieve** a dagger from your graveyard.\n\n**Go again**",
+    "pitch": 1,
+    "power": 3,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again",
+      "Retrieve"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Nikko Wahyudi"
+    ]
+  },
+  {
+    "card_id": "incision-1",
+    "card_type": "regular",
+    "display_name": "Incision (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM029.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM029.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM029.webp"
+    },
+    "name": "Incision",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/incision-1/GEM029/",
+        "print_id": "GEM029",
+        "set_number": 29
+      },
+      {
+        "detail_url": "/card/incision-1/GEM029-RF/",
+        "print_id": "GEM029-RF",
+        "set_number": 29
+      }
+    ],
+    "classes": [
+      "Assassin",
+      "Warrior"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Boltyn",
+      "Crackni",
+      "Dorinthea",
+      "Emperor",
+      "Fang",
+      "Kassai",
+      "Nuu",
+      "Olympia",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Attack Reaction"
+    ],
+    "typeText": "Assassin / Warrior Attack Reaction",
+    "functionalText": "Target dagger attack gets +3{p}.",
+    "pitch": 1,
+    "cost": 0,
+    "defense": 3,
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Nailsen Ivanderlie"
+    ]
+  },
+  {
+    "card_id": "scar-tissue-1",
+    "card_type": "regular",
+    "display_name": "Scar Tissue (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM030.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM030.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM030.webp"
+    },
+    "name": "Scar Tissue",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/scar-tissue-1/GEM030/",
+        "print_id": "GEM030",
+        "set_number": 30
+      },
+      {
+        "detail_url": "/card/scar-tissue-1/GEM030-RF/",
+        "print_id": "GEM030-RF",
+        "set_number": 30
+      }
+    ],
+    "classes": [
+      "Assassin",
+      "Warrior"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Boltyn",
+      "Crackni",
+      "Dorinthea",
+      "Emperor",
+      "Fang",
+      "Kassai",
+      "Nuu",
+      "Olympia",
+      "Slippy",
+      "Uzuri"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Attack Reaction"
+    ],
+    "typeText": "Assassin / Warrior Attack Reaction",
+    "functionalText": "Target dagger attack gets +3{p} and \"When this hits a hero, **mark** them.\"",
+    "pitch": 1,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Mark"
+    ],
+    "rarities": [
+      "Common",
+      "Promo"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "SanSan"
+    ]
+  },
+  {
+    "card_id": "calming-breeze-1",
+    "card_type": "regular",
+    "display_name": "Calming Breeze (red)",
+    "finishes": [
+      "regular",
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM031.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM031.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM031.webp"
+    },
+    "name": "Calming Breeze",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/calming-breeze-1/GEM031/",
+        "print_id": "GEM031",
+        "set_number": 31
+      },
+      {
+        "detail_url": "/card/calming-breeze-1/GEM031-RF/",
+        "print_id": "GEM031-RF",
+        "set_number": 31
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Instant"
+    ],
+    "typeText": "Generic Instant",
+    "functionalText": "The next 3 times you would be dealt damage this turn, prevent 1 of that damage.",
+    "pitch": 1,
+    "cost": 0,
+    "rarities": [
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Thomas Ressuge"
+    ]
+  },
+  {
+    "card_id": "razor-reflex-1",
+    "card_type": "regular",
+    "display_name": "Razor Reflex (red)",
+    "finishes": [
+      "regular"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/GEM032.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/GEM032.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/GEM032.webp"
+    },
+    "name": "Razor Reflex",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/razor-reflex-1/GEM032/",
+        "print_id": "GEM032",
+        "set_number": 32
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Attack Reaction"
+    ],
+    "typeText": "Generic Attack Reaction",
+    "functionalText": "Choose 1;\n- Target dagger or sword weapon attack gets +3{p}.\n- Target attack action card with cost 1 or less gets +3{p} and \"When this hits, this gets **go again**.\"",
+    "pitch": 1,
+    "cost": 1,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common",
+      "Promo",
+      "Rare"
+    ],
+    "rarity": "Promo",
+    "artists": [
+      "Adolfo Navarro"
+    ]
+  }
+]

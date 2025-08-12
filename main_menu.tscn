@@ -1,0 +1,130 @@
+[gd_scene load_steps=4 format=3 uid="uid://3m7qpcqghqa4"]
+
+[ext_resource type="Script" uid="uid://idxfhix3jwcs" path="res://main_menu.gd" id="1_06t4h"]
+[ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="1_fu7sn"]
+[ext_resource type="Script" uid="uid://bpr6s1igxy2bp" path="res://json_importer.gd" id="2_7vrkn"]
+
+[node name="MainMenu" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = 2.0
+offset_right = 5.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_fu7sn")
+script = ExtResource("1_06t4h")
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 576.0
+offset_top = 216.0
+offset_right = 866.0
+offset_bottom = 733.0
+theme_override_constants/separation = 20
+
+[node name="OpenPackButton" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_fu7sn")
+text = "Open Packs"
+
+[node name="DeckEditorButton" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_fu7sn")
+text = "Deck Editor
+"
+
+[node name="BinderEditorButton" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+disabled = true
+text = "Binder management"
+
+[node name="BanlistEditorButton" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+disabled = true
+text = "Banlist editor"
+
+[node name="ExitButton" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_fu7sn")
+text = "Exit"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 465.0
+offset_right = 135.0
+offset_bottom = 569.0
+theme = ExtResource("1_fu7sn")
+
+[node name="ImportingCardLabel" type="Label" parent="VBoxContainer"]
+visible = false
+layout_mode = 2
+theme = ExtResource("1_fu7sn")
+text = "Importing Card"
+
+[node name="ImportingCardNumber" type="Label" parent="VBoxContainer"]
+visible = false
+layout_mode = 2
+theme = ExtResource("1_fu7sn")
+
+[node name="JSONImporter" type="Node" parent="."]
+script = ExtResource("2_7vrkn")
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 523.0
+offset_top = 38.0
+offset_right = 917.0
+offset_bottom = 71.0
+text = "Flesh and Blood Pack Simulator"
+
+[node name="Legal Disclaimer" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -502.5
+offset_top = -41.0
+offset_right = 502.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 15
+text = "All information and graphics on this application relating to Flesh and Blood including but not limited to card and pack images, card/game symbols and icons, related fonts, and card/game text, is copyright of Legend Story Studios Inc. This website is not produced, endorsed, supported, or affiliated with in any way by Legend Story Studios Inc."
+autowrap_mode = 2
+
+[node name="BuyPacksDisclaimer" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -455.0
+offset_top = 111.0
+offset_right = 455.0
+offset_bottom = 156.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 20
+text = "Disclaimer: This tool is meant to simulate opening Flesh and Blood packs to play 'set by set' since some sets are out of print. This is not meant to replace in-person play, support LSS and your local game store and buy booster packs."
+autowrap_mode = 2
+
+[node name="DevMenuButton" type="MenuButton" parent="."]
+layout_mode = 0
+offset_left = 1358.0
+offset_top = 2.0
+offset_right = 1430.0
+offset_bottom = 27.0
+text = "Dev tools"
+item_count = 2
+popup/item_0/text = "Clear Pack Resource"
+popup/item_0/id = 0
+popup/item_1/text = "Import Cards"
+popup/item_1/id = 1

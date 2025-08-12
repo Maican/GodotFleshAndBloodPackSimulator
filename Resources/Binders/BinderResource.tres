@@ -1,0 +1,6 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://knauid3ib0cd"]
+
+[ext_resource type="Script" uid="uid://cujdeki7kab6e" path="res://Resources/Binders/BinderResource.gd" id="1_inkoo"]
+
+[resource]
+script = ExtResource("1_inkoo")

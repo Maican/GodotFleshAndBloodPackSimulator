@@ -1,0 +1,6464 @@
+[
+  {
+    "card_id": "polly-cranka",
+    "card_type": "regular",
+    "display_name": "Polly Cranka",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA003-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA003-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA003-TP.webp"
+    },
+    "name": "Polly Cranka",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/polly-cranka/SEA003-TP/",
+        "print_id": "SEA003-TP",
+        "set_number": 3
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Puffin"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Ally",
+      "Off-Hand"
+    ],
+    "types": [
+      "Companion"
+    ],
+    "typeText": "Puffin Companion - Off-Hand Ally",
+    "functionalText": "**Action** - {t}, banish this: Return this to the arena under its owner's control, unequipped, tapped, and with a steam counter.\n\n**Crank**\n\n**Perched**",
+    "keywords": [
+      "Crank"
+    ],
+    "life": 1,
+    "rarities": [
+      "Legendary",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Rio Sabda"
+    ]
+  },
+  {
+    "card_id": "cogwerx-tinker-rings",
+    "card_type": "regular",
+    "display_name": "Cogwerx Tinker Rings",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA008-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA008-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA008-TP.webp"
+    },
+    "name": "Cogwerx Tinker Rings",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/cogwerx-tinker-rings/SEA008-TP/",
+        "print_id": "SEA008-TP",
+        "set_number": 8
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Taylor",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arms"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Mechanologist Equipment - Arms",
+    "functionalText": "When this defends, create a Golden Cog token.\n\n**Blade Break**",
+    "defense": 2,
+    "keywords": [
+      "Blade Break"
+    ],
+    "rarities": [
+      "Legendary"
+    ],
+    "rarity": "Legendary",
+    "artists": [
+      "Ramza Ardyputra"
+    ]
+  },
+  {
+    "card_id": "rust-belt",
+    "card_type": "regular",
+    "display_name": "Rust Belt",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA009-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA009-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA009-TP.webp"
+    },
+    "name": "Rust Belt",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/rust-belt/SEA009-TP/",
+        "print_id": "SEA009-TP",
+        "set_number": 9
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Taylor",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Chest"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Mechanologist Equipment - Chest",
+    "functionalText": "**Instant** - {t} a cog you control, destroy this: Gain {r}.\n\n**Battleworn**",
+    "defense": 1,
+    "keywords": [
+      "Battleworn"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Mariusz Gandzel"
+    ]
+  },
+  {
+    "card_id": "unicycle",
+    "card_type": "regular",
+    "display_name": "Unicycle",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA010-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA010-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA010-TP.webp"
+    },
+    "name": "Unicycle",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/unicycle/SEA010-TP/",
+        "print_id": "SEA010-TP",
+        "set_number": 10
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Taylor",
+      "Teklovossen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Legs"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Mechanologist Equipment - Legs",
+    "functionalText": "**Instant** - Destroy this: {u} a cog you control.\n\n**Battleworn**",
+    "defense": 1,
+    "keywords": [
+      "Battleworn"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Andi Cahyo W"
+    ]
+  },
+  {
+    "card_id": "golden-cog",
+    "card_type": "regular",
+    "display_name": "Golden Cog",
+    "finishes": [
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA042-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA042-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA042-TP.webp"
+    },
+    "name": "Golden Cog",
+    "object_type": "token",
+    "prints": [
+      {
+        "detail_url": "/card/golden-cog/SEA042-TP/",
+        "print_id": "SEA042-TP",
+        "set_number": 42
+      }
+    ],
+    "classes": [
+      "Mechanologist"
+    ],
+    "legalHeroes": [
+      "Dash",
+      "Data Doll",
+      "Maxx",
+      "Puffin",
+      "Shiyana",
+      "Teklovossen",
+      "Yorick"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item"
+    ],
+    "types": [
+      "Token"
+    ],
+    "typeText": "Mechanologist Token - Cog Item",
+    "functionalText": "**Crank**\n\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.",
+    "keywords": [
+      "Crank"
+    ],
+    "rarities": [
+      "Basic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Carlos Cruchaga"
+    ]
+  },
+  {
+    "card_id": "washed-up-wave",
+    "card_type": "regular",
+    "display_name": "Washed Up Wave",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA046-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA046-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA046-TP.webp"
+    },
+    "name": "Washed Up Wave",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/washed-up-wave/SEA046-TP/",
+        "print_id": "SEA046-TP",
+        "set_number": 46
+      }
+    ],
+    "classes": [
+      "Necromancer",
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Taylor"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arms"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Pirate Necromancer Equipment - Arms",
+    "functionalText": "When this defends, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets +2{d}.\n\n**Blade Break**",
+    "defense": 0,
+    "keywords": [
+      "Blade Break"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Esty Swandana"
+    ]
+  },
+  {
+    "card_id": "dead-threads",
+    "card_type": "regular",
+    "display_name": "Dead Threads",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA080-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA080-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA080-TP.webp"
+    },
+    "name": "Dead Threads",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/dead-threads/SEA080-TP/",
+        "print_id": "SEA080-TP",
+        "set_number": 80
+      }
+    ],
+    "classes": [
+      "Necromancer"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Taylor"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Chest"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Necromancer Equipment - Chest",
+    "functionalText": "**Instant** - {t}: Gain {r}. Activate this only if an ally has been put into your graveyard this turn.\n\n**Blade Break**",
+    "defense": 1,
+    "keywords": [
+      "Blade Break"
+    ],
+    "rarities": [
+      "Legendary"
+    ],
+    "rarity": "Legendary",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "head-stone",
+    "card_type": "regular",
+    "display_name": "Head Stone",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA081-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA081-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA081-TP.webp"
+    },
+    "name": "Head Stone",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/head-stone/SEA081-TP/",
+        "print_id": "SEA081-TP",
+        "set_number": 81
+      }
+    ],
+    "classes": [
+      "Necromancer"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Taylor"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Head"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Necromancer Equipment - Head",
+    "functionalText": "**Instant** - Destroy this: Destroy the top card of your deck.\n\n**Battleworn**",
+    "defense": 1,
+    "keywords": [
+      "Battleworn"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Camille Alquier"
+    ]
+  },
+  {
+    "card_id": "goldfin-harpoon",
+    "card_type": "regular",
+    "display_name": "Goldfin Harpoon",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA093-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA093-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA093-TP.webp"
+    },
+    "name": "Goldfin Harpoon",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/goldfin-harpoon/SEA093-TP/",
+        "print_id": "SEA093-TP",
+        "set_number": 93
+      }
+    ],
+    "classes": [
+      "Pirate",
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Marlynn"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arrow",
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Ranger Action - Arrow Attack",
+    "functionalText": "If this would be put into a graveyard, instead remove it from the game.",
+    "power": 2,
+    "cost": 0,
+    "rarities": [
+      "Basic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Bastien Jez"
+    ]
+  },
+  {
+    "card_id": "sealace-sarong",
+    "card_type": "regular",
+    "display_name": "Sealace Sarong",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA095-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA095-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA095-TP.webp"
+    },
+    "name": "Sealace Sarong",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/sealace-sarong/SEA095-TP/",
+        "print_id": "SEA095-TP",
+        "set_number": 95
+      }
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Azalea",
+      "Lexi",
+      "Marlynn",
+      "Riptide",
+      "Taylor"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Legs"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Ranger Equipment - Legs",
+    "functionalText": "**Instant** - {t}, turn a blue arrow in your arsenal face-up: it gets **go again** this turn.\n\n**Blade Break**",
+    "defense": 2,
+    "keywords": [
+      "Blade Break",
+      "Go again"
+    ],
+    "rarities": [
+      "Legendary"
+    ],
+    "rarity": "Legendary",
+    "artists": [
+      "SanSan"
+    ]
+  },
+  {
+    "card_id": "patch-the-hole",
+    "card_type": "regular",
+    "display_name": "Patch the Hole",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA096-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA096-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA096-TP.webp"
+    },
+    "name": "Patch the Hole",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/patch-the-hole/SEA096-TP/",
+        "print_id": "SEA096-TP",
+        "set_number": 96
+      }
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Azalea",
+      "Lexi",
+      "Marlynn",
+      "Riptide",
+      "Taylor"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Head"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Ranger Equipment - Head",
+    "functionalText": "**Instant** - Destroy this: Return a card from your arsenal to your hand.",
+    "defense": 0,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Raphael Pinna"
+    ]
+  },
+  {
+    "card_id": "glidewell-fins",
+    "card_type": "regular",
+    "display_name": "Glidewell Fins",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA097-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA097-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA097-TP.webp"
+    },
+    "name": "Glidewell Fins",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/glidewell-fins/SEA097-TP/",
+        "print_id": "SEA097-TP",
+        "set_number": 97
+      }
+    ],
+    "classes": [
+      "Ranger"
+    ],
+    "legalHeroes": [
+      "Azalea",
+      "Lexi",
+      "Marlynn",
+      "Riptide",
+      "Taylor"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arms"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Ranger Equipment - Arms",
+    "functionalText": "**Action** - {r}, destroy this: Put an arrow from your hand face-up into your arsenal. It gets +1{p} this turn. **Go again**\n\n**Battleworn**",
+    "defense": 1,
+    "keywords": [
+      "Battleworn"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Kyxarie Peralta"
+    ]
+  },
+  {
+    "card_id": "gold-baited-hook",
+    "card_type": "regular",
+    "display_name": "Gold-Baited Hook",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA125-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA125-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA125-TP.webp"
+    },
+    "name": "Gold-Baited Hook",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/gold-baited-hook/SEA125-TP/",
+        "print_id": "SEA125-TP",
+        "set_number": 125
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv",
+      "Taylor"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Open",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arms"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Pirate Equipment - Arms",
+    "functionalText": "**Action** - {t}: Your next Pirate attack this turn gets \"When this hits a hero, **steal** a Gold token they control, otherwise create a Gold token.\" At the beginning of your end phase, if you haven't created or stolen a Gold token this turn, destroy this. **Go again**\n\n**Battleworn**",
+    "defense": 1,
+    "keywords": [
+      "Battleworn",
+      "Go again",
+      "Steal"
+    ],
+    "rarities": [
+      "Legendary"
+    ],
+    "rarity": "Legendary",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "conqueror-of-the-high-seas-1",
+    "card_type": "regular",
+    "display_name": "Conqueror of the High Seas (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA130-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA130-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA130-TP.webp"
+    },
+    "name": "Conqueror of the High Seas",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/conqueror-of-the-high-seas-1/SEA130-TP/",
+        "print_id": "SEA130-TP",
+        "set_number": 130
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this hits a hero, destroy all cards in their arsenal. Create a Gold token for each card destroyed this way.\n\n**High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and **go again**.",
+    "pitch": 1,
+    "power": 7,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "Go again",
+      "High Tide"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Max Kostin"
+    ]
+  },
+  {
+    "card_id": "loan-shark-2",
+    "card_type": "regular",
+    "display_name": "Loan Shark (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA131-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA131-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA131-TP.webp"
+    },
+    "name": "Loan Shark",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/loan-shark-2/SEA131-TP/",
+        "print_id": "SEA131-TP",
+        "set_number": 131
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Aura",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Aura",
+    "functionalText": "**Go again**\n\nWhen this enters the arena, create 2 Gold tokens.\n\nAt the beginning of your end phase, if you haven't created or stolen a Gold this turn, destroy this, then lose 2{h} unless you discard a card.",
+    "pitch": 2,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Narendra B Adi"
+    ]
+  },
+  {
+    "card_id": "tip-the-barkeep-3",
+    "card_type": "regular",
+    "display_name": "Tip the Barkeep (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA132-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA132-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA132-TP.webp"
+    },
+    "name": "Tip the Barkeep",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/tip-the-barkeep-3/SEA132-TP/",
+        "print_id": "SEA132-TP",
+        "set_number": 132
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "Create a Goldkiss Rum token.\n\nYou may give a Gold token you control to another hero. If you do, put this on the bottom of its owner's deck.\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "sunken-treasure-3",
+    "card_type": "regular",
+    "display_name": "Sunken Treasure (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA133-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA133-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA133-TP.webp"
+    },
+    "name": "Sunken Treasure",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/sunken-treasure-3/SEA133-TP/",
+        "print_id": "SEA133-TP",
+        "set_number": 133
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Block"
+    ],
+    "typeText": "Pirate Block",
+    "functionalText": "When this defends, you may turn a card in a graveyard face-down. If it's yellow, create a Gold token.",
+    "pitch": 3,
+    "defense": 3,
+    "rarities": [
+      "Majestic"
+    ],
+    "rarity": "Majestic",
+    "artists": [
+      "Ramza Ardyputra"
+    ]
+  },
+  {
+    "card_id": "hms-barracuda-2",
+    "card_type": "regular",
+    "display_name": "HMS Barracuda (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA134-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA134-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA134-TP.webp"
+    },
+    "name": "HMS Barracuda",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/hms-barracuda-2/SEA134-TP/",
+        "print_id": "SEA134-TP",
+        "set_number": 134
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this hits a hero, destroy an ally they control.\n\n**High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and **overpower**.",
+    "pitch": 2,
+    "power": 6,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "High Tide",
+      "Overpower"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Max Kostin"
+    ]
+  },
+  {
+    "card_id": "hms-kraken-2",
+    "card_type": "regular",
+    "display_name": "HMS Kraken (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA135-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA135-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA135-TP.webp"
+    },
+    "name": "HMS Kraken",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/hms-kraken-2/SEA135-TP/",
+        "print_id": "SEA135-TP",
+        "set_number": 135
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this hits a hero, destroy an item they control.\n\n**High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and **overpower**.",
+    "pitch": 2,
+    "power": 6,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "High Tide",
+      "Overpower"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "hms-marlin-2",
+    "card_type": "regular",
+    "display_name": "HMS Marlin (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA136-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA136-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA136-TP.webp"
+    },
+    "name": "HMS Marlin",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/hms-marlin-2/SEA136-TP/",
+        "print_id": "SEA136-TP",
+        "set_number": 136
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this hits a hero, destroy the top card of their deck.\n\n**High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and **overpower**.",
+    "pitch": 2,
+    "power": 6,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "High Tide",
+      "Overpower"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Thomas Ressuge"
+    ]
+  },
+  {
+    "card_id": "murderous-rabble-3",
+    "card_type": "regular",
+    "display_name": "Murderous Rabble (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA137-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA137-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA137-TP.webp"
+    },
+    "name": "Murderous Rabble",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/murderous-rabble-3/SEA137-TP/",
+        "print_id": "SEA137-TP",
+        "set_number": 137
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, reveal the top card of your deck. This gets +X{p}, where X is the pitch value of the card revealed this way.\n\n**Go again**",
+    "pitch": 3,
+    "power": 0,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Pavel Rtishchev (Klaher)"
+    ]
+  },
+  {
+    "card_id": "pilfer-the-wreck-1",
+    "card_type": "regular",
+    "display_name": "Pilfer the Wreck (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA138-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA138-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA138-TP.webp"
+    },
+    "name": "Pilfer the Wreck",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/pilfer-the-wreck-1/SEA138-TP/",
+        "print_id": "SEA138-TP",
+        "set_number": 138
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this hits a hero, you may turn a card in their graveyard face-down. If it's yellow, create a Gold token.",
+    "pitch": 1,
+    "power": 7,
+    "cost": 3,
+    "defense": 2,
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Audy Ravindra"
+    ]
+  },
+  {
+    "card_id": "pilfer-the-wreck-2",
+    "card_type": "regular",
+    "display_name": "Pilfer the Wreck (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA139-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA139-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA139-TP.webp"
+    },
+    "name": "Pilfer the Wreck",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/pilfer-the-wreck-2/SEA139-TP/",
+        "print_id": "SEA139-TP",
+        "set_number": 139
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this hits a hero, you may turn a card in their graveyard face-down. If it's yellow, create a Gold token.",
+    "pitch": 2,
+    "power": 6,
+    "cost": 3,
+    "defense": 2,
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Audy Ravindra"
+    ]
+  },
+  {
+    "card_id": "pilfer-the-wreck-3",
+    "card_type": "regular",
+    "display_name": "Pilfer the Wreck (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA140-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA140-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA140-TP.webp"
+    },
+    "name": "Pilfer the Wreck",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/pilfer-the-wreck-3/SEA140-TP/",
+        "print_id": "SEA140-TP",
+        "set_number": 140
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this hits a hero, you may turn a card in their graveyard face-down. If it's yellow, create a Gold token.",
+    "pitch": 3,
+    "power": 5,
+    "cost": 3,
+    "defense": 2,
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Audy Ravindra"
+    ]
+  },
+  {
+    "card_id": "saltwater-swell-1",
+    "card_type": "regular",
+    "display_name": "Saltwater Swell (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA141-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA141-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA141-TP.webp"
+    },
+    "name": "Saltwater Swell",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/saltwater-swell-1/SEA141-TP/",
+        "print_id": "SEA141-TP",
+        "set_number": 141
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, reveal the top card of your deck. If it's blue, pitch it.\n\n**Go again**",
+    "pitch": 1,
+    "power": 3,
+    "cost": 1,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Stormy Elia Fanggidae"
+    ]
+  },
+  {
+    "card_id": "saltwater-swell-2",
+    "card_type": "regular",
+    "display_name": "Saltwater Swell (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA142-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA142-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA142-TP.webp"
+    },
+    "name": "Saltwater Swell",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/saltwater-swell-2/SEA142-TP/",
+        "print_id": "SEA142-TP",
+        "set_number": 142
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, reveal the top card of your deck. If it's blue, pitch it.\n\n**Go again**",
+    "pitch": 2,
+    "power": 2,
+    "cost": 1,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Stormy Elia Fanggidae"
+    ]
+  },
+  {
+    "card_id": "saltwater-swell-3",
+    "card_type": "regular",
+    "display_name": "Saltwater Swell (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA143-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA143-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA143-TP.webp"
+    },
+    "name": "Saltwater Swell",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/saltwater-swell-3/SEA143-TP/",
+        "print_id": "SEA143-TP",
+        "set_number": 143
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, reveal the top card of your deck. If it's blue, pitch it.\n\n**Go again**",
+    "pitch": 3,
+    "power": 1,
+    "cost": 1,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Stormy Elia Fanggidae"
+    ]
+  },
+  {
+    "card_id": "divvy-up-3",
+    "card_type": "regular",
+    "display_name": "Divvy Up (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA144-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA144-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA144-TP.webp"
+    },
+    "name": "Divvy Up",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/divvy-up-3/SEA144-TP/",
+        "print_id": "SEA144-TP",
+        "set_number": 144
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "Remove half the gold counters from Treasure Island, rounded up. If you are a Thief, instead remove all of them.\n\nCreate Gold tokens equal to the number of gold counters removed this way.",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Jefrey Yonathan"
+    ]
+  },
+  {
+    "card_id": "portside-exchange-3",
+    "card_type": "regular",
+    "display_name": "Portside Exchange (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA145-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA145-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA145-TP.webp"
+    },
+    "name": "Portside Exchange",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/portside-exchange-3/SEA145-TP/",
+        "print_id": "SEA145-TP",
+        "set_number": 145
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "Discard a card, then draw a card. If a yellow card is discarded this way, create a Gold token.\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Nikko Wahyudi"
+    ]
+  },
+  {
+    "card_id": "sea-floor-salvage-3",
+    "card_type": "regular",
+    "display_name": "Sea Floor Salvage (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA146-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA146-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA146-TP.webp"
+    },
+    "name": "Sea Floor Salvage",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/sea-floor-salvage-3/SEA146-TP/",
+        "print_id": "SEA146-TP",
+        "set_number": 146
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "Turn a card in a graveyard face-down. If it's yellow, create a Gold token.\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Yiian Kho"
+    ]
+  },
+  {
+    "card_id": "scrub-the-deck-3",
+    "card_type": "regular",
+    "display_name": "Scrub the Deck (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA147-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA147-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA147-TP.webp"
+    },
+    "name": "Scrub the Deck",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/scrub-the-deck-3/SEA147-TP/",
+        "print_id": "SEA147-TP",
+        "set_number": 147
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "Destroy the top card of target hero's deck. If it's yellow, create a Gold token.\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Widya Wang"
+    ]
+  },
+  {
+    "card_id": "shifting-tides-3",
+    "card_type": "regular",
+    "display_name": "Shifting Tides (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA148-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA148-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA148-TP.webp"
+    },
+    "name": "Shifting Tides",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/shifting-tides-3/SEA148-TP/",
+        "print_id": "SEA148-TP",
+        "set_number": 148
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Aura",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Aura",
+    "functionalText": "**Go again**\n\nAt the start of your turn, pitch the top card of your deck. If it's blue, put this on the bottom of your deck, otherwise destroy this.",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 3,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "not-so-fast-2",
+    "card_type": "regular",
+    "display_name": "Not So Fast (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA149-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA149-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA149-TP.webp"
+    },
+    "name": "Not So Fast",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/not-so-fast-2/SEA149-TP/",
+        "print_id": "SEA149-TP",
+        "set_number": 149
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Scurv",
+      "Shiyana"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Instant"
+    ],
+    "typeText": "Pirate Instant",
+    "functionalText": "**Scurv Specialization**\n\nThe next time an opponent would draw a card from the effect of a Gold token this turn, instead you draw a card.",
+    "pitch": 2,
+    "cost": 0,
+    "keywords": [
+      "Specialization"
+    ],
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Daniel Correia"
+    ]
+  },
+  {
+    "card_id": "throw-caution-to-the-wind-3",
+    "card_type": "regular",
+    "display_name": "Throw Caution to the Wind (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA150-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA150-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA150-TP.webp"
+    },
+    "name": "Throw Caution to the Wind",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/throw-caution-to-the-wind-3/SEA150-TP/",
+        "print_id": "SEA150-TP",
+        "set_number": 150
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Instant"
+    ],
+    "typeText": "Pirate Instant",
+    "functionalText": "Reveal the top card of your deck. The next time you would be dealt damage this turn, prevent X of that damage, where X is the pitch value of the card revealed this way.",
+    "pitch": 3,
+    "cost": 0,
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Jefrey Yonathan"
+    ]
+  },
+  {
+    "card_id": "lost-in-transit-2",
+    "card_type": "regular",
+    "display_name": "Lost in Transit (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA151-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA151-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA151-TP.webp"
+    },
+    "name": "Lost in Transit",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/lost-in-transit-2/SEA151-TP/",
+        "print_id": "SEA151-TP",
+        "set_number": 151
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [],
+    "types": [
+      "Block"
+    ],
+    "typeText": "Pirate Block",
+    "functionalText": "When this defends, you may remove a gold counter from Treasure Island. If you do and you are a Thief, create a Gold token.",
+    "pitch": 2,
+    "defense": 3,
+    "rarities": [
+      "Rare"
+    ],
+    "rarity": "Rare",
+    "artists": [
+      "Marco Gonz\u00e1lez"
+    ]
+  },
+  {
+    "card_id": "battalion-barque-1",
+    "card_type": "regular",
+    "display_name": "Battalion Barque (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA152-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA152-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA152-TP.webp"
+    },
+    "name": "Battalion Barque",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/battalion-barque-1/SEA152-TP/",
+        "print_id": "SEA152-TP",
+        "set_number": 152
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "High Tide - If there are 2 or more blue cards in your pitch zone, this gets +2{p}.",
+    "pitch": 1,
+    "power": 7,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "High Tide"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Arkoii"
+    ]
+  },
+  {
+    "card_id": "battalion-barque-2",
+    "card_type": "regular",
+    "display_name": "Battalion Barque (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA153-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA153-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA153-TP.webp"
+    },
+    "name": "Battalion Barque",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/battalion-barque-2/SEA153-TP/",
+        "print_id": "SEA153-TP",
+        "set_number": 153
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "High Tide - If there are 2 or more blue cards in your pitch zone, this gets +2{p}.",
+    "pitch": 2,
+    "power": 6,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "High Tide"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Arkoii"
+    ]
+  },
+  {
+    "card_id": "battalion-barque-3",
+    "card_type": "regular",
+    "display_name": "Battalion Barque (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA154-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA154-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA154-TP.webp"
+    },
+    "name": "Battalion Barque",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/battalion-barque-3/SEA154-TP/",
+        "print_id": "SEA154-TP",
+        "set_number": 154
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "High Tide - If there are 2 or more blue cards in your pitch zone, this gets +2{p}.",
+    "pitch": 3,
+    "power": 5,
+    "cost": 4,
+    "defense": 3,
+    "keywords": [
+      "High Tide"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Arkoii"
+    ]
+  },
+  {
+    "card_id": "expedition-to-azuro-keys-1",
+    "card_type": "regular",
+    "display_name": "Expedition to Azuro Keys (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA155-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA155-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA155-TP.webp"
+    },
+    "name": "Expedition to Azuro Keys",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/expedition-to-azuro-keys-1/SEA155-TP/",
+        "print_id": "SEA155-TP",
+        "set_number": 155
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may put a gold counter on Treasure Island.",
+    "pitch": 1,
+    "power": 4,
+    "cost": 0,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Anthony Avon"
+    ]
+  },
+  {
+    "card_id": "expedition-to-blackwater-strait-1",
+    "card_type": "regular",
+    "display_name": "Expedition to Blackwater Strait (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA156-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA156-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA156-TP.webp"
+    },
+    "name": "Expedition to Blackwater Strait",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/expedition-to-blackwater-strait-1/SEA156-TP/",
+        "print_id": "SEA156-TP",
+        "set_number": 156
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may put a gold counter on Treasure Island.",
+    "pitch": 1,
+    "power": 5,
+    "cost": 1,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Tomasz Jedruszek"
+    ]
+  },
+  {
+    "card_id": "expedition-to-dreadfall-reach-1",
+    "card_type": "regular",
+    "display_name": "Expedition to Dreadfall Reach (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA157-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA157-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA157-TP.webp"
+    },
+    "name": "Expedition to Dreadfall Reach",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/expedition-to-dreadfall-reach-1/SEA157-TP/",
+        "print_id": "SEA157-TP",
+        "set_number": 157
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may put a gold counter on Treasure Island.",
+    "pitch": 1,
+    "power": 6,
+    "cost": 2,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Arkoii"
+    ]
+  },
+  {
+    "card_id": "expedition-to-horizons-mantle-1",
+    "card_type": "regular",
+    "display_name": "Expedition to Horizon's Mantle (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA158-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA158-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA158-TP.webp"
+    },
+    "name": "Expedition to Horizon's Mantle",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/expedition-to-horizons-mantle-1/SEA158-TP/",
+        "print_id": "SEA158-TP",
+        "set_number": 158
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may put a gold counter on Treasure Island.",
+    "pitch": 1,
+    "power": 7,
+    "cost": 3,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Carlos Cruchaga"
+    ]
+  },
+  {
+    "card_id": "golden-tipple-1",
+    "card_type": "regular",
+    "display_name": "Golden Tipple (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA159-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA159-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA159-TP.webp"
+    },
+    "name": "Golden Tipple",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/golden-tipple-1/SEA159-TP/",
+        "print_id": "SEA159-TP",
+        "set_number": 159
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.\n\n**Go again**",
+    "pitch": 1,
+    "power": 3,
+    "cost": 1,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Alu\u00edsio Cervelle"
+    ]
+  },
+  {
+    "card_id": "golden-tipple-2",
+    "card_type": "regular",
+    "display_name": "Golden Tipple (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA160-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA160-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA160-TP.webp"
+    },
+    "name": "Golden Tipple",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/golden-tipple-2/SEA160-TP/",
+        "print_id": "SEA160-TP",
+        "set_number": 160
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.\n\n**Go again**",
+    "pitch": 2,
+    "power": 2,
+    "cost": 1,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Alu\u00edsio Cervelle"
+    ]
+  },
+  {
+    "card_id": "golden-tipple-3",
+    "card_type": "regular",
+    "display_name": "Golden Tipple (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA161-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA161-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA161-TP.webp"
+    },
+    "name": "Golden Tipple",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/golden-tipple-3/SEA161-TP/",
+        "print_id": "SEA161-TP",
+        "set_number": 161
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.\n\n**Go again**",
+    "pitch": 3,
+    "power": 1,
+    "cost": 1,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Alu\u00edsio Cervelle"
+    ]
+  },
+  {
+    "card_id": "gold-hunter-lightsail-2",
+    "card_type": "regular",
+    "display_name": "Gold Hunter Lightsail (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA162-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA162-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA162-TP.webp"
+    },
+    "name": "Gold Hunter Lightsail",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/gold-hunter-lightsail-2/SEA162-TP/",
+        "print_id": "SEA162-TP",
+        "set_number": 162
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, if you control less Gold than an opponent, this gets **go again**.",
+    "pitch": 2,
+    "power": 4,
+    "cost": 1,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Maerel Hibadita"
+    ]
+  },
+  {
+    "card_id": "gold-hunter-longboat-2",
+    "card_type": "regular",
+    "display_name": "Gold Hunter Longboat (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA163-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA163-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA163-TP.webp"
+    },
+    "name": "Gold Hunter Longboat",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/gold-hunter-longboat-2/SEA163-TP/",
+        "print_id": "SEA163-TP",
+        "set_number": 163
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "If you control less Gold than an opponent, this gets +2{p}.",
+    "pitch": 2,
+    "power": 3,
+    "cost": 0,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Esty Swandana"
+    ]
+  },
+  {
+    "card_id": "gold-hunter-marauder-2",
+    "card_type": "regular",
+    "display_name": "Gold Hunter Marauder (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA164-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA164-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA164-TP.webp"
+    },
+    "name": "Gold Hunter Marauder",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/gold-hunter-marauder-2/SEA164-TP/",
+        "print_id": "SEA164-TP",
+        "set_number": 164
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "If you control less Gold than an opponent, this gets **overpower**.",
+    "pitch": 2,
+    "power": 6,
+    "cost": 3,
+    "defense": 2,
+    "keywords": [
+      "Overpower"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Daniel Jim\u00e9nez"
+    ]
+  },
+  {
+    "card_id": "gold-hunter-ketch-2",
+    "card_type": "regular",
+    "display_name": "Gold Hunter Ketch (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA165-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA165-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA165-TP.webp"
+    },
+    "name": "Gold Hunter Ketch",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/gold-hunter-ketch-2/SEA165-TP/",
+        "print_id": "SEA165-TP",
+        "set_number": 165
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "If you control less Gold than an opponent, this costs {r}{r} less to play.",
+    "pitch": 2,
+    "power": 7,
+    "cost": 4,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Faizal Fikri"
+    ]
+  },
+  {
+    "card_id": "swiftwater-sloop-1",
+    "card_type": "regular",
+    "display_name": "Swiftwater Sloop (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA166-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA166-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA166-TP.webp"
+    },
+    "name": "Swiftwater Sloop",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/swiftwater-sloop-1/SEA166-TP/",
+        "print_id": "SEA166-TP",
+        "set_number": 166
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "High Tide - If there are 2 or more blue cards in your pitch zone, this gets **go again**.",
+    "pitch": 1,
+    "power": 6,
+    "cost": 2,
+    "defense": 2,
+    "keywords": [
+      "High Tide"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Arghawana Rim"
+    ]
+  },
+  {
+    "card_id": "swiftwater-sloop-2",
+    "card_type": "regular",
+    "display_name": "Swiftwater Sloop (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA167-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA167-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA167-TP.webp"
+    },
+    "name": "Swiftwater Sloop",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/swiftwater-sloop-2/SEA167-TP/",
+        "print_id": "SEA167-TP",
+        "set_number": 167
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "High Tide - If there are 2 or more blue cards in your pitch zone, this gets **go again**.",
+    "pitch": 2,
+    "power": 5,
+    "cost": 2,
+    "defense": 2,
+    "keywords": [
+      "High Tide"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Arghawana Rim"
+    ]
+  },
+  {
+    "card_id": "swiftwater-sloop-3",
+    "card_type": "regular",
+    "display_name": "Swiftwater Sloop (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA168-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA168-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA168-TP.webp"
+    },
+    "name": "Swiftwater Sloop",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/swiftwater-sloop-3/SEA168-TP/",
+        "print_id": "SEA168-TP",
+        "set_number": 168
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "High Tide - If there are 2 or more blue cards in your pitch zone, this gets **go again**.",
+    "pitch": 3,
+    "power": 4,
+    "cost": 2,
+    "defense": 2,
+    "keywords": [
+      "High Tide"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Arghawana Rim"
+    ]
+  },
+  {
+    "card_id": "swindlers-grift-1",
+    "card_type": "regular",
+    "display_name": "Swindler's Grift (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA169-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA169-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA169-TP.webp"
+    },
+    "name": "Swindler's Grift",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/swindlers-grift-1/SEA169-TP/",
+        "print_id": "SEA169-TP",
+        "set_number": 169
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.",
+    "pitch": 1,
+    "power": 6,
+    "cost": 2,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Max Kostin"
+    ]
+  },
+  {
+    "card_id": "swindlers-grift-2",
+    "card_type": "regular",
+    "display_name": "Swindler's Grift (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA170-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA170-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA170-TP.webp"
+    },
+    "name": "Swindler's Grift",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/swindlers-grift-2/SEA170-TP/",
+        "print_id": "SEA170-TP",
+        "set_number": 170
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.",
+    "pitch": 2,
+    "power": 5,
+    "cost": 2,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Max Kostin"
+    ]
+  },
+  {
+    "card_id": "swindlers-grift-3",
+    "card_type": "regular",
+    "display_name": "Swindler's Grift (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA171-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA171-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA171-TP.webp"
+    },
+    "name": "Swindler's Grift",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/swindlers-grift-3/SEA171-TP/",
+        "print_id": "SEA171-TP",
+        "set_number": 171
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.",
+    "pitch": 3,
+    "power": 4,
+    "cost": 2,
+    "defense": 2,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Max Kostin"
+    ]
+  },
+  {
+    "card_id": "thievn-varmints-1",
+    "card_type": "regular",
+    "display_name": "Thiev'n Varmints (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA172-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA172-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA172-TP.webp"
+    },
+    "name": "Thiev'n Varmints",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/thievn-varmints-1/SEA172-TP/",
+        "print_id": "SEA172-TP",
+        "set_number": 172
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action - Attack",
+    "functionalText": "When this attacks, you may remove a gold counter from Treasure Island. If you do and you are a Thief, create a Gold token.",
+    "pitch": 1,
+    "power": 4,
+    "cost": 0,
+    "defense": 3,
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Andrew Chou"
+    ]
+  },
+  {
+    "card_id": "chart-a-course-1",
+    "card_type": "regular",
+    "display_name": "Chart a Course (red)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA173-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA173-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA173-TP.webp"
+    },
+    "name": "Chart a Course",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/chart-a-course-1/SEA173-TP/",
+        "print_id": "SEA173-TP",
+        "set_number": 173
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "Your first attack this turn gets +3{p}.\n\nYou may put a gold counter on Treasure Island.\n\n**Go again**",
+    "pitch": 1,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Joseph Qiu"
+    ]
+  },
+  {
+    "card_id": "chart-a-course-2",
+    "card_type": "regular",
+    "display_name": "Chart a Course (yel)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA174-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA174-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA174-TP.webp"
+    },
+    "name": "Chart a Course",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/chart-a-course-2/SEA174-TP/",
+        "print_id": "SEA174-TP",
+        "set_number": 174
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "Your second attack this turn gets +3{p}.\n\nYou may put a gold counter on Treasure Island.\n\n**Go again**",
+    "pitch": 2,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Joseph Qiu"
+    ]
+  },
+  {
+    "card_id": "chart-a-course-3",
+    "card_type": "regular",
+    "display_name": "Chart a Course (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA175-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA175-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA175-TP.webp"
+    },
+    "name": "Chart a Course",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/chart-a-course-3/SEA175-TP/",
+        "print_id": "SEA175-TP",
+        "set_number": 175
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "Your third attack this turn gets +3{p}.\n\nYou may put a gold counter on Treasure Island.\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Joseph Qiu"
+    ]
+  },
+  {
+    "card_id": "mutiny-on-the-battalion-barque-3",
+    "card_type": "regular",
+    "display_name": "Mutiny on the Battalion Barque (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA176-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA176-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA176-TP.webp"
+    },
+    "name": "Mutiny on the Battalion Barque",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/mutiny-on-the-battalion-barque-3/SEA176-TP/",
+        "print_id": "SEA176-TP",
+        "set_number": 176
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "For each hero that controls more Gold than you, **steal** a Gold token they control.\n\nIf you gain control of 1 or more Gold tokens this way, your next attack this turn gets +2{p}.\n\nGo again",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again",
+      "Steal"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Max Kostin"
+    ]
+  },
+  {
+    "card_id": "mutiny-on-the-nimbus-sovereign-3",
+    "card_type": "regular",
+    "display_name": "Mutiny on the Nimbus Sovereign (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA177-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA177-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA177-TP.webp"
+    },
+    "name": "Mutiny on the Nimbus Sovereign",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/mutiny-on-the-nimbus-sovereign-3/SEA177-TP/",
+        "print_id": "SEA177-TP",
+        "set_number": 177
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "For each hero that controls more Gold than you, **steal** a Gold token they control.\n\nIf you gain control of 1 or more Gold tokens this way, your next attack this turn gets **overpower**.\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again",
+      "Overpower",
+      "Steal"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Brian Madya Narendra"
+    ]
+  },
+  {
+    "card_id": "mutiny-on-the-swiftwater-3",
+    "card_type": "regular",
+    "display_name": "Mutiny on the Swiftwater (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA178-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA178-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA178-TP.webp"
+    },
+    "name": "Mutiny on the Swiftwater",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/mutiny-on-the-swiftwater-3/SEA178-TP/",
+        "print_id": "SEA178-TP",
+        "set_number": 178
+      }
+    ],
+    "classes": [
+      "Pirate"
+    ],
+    "legalHeroes": [
+      "Gravy Bones",
+      "Marlynn",
+      "Puffin",
+      "Scurv"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Pirate Action",
+    "functionalText": "For each hero that controls more Gold than you, **steal** a Gold token they control.\n\nIf you gain control of 1 or more Gold tokens this way, your next attack this turn gets **go again**.\n\n**Go again**",
+    "pitch": 3,
+    "cost": 0,
+    "defense": 2,
+    "keywords": [
+      "Go again",
+      "Steal"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Brian Madya Narendra"
+    ]
+  },
+  {
+    "card_id": "bandana-of-the-blue-beyond",
+    "card_type": "regular",
+    "display_name": "Bandana of the Blue Beyond",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA179-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA179-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA179-TP.webp"
+    },
+    "name": "Bandana of the Blue Beyond",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/bandana-of-the-blue-beyond/SEA179-TP/",
+        "print_id": "SEA179-TP",
+        "set_number": 179
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Head"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Generic Equipment - Head",
+    "functionalText": "**Action** - Discard a card, destroy this: Put a blue card from your graveyard on the bottom of your deck. **Go again**",
+    "defense": 0,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Asur Misoa"
+    ]
+  },
+  {
+    "card_id": "helmsmans-peak",
+    "card_type": "regular",
+    "display_name": "Helmsman's Peak",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA180-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA180-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA180-TP.webp"
+    },
+    "name": "Helmsman's Peak",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/helmsmans-peak/SEA180-TP/",
+        "print_id": "SEA180-TP",
+        "set_number": 180
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Head"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Generic Equipment - Head",
+    "functionalText": "When this defends, look at the top card of your deck.\n\n**Blade Break**",
+    "defense": 1,
+    "keywords": [
+      "Blade Break"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Satriasa"
+    ]
+  },
+  {
+    "card_id": "captains-coat",
+    "card_type": "regular",
+    "display_name": "Captain's Coat",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA181-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA181-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA181-TP.webp"
+    },
+    "name": "Captain's Coat",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/captains-coat/SEA181-TP/",
+        "print_id": "SEA181-TP",
+        "set_number": 181
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Chest"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Generic Equipment - Chest",
+    "functionalText": "**Action** - Destroy this: Gain {r}. Activate this only if you've drawn a card this turn. **Go again**",
+    "defense": 0,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Vito Febrianno"
+    ]
+  },
+  {
+    "card_id": "old-knocker",
+    "card_type": "regular",
+    "display_name": "Old Knocker",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA182-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA182-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA182-TP.webp"
+    },
+    "name": "Old Knocker",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/old-knocker/SEA182-TP/",
+        "print_id": "SEA182-TP",
+        "set_number": 182
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Chest"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Generic Equipment - Chest",
+    "functionalText": "**Instant** - {t} your hero, destroy this: Gain {r}\n\nBlade Break",
+    "defense": 1,
+    "keywords": [
+      "Blade Break"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Pavel Rtishchev (Klaher)"
+    ]
+  },
+  {
+    "card_id": "swiftstrike-bracers",
+    "card_type": "regular",
+    "display_name": "Swiftstrike Bracers",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA183-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA183-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA183-TP.webp"
+    },
+    "name": "Swiftstrike Bracers",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/swiftstrike-bracers/SEA183-TP/",
+        "print_id": "SEA183-TP",
+        "set_number": 183
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arms"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Generic Equipment - Arms",
+    "functionalText": "**Action** - Destroy this: Your next attack this turn gets +2{p}. Activate this only if you've played a Nimblism this turn. **Go again**",
+    "defense": 0,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Orson CaptainSass"
+    ]
+  },
+  {
+    "card_id": "light-fingers",
+    "card_type": "regular",
+    "display_name": "Light Fingers",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA184-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA184-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA184-TP.webp"
+    },
+    "name": "Light Fingers",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/light-fingers/SEA184-TP/",
+        "print_id": "SEA184-TP",
+        "set_number": 184
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Arms"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Generic Equipment - Arms",
+    "functionalText": "When this defends, if you are a Thief, **steal** a Gold token the attacking hero controls.\n\n**Blade Break**",
+    "defense": 1,
+    "keywords": [
+      "Blade Break"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Wisnu Tan"
+    ]
+  },
+  {
+    "card_id": "quartermasters-boots",
+    "card_type": "regular",
+    "display_name": "Quartermaster's Boots",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA185-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA185-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA185-TP.webp"
+    },
+    "name": "Quartermaster's Boots",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/quartermasters-boots/SEA185-TP/",
+        "print_id": "SEA185-TP",
+        "set_number": 185
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Legs"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Generic Equipment - Legs",
+    "functionalText": "**Action** - {r}{r}, destroy this: The next non-attack action card you play this turn gets **go again**. **Go again**\n\n**Blade Break**",
+    "defense": 1,
+    "keywords": [
+      "Blade Break",
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Brian Adriel"
+    ]
+  },
+  {
+    "card_id": "quick-clicks",
+    "card_type": "regular",
+    "display_name": "Quick Clicks",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA186-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA186-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA186-TP.webp"
+    },
+    "name": "Quick Clicks",
+    "object_type": "arena-card",
+    "prints": [
+      {
+        "detail_url": "/card/quick-clicks/SEA186-TP/",
+        "print_id": "SEA186-TP",
+        "set_number": 186
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Legs"
+    ],
+    "types": [
+      "Equipment"
+    ],
+    "typeText": "Generic Equipment - Legs",
+    "functionalText": "**Action** - Destroy this: Your next attack this turn gets **go again**. Activate this only if you've played a Nimblism this turn. **Go again**",
+    "defense": 0,
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Common"
+    ],
+    "rarity": "Common",
+    "artists": [
+      "Raphael Pinna"
+    ]
+  },
+  {
+    "card_id": "amethyst-amulet-3",
+    "card_type": "regular",
+    "display_name": "Amethyst Amulet (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA189-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA189-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA189-TP.webp"
+    },
+    "name": "Amethyst Amulet",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/amethyst-amulet-3/SEA189-TP/",
+        "print_id": "SEA189-TP",
+        "set_number": 189
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Item",
+    "functionalText": "**Instant** - Destroy this: Your next attack this turn gets +2{p}.\n\n**Legend of the Watery Grave**",
+    "pitch": 3,
+    "cost": 0,
+    "keywords": [
+      "Legendary",
+      "Watery Grave"
+    ],
+    "rarities": [
+      "Majestic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "diamond-amulet-3",
+    "card_type": "regular",
+    "display_name": "Diamond Amulet (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA190-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA190-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA190-TP.webp"
+    },
+    "name": "Diamond Amulet",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/diamond-amulet-3/SEA190-TP/",
+        "print_id": "SEA190-TP",
+        "set_number": 190
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Item",
+    "functionalText": "**Instant** - Destroy this: gain 1 action point.\n\n**Legend of the Watery Grave**",
+    "pitch": 3,
+    "cost": 0,
+    "keywords": [
+      "Legendary",
+      "Watery Grave"
+    ],
+    "rarities": [
+      "Majestic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "onyx-amulet-3",
+    "card_type": "regular",
+    "display_name": "Onyx Amulet (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA191-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA191-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA191-TP.webp"
+    },
+    "name": "Onyx Amulet",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/onyx-amulet-3/SEA191-TP/",
+        "print_id": "SEA191-TP",
+        "set_number": 191
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Item",
+    "functionalText": "**Action** - Destroy this: {t} all heroes and allies. **Go again**\n\n**Legend of the Watery Grave**",
+    "pitch": 3,
+    "cost": 0,
+    "keywords": [
+      "Go again",
+      "Legendary",
+      "Watery Grave"
+    ],
+    "rarities": [
+      "Majestic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "opal-amulet-3",
+    "card_type": "regular",
+    "display_name": "Opal Amulet (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA192-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA192-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA192-TP.webp"
+    },
+    "name": "Opal Amulet",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/opal-amulet-3/SEA192-TP/",
+        "print_id": "SEA192-TP",
+        "set_number": 192
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Item",
+    "functionalText": "**Instant** - Destroy this: **Opt 2**\n\n**Legend of the Watery Grave**",
+    "pitch": 3,
+    "cost": 0,
+    "keywords": [
+      "Legendary",
+      "Opt",
+      "Watery Grave"
+    ],
+    "rarities": [
+      "Majestic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "pearl-amulet-3",
+    "card_type": "regular",
+    "display_name": "Pearl Amulet (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA193-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA193-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA193-TP.webp"
+    },
+    "name": "Pearl Amulet",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/pearl-amulet-3/SEA193-TP/",
+        "print_id": "SEA193-TP",
+        "set_number": 193
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Item",
+    "functionalText": "**Action** - Destroy this: {u} target permanent. **Go again**\n\n**Legend of the Watery Grave**",
+    "pitch": 3,
+    "cost": 0,
+    "keywords": [
+      "Go again",
+      "Legendary",
+      "Watery Grave"
+    ],
+    "rarities": [
+      "Majestic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "platinum-amulet-3",
+    "card_type": "regular",
+    "display_name": "Platinum Amulet (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA194-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA194-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA194-TP.webp"
+    },
+    "name": "Platinum Amulet",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/platinum-amulet-3/SEA194-TP/",
+        "print_id": "SEA194-TP",
+        "set_number": 194
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Item",
+    "functionalText": "**Instant** - Destroy this: Target defending card gets +1{d} until end of turn.\n\n**Legend of the Watery Grave**",
+    "pitch": 3,
+    "cost": 0,
+    "keywords": [
+      "Legendary",
+      "Watery Grave"
+    ],
+    "rarities": [
+      "Majestic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "pounamu-amulet-3",
+    "card_type": "regular",
+    "display_name": "Pounamu Amulet (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA195-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA195-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA195-TP.webp"
+    },
+    "name": "Pounamu Amulet",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/pounamu-amulet-3/SEA195-TP/",
+        "print_id": "SEA195-TP",
+        "set_number": 195
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Item",
+    "functionalText": "**Action** - Destroy this: Gain 2{h}. **Go again**\n\n**Legend of the Watery Grave**",
+    "pitch": 3,
+    "cost": 0,
+    "keywords": [
+      "Go again",
+      "Legendary",
+      "Watery Grave"
+    ],
+    "rarities": [
+      "Majestic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "ruby-amulet-3",
+    "card_type": "regular",
+    "display_name": "Ruby Amulet (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA196-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA196-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA196-TP.webp"
+    },
+    "name": "Ruby Amulet",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/ruby-amulet-3/SEA196-TP/",
+        "print_id": "SEA196-TP",
+        "set_number": 196
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Item",
+    "functionalText": "**Instant** - Destroy this: Gain {r}{r}\n\n**Legend of the Watery Grave**",
+    "pitch": 3,
+    "cost": 0,
+    "keywords": [
+      "Legendary",
+      "Watery Grave"
+    ],
+    "rarities": [
+      "Majestic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "sapphire-amulet-3",
+    "card_type": "regular",
+    "display_name": "Sapphire Amulet (blu)",
+    "finishes": [
+      "cold-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA197-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA197-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA197-TP.webp"
+    },
+    "name": "Sapphire Amulet",
+    "object_type": "deck-card",
+    "prints": [
+      {
+        "detail_url": "/card/sapphire-amulet-3/SEA197-TP/",
+        "print_id": "SEA197-TP",
+        "set_number": 197
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Draft",
+      "Open",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item",
+      "Non-Attack"
+    ],
+    "types": [
+      "Action"
+    ],
+    "typeText": "Generic Action - Item",
+    "functionalText": "**Action** - Destroy this: You get +1{i} this turn.\n\n**Legend of the Watery Grave**",
+    "pitch": 3,
+    "cost": 0,
+    "keywords": [
+      "Legendary",
+      "Watery Grave"
+    ],
+    "rarities": [
+      "Majestic",
+      "Marvel"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  },
+  {
+    "card_id": "gold",
+    "card_type": "regular",
+    "display_name": "Gold",
+    "finishes": [
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA244-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA244-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA244-TP.webp"
+    },
+    "name": "Gold",
+    "object_type": "token",
+    "prints": [
+      {
+        "detail_url": "/card/gold/SEA244-TP/",
+        "print_id": "SEA244-TP",
+        "set_number": 244
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item"
+    ],
+    "types": [
+      "Token"
+    ],
+    "typeText": "Generic Token - Item",
+    "functionalText": "**Action** - {r}{r}, destroy this: Draw a card. **Go again**",
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Basic",
+      "Common",
+      "Marvel",
+      "Promo",
+      "Token"
+    ],
+    "rarity": "Marvel",
+    "artists": [
+      "Stormy Elia Fanggidae"
+    ]
+  },
+  {
+    "card_id": "goldkiss-rum",
+    "card_type": "regular",
+    "display_name": "Goldkiss Rum",
+    "finishes": [
+      "rainbow-foil"
+    ],
+    "image": {
+      "large": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA245-TP.webp",
+      "normal": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/normal/SEA245-TP.webp",
+      "small": "https://d2wlb52bya4y8z.cloudfront.net/media/cards/small/SEA245-TP.webp"
+    },
+    "name": "Goldkiss Rum",
+    "object_type": "token",
+    "prints": [
+      {
+        "detail_url": "/card/goldkiss-rum/SEA245-TP/",
+        "print_id": "SEA245-TP",
+        "set_number": 245
+      }
+    ],
+    "classes": [
+      "Generic"
+    ],
+    "legalHeroes": [
+      "Arakni",
+      "Aurora",
+      "Azalea",
+      "Benji",
+      "Betsy",
+      "Blaze",
+      "Bolfar",
+      "Boltyn",
+      "Bravo",
+      "Brevant",
+      "Briar",
+      "Brutus",
+      "Chane",
+      "Cindra",
+      "Crackni",
+      "Crix",
+      "Dash",
+      "Data Doll",
+      "Dorinthea",
+      "Dromai",
+      "Emperor",
+      "Enigma",
+      "Fai",
+      "Fang",
+      "Florian",
+      "Genis",
+      "Gravy Bones",
+      "Ira",
+      "Iyslander",
+      "Jarl",
+      "Kano",
+      "Kassai",
+      "Katsu",
+      "Kavdaen",
+      "Kayo",
+      "Kox",
+      "Levia",
+      "Lexi",
+      "Lyath",
+      "Marlynn",
+      "Maxx",
+      "Melody",
+      "Nuu",
+      "Oldhim",
+      "Olympia",
+      "Oscilio",
+      "Pleiades",
+      "Prism",
+      "Puffin",
+      "RKO",
+      "Reya",
+      "Rhinar",
+      "Riptide",
+      "Ruu'di",
+      "Scurv",
+      "Shiyana",
+      "Slippy",
+      "Squizzy",
+      "Starvo",
+      "Taipanis",
+      "Taylor",
+      "Teklovossen",
+      "Terra",
+      "Theryon",
+      "Tuffnut",
+      "Uzuri",
+      "Valda",
+      "Verdance",
+      "Victor",
+      "Viserai",
+      "Vynnset",
+      "Yoji",
+      "Yorick",
+      "Zen"
+    ],
+    "legalFormats": [
+      "Blitz",
+      "Blitz (Living Legend)",
+      "Clash",
+      "Classic Constructed",
+      "Classic Constructed (Living Legend)",
+      "Commoner",
+      "Draft",
+      "Open",
+      "Project Blue",
+      "Sealed",
+      "Ultimate Pit Fight"
+    ],
+    "subtypes": [
+      "Item"
+    ],
+    "types": [
+      "Token"
+    ],
+    "typeText": "Generic Token - Item",
+    "functionalText": "**Instant** - {t} your hero, destroy this: Your next action this turn gets **go again**. Your hero can't {u} this turn unless they're a Pirate.",
+    "keywords": [
+      "Go again"
+    ],
+    "rarities": [
+      "Basic"
+    ],
+    "rarity": "Basic",
+    "artists": [
+      "Mario Wibisono"
+    ]
+  }
+]
