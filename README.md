@@ -1,4 +1,4 @@
-# GodotFleshAndBloodPackSimulator
+# Flesh and Blood Progression Series Tool - (Pack Simulator)
 
 An application to help with running a Flesh and Blood Progression Series!
 
