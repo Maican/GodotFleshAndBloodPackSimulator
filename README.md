@@ -51,9 +51,16 @@ The losers of the week typically get some sort of bonus as well, we will do one 
 Bans
 
 
-Players who lose in a week will be able to ban one card from the cardpool for the remainder of the series. We will not differentiate cards based on colour for the purposes of banning. So if Pummel gets banned, you cannot play Pummel (red), Pummel (blue) or Pummel (yellow) for the remainder of the series. We will not allow banning heroes at this time as a test, instead they will follow a format like LSS uses for LL’ing them (but with a more basic system).
+Players who lose in a week will be able to ban one card from the cardpool for the remainder of the series. We will not differentiate cards based on colour for the purposes of banning. So if Pummel gets banned, you cannot play Pummel (red), Pummel (blue) or Pummel (yellow) for the remainder of the series. 
+
+We will not allow banning heroes at this time as a test, instead they will follow a format like LSS uses for LL’ing them (but with a more basic system).
+
+
 LL’ing Heroes
+
+
 There will have to be different systems in place for the different formats the tournaments or leagues can take. 
+
 
 Heroes will be banned for the remainder of the series when they accrue 10 points, they will accrue points as follows, for each player playing them that week:
 3 wins and 0 losses : 5 points
