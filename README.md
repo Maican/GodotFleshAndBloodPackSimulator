@@ -22,17 +22,17 @@ This series is meant to be for fun, and there are a variety of rules and weekly 
 
 The series will be played in an Open Blitz format with the following rules:
 
-1 young hero card
+- 1 young hero card
 
-52 card-pool (includes weapons, equipment, etc., and cards in the deck)
+- 52 card-pool (includes weapons, equipment, etc., and cards in the deck)
 
-Start with exactly 40 cards in the deck
+- Start with exactly 40 cards in the deck
 
-Up to 3 copies of each unique card
+- Up to 3 copies of each unique card
 
-35 minutes per round, best of 1
+- 35 minutes per round, best of 1
 
-Players will build their decks by cracking one box (usually 24 packs) of the current set, adding it to their total cardpool for the series and then building their deck from that pool of available cards.
+- Players will build their decks by cracking one box (usually 24 packs) of the current set, adding it to their total cardpool for the series and then building their deck from that pool of available cards.
 
 We are allowing 3 copies of each unique card since the power-level should be lower and it may be hard to build a 40-card deck with only 2 copies of each card available. Especially for weeks where you may want to limit the cardpool to only that set.
 
@@ -64,10 +64,10 @@ There will have to be different systems in place for the different formats the t
 
 
 Heroes will be banned for the remainder of the series when they accrue 10 points, they will accrue points as follows, for each player playing them that week:
-3 wins and 0 losses : 5 points
-2 wins and 1 loss : 3 points
-1 win and 2 losses - 1 point
-0 wins - 0 points
+- 3 wins and 0 losses : 5 points
+- 2 wins and 1 loss : 3 points
+- 1 win and 2 losses - 1 point
+- 0 wins - 0 points
 
 
 **Tokens**
@@ -82,11 +82,19 @@ To facilitate this, there is a toggle switch on pack open to include 3 of every 
 
 
 This is a way to spice up the current format, you can do a wheel week whenever you want to (but they’re good for supplemental or reprint sets). In a wheel set you will spin a randomized wheel and apply the ruleset it lands on for that set’s deckbuild and games.
+
 Example wheel ideas:
-Classic Constructed (Old Heroes, 60 card decks)
-Project Blue ( Rares and Commons only )
-No Card Limits ( Can run as many of a card as you pulled )
-Master Chef (Randomly pick a set of 10-20 cards from across FaBs total card pool, players must use some/all of them)
-Singleton (1 copy of each card only in the decks)
-Better not fatigue (20 card decks)
+
+- Classic Constructed (Old Heroes, 60 card decks)
+
+- Project Blue ( Rares and Commons only )
+
+- No Card Limits ( Can run as many of a card as you pulled )
+
+- Master Chef (Randomly pick a set of 10-20 cards from across FaBs total card pool, players must use some/all of them)
+
+- Singleton (1 copy of each card only in the decks)
+
+- Better not fatigue (20 card decks)
+
 
