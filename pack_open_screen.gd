@@ -20,12 +20,11 @@ const CARD_FLIP_SCENE = preload("res://Resources/card_flip_scene.tscn")
 @onready var common_labels: VBoxContainer = $ScrollContainer2/CardsOpenedContainer/Common
 @onready var token_labels: VBoxContainer = $ScrollContainer2/CardsOpenedContainer/Token
 
-
 @onready var add_binder_button: Button = $HBoxContainer/AddBinderButton
 @onready var binder_list: OptionButton = $HBoxContainer/BinderList
 @onready var save_cards_button: Button = $HBoxContainer/SaveCardsButton
 @onready var save_as_cards_button: Button = $HBoxContainer/SaveAsCardsButton
-
+@onready var include_tokens: CheckButton = $IncludeTokens
 
 @onready var hover_panel: CardHoverPanel = $HoverPanel
 
@@ -76,6 +75,8 @@ func autoflip_toggled(toggled : bool) -> void:
 		flip_all_cards()
 
 func open_remaining_packs() -> void:
+	open_remaining_button.disabled = true
+	next_pack_button.disabled = true
 	for i in range(0, PackOpenHelper.packs_to_open):
 		await flip_all_cards(0.02)
 		await next_pack()
@@ -358,6 +359,9 @@ func save_cards() -> void:
 			binder.cards[card_key][0] += PackOpenHelper.opened_cards[card_key][0]
 		else:
 			binder.cards[card_key] = PackOpenHelper.opened_cards[card_key]
+	if include_tokens.button_pressed:
+		for card_resource : CardResource in PackOpenHelper.opening_pack_resource.token_cards:
+			binder.cards[card_resource.id] = [3, card_resource]
 	ResourceSaver.save(binder, binder.resource_path)
 	cards_saved = true
 	var dialog = AcceptDialog.new()

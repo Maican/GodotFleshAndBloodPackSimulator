@@ -9,13 +9,13 @@ class_name DeckEditor
 @onready var binder_cards : BinderCards = $BinderCards
 @onready var binder_list: OptionButton = $BinderList
 @onready var hover_panel: CardHoverPanel = $HoverPanel
+@onready var banlist_list: OptionButton = $BanlistList
+
 
 @onready var hero_arena_label: Label = $ScrollContainer/VBoxContainer/HeroArenaLabel
 @onready var deck_label: Label = $ScrollContainer/VBoxContainer/DeckLabel
 @onready var inventory_label: Label = $ScrollContainer/VBoxContainer/InventoryLabel
 
-
-@onready var load_deck_button: Button = $HBoxContainer/LoadDeckButton
 @onready var deck_type_options: OptionButton = $HBoxContainer/DeckTypeOptions
 @onready var add_deck_button: Button = $HBoxContainer/AddDeckButton
 @onready var deck_list_options: OptionButton = $HBoxContainer/DeckListOptions
@@ -31,35 +31,37 @@ var maybe_cards : Dictionary[String, Array] = {}
 var main_cards : Dictionary[String, Array] = {}
 
 var current_deck : DeckResource
+var current_banlist : BanlistResource
 
 func _ready() -> void:
 	fill_binder_list()
 	fill_deck_list()
+	fill_banlist_list()
 	binder_list.item_selected.connect(binder_cards.binder_selected.bind(binder_list))
-
+	banlist_list.item_selected.connect(set_banlist)
+	banlist_list.item_selected.connect(binder_cards.set_banlist.bind(banlist_list))
 	add_deck_button.pressed.connect(add_new_deck)
 	save_deck_button.pressed.connect(save_cards_to_deck)
 	save_deck_as_button.pressed.connect(add_new_deck.bind(true))
-	load_deck_button.pressed.connect(load_cards_from_deck)
 	export_deck_button.pressed.connect(export_deck)
 	binder_cards.add_card_to_main.connect(add_card_to_main)
 	binder_cards.add_card_to_inventory.connect(add_card_to_inventory)
 	binder_cards.add_card_to_maybe.connect(add_card_to_maybe)
 	binder_cards.show_hover_panel.connect(show_hover_panel)
 	binder_cards.hide_hover_panel.connect(hide_hover_panel)
-	load_deck_button.disabled = true
 	save_deck_button.disabled = true
 	export_deck_button.disabled = true
 	deck_list_options.item_selected.connect(func(selected_idx):
 		if selected_idx != 0:
-			load_deck_button.disabled = false
+			load_cards_from_deck()
 			save_deck_button.disabled = false
 			export_deck_button.disabled = false
 		else:
-			load_deck_button.disabled = true
 			save_deck_button.disabled = true
 			export_deck_button.disabled = true
 	)
+	binder_list.selected = 1
+	binder_list.item_selected.emit(1)
 
 func fill_binder_list() -> void:
 	binder_list.clear()
@@ -68,6 +70,15 @@ func fill_binder_list() -> void:
 		var new_binder : BinderResource = BinderHelper.binders[new_binder_name]
 		if new_binder != null and new_binder.resource_name != "":
 			binder_list.add_item(new_binder.resource_name)
+
+func fill_banlist_list() -> void:
+	banlist_list.clear()
+	banlist_list.add_item("")
+	for banlist_index : int in BanlistHelper.banlists.size():
+		var banlist_name : String = BanlistHelper.banlists.keys()[banlist_index]
+		var banlist_resource : BanlistResource = BanlistHelper.banlists[banlist_name]
+		if banlist_resource != null and banlist_name != "":
+			banlist_list.add_item(banlist_name, banlist_index + 1)
 
 func show_hover_panel(card_resource : CardResource) -> void:
 	hover_panel.show()
@@ -85,20 +96,20 @@ func add_card_to_main(quantity_and_card_array: Array):
 	var is_hero = CardHelper.Type.Hero in card_resource.types
 	var is_equipment = CardHelper.Type.Equipment in card_resource.types
 	var is_weapon = CardHelper.Type.Weapon in card_resource.types or CardHelper.SubType.Off_Hand in card_resource.subtypes
-	var card_name = card_resource.name
+	var card_id = card_resource.id
 	if !is_hero and !is_equipment and !is_weapon:
-		if main_cards.has(card_name):
-			if main_cards[card_name][0] + quantity > 3:
+		if main_cards.has(card_id):
+			if main_cards[card_id][0] + quantity > 3:
 				print("Cannot add that many of this card.")
 				return
-			main_cards[card_name][0] += quantity
-			var card_scene : DeckCard = main_deck_grid_container.get_node(card_name)
+			main_cards[card_id][0] += quantity
+			var card_scene : DeckCard = main_deck_grid_container.get_node(card_id)
 			if card_scene:
-				card_scene.set_card_quantity(main_cards[card_name][0])
+				card_scene.set_card_quantity(main_cards[card_id][0])
 		else:
-			main_cards[card_name] = [quantity, card_resource]
+			main_cards[card_id] = [quantity, card_resource]
 			var deck_card_scene : DeckCard = DECK_CARD.instantiate()
-			deck_card_scene.name = card_name
+			deck_card_scene.name = card_id
 			deck_card_scene.card_location = DeckHelper.CardLocation.MAIN
 			deck_card_scene.card_resource = card_resource
 			deck_card_scene.card_hovered.connect(show_hover_panel)
@@ -108,15 +119,18 @@ func add_card_to_main(quantity_and_card_array: Array):
 			deck_card_scene.card_move_to_maybe.connect(move_card_to_maybe)
 			deck_card_scene.card_move_to_main.connect(move_card_to_main)
 			main_deck_grid_container.add_child(deck_card_scene)
+			if current_banlist:
+				if card_id in current_banlist.cards.keys():
+					deck_card_scene.ban_card()
 			deck_card_scene.set_card_quantity(quantity)
 	# Check for hero or equipment
 	else:
 		var can_equip : bool = can_equip_hero_or_equip(is_hero, is_equipment,is_weapon, card_resource)
 		if can_equip:
-			if hero_and_equipment_cards.has(card_resource.name):
-				hero_and_equipment_cards[card_resource.name][0] += quantity
+			if hero_and_equipment_cards.has(card_resource.id):
+				hero_and_equipment_cards[card_resource.id][0] += quantity
 			else:
-				hero_and_equipment_cards[card_resource.name] = [quantity, card_resource]
+				hero_and_equipment_cards[card_resource.id] = [quantity, card_resource]
 			var deck_card_scene : DeckCard = DECK_CARD.instantiate()
 			deck_card_scene.card_location = DeckHelper.CardLocation.HERO_EQUIP
 			deck_card_scene.card_resource = card_resource
@@ -127,6 +141,9 @@ func add_card_to_main(quantity_and_card_array: Array):
 			deck_card_scene.card_move_to_maybe.connect(move_card_to_maybe)
 			deck_card_scene.card_move_to_main.connect(move_card_to_main)
 			hero_arena_container.add_child(deck_card_scene)
+			if current_banlist:
+				if card_id in current_banlist.cards.keys():
+					deck_card_scene.ban_card()
 	populate_card_totals()
 
 func add_card_to_inventory(quantity_and_card_array: Array):
@@ -139,19 +156,19 @@ func add_card_to_inventory(quantity_and_card_array: Array):
 	if is_hero:
 		return
 		
-	var card_name = card_resource.name
-	if inventory_cards.has(card_name):
-		if inventory_cards[card_name][0] + quantity > 3:
+	var card_id = card_resource.id
+	if inventory_cards.has(card_id):
+		if inventory_cards[card_id][0] + quantity > 3:
 			print("Cannot add that many of this card.")
 			return
-		inventory_cards[card_name][0] += quantity
-		var card_scene : DeckCard = inventory_grid_container.get_node(card_name)
+		inventory_cards[card_id][0] += quantity
+		var card_scene : DeckCard = inventory_grid_container.get_node(card_id)
 		if card_scene:
-			card_scene.set_card_quantity(inventory_cards[card_name][0])
+			card_scene.set_card_quantity(inventory_cards[card_id][0])
 	else:
-		inventory_cards[card_name] = [quantity, card_resource]
+		inventory_cards[card_id] = [quantity, card_resource]
 		var deck_card_scene : DeckCard = DECK_CARD.instantiate()
-		deck_card_scene.name = card_name
+		deck_card_scene.name = card_id
 		deck_card_scene.card_location = DeckHelper.CardLocation.INVENTORY
 		deck_card_scene.card_resource = card_resource
 		deck_card_scene.card_hovered.connect(show_hover_panel)
@@ -162,6 +179,9 @@ func add_card_to_inventory(quantity_and_card_array: Array):
 		deck_card_scene.card_move_to_main.connect(move_card_to_main)
 		inventory_grid_container.add_child(deck_card_scene)
 		deck_card_scene.set_card_quantity(quantity)
+		if current_banlist:
+			if card_id in current_banlist.cards.keys():
+				deck_card_scene.ban_card()
 	populate_card_totals()
 
 func add_card_to_maybe(quantity_and_card_array: Array):
@@ -174,19 +194,19 @@ func add_card_to_maybe(quantity_and_card_array: Array):
 	if is_hero:
 		return
 		
-	var card_name = card_resource.name
-	if maybe_cards.has(card_name):
-		if maybe_cards[card_name][0] + quantity > 3:
+	var card_id = card_resource.id
+	if maybe_cards.has(card_id):
+		if maybe_cards[card_id][0] + quantity > 3:
 			print("Cannot add that many of this card.")
 			return
-		maybe_cards[card_name][0] += quantity
-		var card_scene : DeckCard = maybe_grid_container.get_node(card_name)
+		maybe_cards[card_id][0] += quantity
+		var card_scene : DeckCard = maybe_grid_container.get_node(card_id)
 		if card_scene:
-			card_scene.set_card_quantity(maybe_cards[card_name][0])
+			card_scene.set_card_quantity(maybe_cards[card_id][0])
 	else:
-		maybe_cards[card_name] = [quantity, card_resource]
+		maybe_cards[card_id] = [quantity, card_resource]
 		var deck_card_scene : DeckCard = DECK_CARD.instantiate()
-		deck_card_scene.name = card_name
+		deck_card_scene.name = card_id
 		deck_card_scene.card_location = DeckHelper.CardLocation.MAYBE
 		deck_card_scene.card_resource = card_resource
 		deck_card_scene.card_hovered.connect(show_hover_panel)
@@ -197,6 +217,9 @@ func add_card_to_maybe(quantity_and_card_array: Array):
 		deck_card_scene.card_move_to_main.connect(move_card_to_main)
 		maybe_grid_container.add_child(deck_card_scene)
 		deck_card_scene.set_card_quantity(quantity)
+		if current_banlist:
+			if card_id in current_banlist.cards.keys():
+				deck_card_scene.ban_card()
 	populate_card_totals()
 
 func fill_deck_list() -> void:
@@ -268,18 +291,18 @@ func save_cards_to_deck() -> void:
 		print("Deck resource not found: " + deck_path)
 		return
 	deck.clear_deck()
-	for card_name : String in hero_and_equipment_cards:
-		var card_resource : CardResource = hero_and_equipment_cards[card_name][1]
+	for card_id : String in hero_and_equipment_cards:
+		var card_resource : CardResource = hero_and_equipment_cards[card_id][1]
 		if card_resource.types.has(CardHelper.Type.Hero):
 			deck.hero = card_resource
 		else:
-			deck.main_equipment.set(card_name, hero_and_equipment_cards[card_name])
-	for card_name : String in main_cards:
-		deck.main_deck.set(card_name, main_cards[card_name])
-	for card_name : String in inventory_cards:
-		deck.inventory.set(card_name, inventory_cards[card_name])
-	for card_name : String in maybe_cards:
-		deck.maybes.set(card_name, maybe_cards[card_name])
+			deck.main_equipment.set(card_id, hero_and_equipment_cards[card_id])
+	for card_id : String in main_cards:
+		deck.main_deck.set(card_id, main_cards[card_id])
+	for card_id : String in inventory_cards:
+		deck.inventory.set(card_id, inventory_cards[card_id])
+	for card_id : String in maybe_cards:
+		deck.maybes.set(card_id, maybe_cards[card_id])
 
 	ResourceSaver.save(deck, deck.resource_path)
 
@@ -316,33 +339,33 @@ func remove_card(card_scene : DeckCard, quantity_to_remove : int = 1) -> void:
 	var new_quantity: int = 0
 	match card_scene.card_location:
 		DeckHelper.CardLocation.HERO_EQUIP:
-			if hero_and_equipment_cards.has(card_scene.card_resource.name):
-				if hero_and_equipment_cards[card_scene.card_resource.name][0] > quantity_to_remove:
-					hero_and_equipment_cards[card_scene.card_resource.name][0] -= quantity_to_remove
-					new_quantity = hero_and_equipment_cards[card_scene.card_resource.name][0]
+			if hero_and_equipment_cards.has(card_scene.card_resource.id):
+				if hero_and_equipment_cards[card_scene.card_resource.id][0] > quantity_to_remove:
+					hero_and_equipment_cards[card_scene.card_resource.id][0] -= quantity_to_remove
+					new_quantity = hero_and_equipment_cards[card_scene.card_resource.id][0]
 				else:
-					hero_and_equipment_cards.erase(card_scene.card_resource.name)
+					hero_and_equipment_cards.erase(card_scene.card_resource.id)
 		DeckHelper.CardLocation.MAIN:
-			if main_cards.has(card_scene.card_resource.name):
-				if main_cards[card_scene.card_resource.name][0] > quantity_to_remove:
-					main_cards[card_scene.card_resource.name][0] -= quantity_to_remove
-					new_quantity = main_cards[card_scene.card_resource.name][0]
+			if main_cards.has(card_scene.card_resource.id):
+				if main_cards[card_scene.card_resource.id][0] > quantity_to_remove:
+					main_cards[card_scene.card_resource.id][0] -= quantity_to_remove
+					new_quantity = main_cards[card_scene.card_resource.id][0]
 				else:
-					main_cards.erase(card_scene.card_resource.name)
+					main_cards.erase(card_scene.card_resource.id)
 		DeckHelper.CardLocation.INVENTORY:
-			if inventory_cards.has(card_scene.card_resource.name):
-				if inventory_cards[card_scene.card_resource.name][0] > quantity_to_remove:
-					inventory_cards[card_scene.card_resource.name][0] -= quantity_to_remove
-					new_quantity = inventory_cards[card_scene.card_resource.name][0]
+			if inventory_cards.has(card_scene.card_resource.id):
+				if inventory_cards[card_scene.card_resource.id][0] > quantity_to_remove:
+					inventory_cards[card_scene.card_resource.id][0] -= quantity_to_remove
+					new_quantity = inventory_cards[card_scene.card_resource.id][0]
 				else:
-					inventory_cards.erase(card_scene.card_resource.name)
+					inventory_cards.erase(card_scene.card_resource.id)
 		DeckHelper.CardLocation.MAYBE:
-			if maybe_cards.has(card_scene.card_resource.name):
-				if maybe_cards[card_scene.card_resource.name][0] > quantity_to_remove:
-					maybe_cards[card_scene.card_resource.name][0] -= quantity_to_remove
-					new_quantity = maybe_cards[card_scene.card_resource.name][0]
+			if maybe_cards.has(card_scene.card_resource.id):
+				if maybe_cards[card_scene.card_resource.id][0] > quantity_to_remove:
+					maybe_cards[card_scene.card_resource.id][0] -= quantity_to_remove
+					new_quantity = maybe_cards[card_scene.card_resource.id][0]
 				else:
-					maybe_cards.erase(card_scene.card_resource.name)
+					maybe_cards.erase(card_scene.card_resource.id)
 	card_scene.set_card_quantity(new_quantity)
 	if new_quantity == 0:
 		card_scene.queue_free()
@@ -404,21 +427,24 @@ func export_deck() -> void:
 	deck_string += "Hero / Class:\t" + deck.hero.name + "\n"
 	deck_string += "\n"
 	deck_string += "Arena cards\n"
-	for card_name : String in deck.main_equipment:
-		deck_string += str(deck.main_equipment[card_name][0]) + "x " + card_name + "\n"
+	for card_id : String in deck.main_equipment:
+		var card_name : String = deck.main_equipment[card_id][1].name
+		deck_string += str(deck.main_equipment[card_id][0]) + "x " + card_name + "\n"
 	var inventory_non_equipment_cards : Dictionary[String, Array] = {}
-	for card_name : String in deck.inventory:
-		var card_resource : CardResource = deck.inventory[card_name][1]
+	for card_id : String in deck.inventory:
+		var card_resource : CardResource = deck.inventory[card_id][1]
 		if card_resource.types.find(CardHelper.Type.Equipment):
-			deck_string += str(deck.inventory[card_name][0]) + "x " + card_name + "\n"
+			deck_string += str(deck.inventory[card_id][0]) + "x " + card_resource.name + "\n"
 		else:
-			inventory_non_equipment_cards.set(card_name, deck.inventory[card_name])
+			inventory_non_equipment_cards.set(card_id, deck.inventory[card_id])
 	deck_string += "\n"
 	deck_string += "Deck cards\n"
-	for card_name : String in deck.main_deck:
-		deck_string += str(deck.main_deck[card_name][0]) + "x " + card_name + "\n"
-	for card_name : String in inventory_non_equipment_cards:
-		deck_string += str(inventory_non_equipment_cards[card_name][0]) + "x " + card_name + "\n"
+	for card_id : String in deck.main_deck:
+		var card_resource : CardResource = deck.main_deck[card_id][1]
+		deck_string += str(deck.main_deck[card_id][0]) + "x " + card_resource.name + "\n"
+	for card_id : String in inventory_non_equipment_cards:
+		var card_resource : CardResource = deck.main_deck[card_id][1]
+		deck_string += str(inventory_non_equipment_cards[card_id][0]) + "x " + card_resource.name + "\n"
 	DisplayServer.clipboard_set(deck_string)
 	var dialog = AcceptDialog.new()
 	dialog.dialog_text = "Saved deck set to clipboard."
@@ -475,6 +501,16 @@ func can_equip_hero_or_equip(is_hero : bool, is_equipment : bool, is_weapon : bo
 						if type in equip_card_resource.types:
 							return false
 	return true
+
+func set_banlist(index : int) -> void:
+	if index <= 0:
+		current_banlist = null
+		get_tree().call_group("bannable_card", "check_if_banned", null)
+		return
+	var banlist_name : String = banlist_list.get_item_text(index)
+	var banlist : BanlistResource = BanlistHelper.banlists.get(banlist_name)
+	current_banlist = banlist
+	get_tree().call_group("bannable_card", "check_if_banned", banlist)
 
 func populate_card_totals() -> void:
 	var total_hero_equips : int = 0

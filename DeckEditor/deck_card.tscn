@@ -1,10 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://k0npsk6t1t40"]
+[gd_scene load_steps=5 format=3 uid="uid://k0npsk6t1t40"]
 
 [ext_resource type="Script" uid="uid://dlt26od22mgp0" path="res://DeckEditor/deck_card.gd" id="1_tmdkr"]
 [ext_resource type="Texture2D" uid="uid://dlr3q06mubnc5" path="res://Resources/Images/fab_card_back.webp" id="2_gtsu3"]
 [ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="3_gtsu3"]
+[ext_resource type="Texture2D" uid="uid://cme7edi1k51gg" path="res://Resources/Images/banned.png" id="4_uulb8"]
 
-[node name="DeckCard" type="Panel"]
+[node name="DeckCard" type="Panel" groups=["bannable_card"]]
 self_modulate = Color(1, 1, 1, 0)
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -86,3 +87,11 @@ mouse_filter = 1
 theme = ExtResource("3_gtsu3")
 theme_override_font_sizes/font_size = 77
 text = "To Maybe"
+
+[node name="BannedRect" type="TextureRect" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 548.0
+offset_bottom = 765.0
+mouse_filter = 2
+texture = ExtResource("4_uulb8")

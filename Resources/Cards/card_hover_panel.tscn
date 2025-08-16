@@ -16,11 +16,11 @@ stretch_mode = 4
 script = ExtResource("1_sibey")
 
 [node name="FlipTextureRect" type="TextureRect" parent="."]
-visible = false
 layout_mode = 0
-offset_left = 375.0
-offset_right = 806.0
-offset_bottom = 431.0
+offset_left = -308.0
+offset_top = 3.0
+offset_right = 123.0
+offset_bottom = 434.0
 texture = ExtResource("2_sibey")
 expand_mode = 2
 stretch_mode = 4

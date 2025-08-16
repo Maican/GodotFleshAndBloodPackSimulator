@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=58 format=3 uid="uid://b3kq74llqlv3x"]
+[gd_resource type="Theme" load_steps=71 format=3 uid="uid://b3kq74llqlv3x"]
 
 [ext_resource type="FontFile" uid="uid://0oxarte06bne" path="res://Resources/Json/OpenSans-Regular.ttf" id="1"]
 [ext_resource type="FontFile" uid="uid://bwna34w0u4qtx" path="res://Resources/Fonts/Card Title and Type - Amanda Std Regular.otf" id="1_1t5i7"]
@@ -308,6 +308,11 @@ cache/0/13/0/descent = 0.0
 cache/0/13/0/underline_position = 0.0
 cache/0/13/0/underline_thickness = 0.0
 cache/0/13/0/scale = 1.0
+cache/0/68/0/ascent = 0.0
+cache/0/68/0/descent = 0.0
+cache/0/68/0/underline_position = 0.0
+cache/0/68/0/underline_thickness = 0.0
+cache/0/68/0/scale = 1.0
 
 [sub_resource type="AtlasTexture" id="22"]
 atlas = ExtResource("2")
@@ -510,6 +515,68 @@ content_margin_right = 5.0
 content_margin_bottom = 2.0
 bg_color = Color(0.282353, 0.282353, 0.282353, 1)
 
+[sub_resource type="Image" id="Image_1t5i7"]
+data = {
+"data": PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 115, 255, 255, 255, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 29, 255, 255, 255, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 95, 255, 255, 255, 255, 255, 255, 255, 229, 255, 255, 255, 48, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 48, 255, 255, 255, 229, 255, 255, 255, 255, 255, 255, 255, 95, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 15, 255, 255, 255, 189, 255, 255, 255, 255, 255, 255, 255, 242, 255, 255, 255, 71, 255, 255, 255, 72, 255, 255, 255, 243, 255, 255, 255, 255, 255, 255, 255, 189, 255, 255, 255, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 5, 255, 255, 255, 162, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 162, 255, 255, 255, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 131, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 100, 255, 255, 255, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+"format": "RGBA8",
+"height": 8,
+"mipmaps": false,
+"width": 16
+}
+
+[sub_resource type="ImageTexture" id="ImageTexture_x4t5c"]
+image = SubResource("Image_1t5i7")
+
+[sub_resource type="Image" id="Image_x4t5c"]
+data = {
+"data": PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 101, 255, 255, 255, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 132, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 5, 255, 255, 255, 163, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 162, 255, 255, 255, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 15, 255, 255, 255, 189, 255, 255, 255, 255, 255, 255, 255, 242, 255, 255, 255, 70, 255, 255, 255, 71, 255, 255, 255, 242, 255, 255, 255, 255, 255, 255, 255, 189, 255, 255, 255, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 95, 255, 255, 255, 255, 255, 255, 255, 229, 255, 255, 255, 47, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 48, 255, 255, 255, 229, 255, 255, 255, 255, 255, 255, 255, 95, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 115, 255, 255, 255, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 29, 255, 255, 255, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+"format": "RGBA8",
+"height": 8,
+"mipmaps": false,
+"width": 16
+}
+
+[sub_resource type="ImageTexture" id="ImageTexture_o0f03"]
+image = SubResource("Image_x4t5c")
+
+[sub_resource type="ImageTexture" id="ImageTexture_7441n"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_s0i5j"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2cgy2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ykm0a"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.225, 0.225, 0.225, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5cjye"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0, 0, 0, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_afudd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dl0e8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h0iqk"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tj5el"]
+
 [sub_resource type="StyleBoxFlat" id="43"]
 content_margin_left = 10.0
 content_margin_right = 10.0
@@ -631,7 +698,6 @@ corner_radius_bottom_left = 2
 
 [resource]
 default_font = SubResource("21")
-default_font_size = 0
 AcceptDialog/colors/title_color = Color(0, 0, 0, 1)
 AcceptDialog/constants/buttons_min_height = 50
 AcceptDialog/constants/buttons_min_width = 500
@@ -748,6 +814,38 @@ ProgressBar/styles/fill = SubResource("42")
 RichTextLabel/font_sizes/bold_italics_font_size = 14
 RichTextLabel/font_sizes/normal_font_size = 12
 RichTextLabel/fonts/bold_italics_font = ExtResource("1_1t5i7")
+SpinBox/colors/down_disabled_icon_modulate = Color(0.875, 0.875, 0.875, 0.5)
+SpinBox/colors/down_hover_icon_modulate = Color(0.95, 0.95, 0.95, 1)
+SpinBox/colors/down_icon_modulate = Color(0.875, 0.875, 0.875, 1)
+SpinBox/colors/down_pressed_icon_modulate = Color(0.95, 0.95, 0.95, 1)
+SpinBox/colors/up_disabled_icon_modulate = Color(0.875, 0.875, 0.875, 0.5)
+SpinBox/colors/up_hover_icon_modulate = Color(0.95, 0.95, 0.95, 1)
+SpinBox/colors/up_icon_modulate = Color(0.875, 0.875, 0.875, 1)
+SpinBox/colors/up_pressed_icon_modulate = Color(0.95, 0.95, 0.95, 1)
+SpinBox/constants/buttons_vertical_separation = 0
+SpinBox/constants/buttons_width = 16
+SpinBox/constants/field_and_buttons_separation = 2
+SpinBox/constants/set_min_buttons_width_from_icons = 1
+SpinBox/font_sizes/font_size = 68
+SpinBox/icons/down = SubResource("ImageTexture_x4t5c")
+SpinBox/icons/down_disabled = SubResource("ImageTexture_x4t5c")
+SpinBox/icons/down_hover = SubResource("ImageTexture_x4t5c")
+SpinBox/icons/down_pressed = SubResource("ImageTexture_x4t5c")
+SpinBox/icons/up = SubResource("ImageTexture_o0f03")
+SpinBox/icons/up_disabled = SubResource("ImageTexture_o0f03")
+SpinBox/icons/up_hover = SubResource("ImageTexture_o0f03")
+SpinBox/icons/up_pressed = SubResource("ImageTexture_o0f03")
+SpinBox/icons/updown = SubResource("ImageTexture_7441n")
+SpinBox/styles/down_background = SubResource("StyleBoxEmpty_s0i5j")
+SpinBox/styles/down_background_disabled = SubResource("StyleBoxEmpty_2cgy2")
+SpinBox/styles/down_background_hovered = SubResource("StyleBoxFlat_ykm0a")
+SpinBox/styles/down_background_pressed = SubResource("StyleBoxFlat_5cjye")
+SpinBox/styles/field_and_buttons_separator = SubResource("StyleBoxEmpty_afudd")
+SpinBox/styles/up_background = SubResource("StyleBoxEmpty_dl0e8")
+SpinBox/styles/up_background_disabled = SubResource("StyleBoxEmpty_h0iqk")
+SpinBox/styles/up_background_hovered = SubResource("StyleBoxFlat_ykm0a")
+SpinBox/styles/up_background_pressed = SubResource("StyleBoxFlat_5cjye")
+SpinBox/styles/up_down_buttons_separator = SubResource("StyleBoxEmpty_tj5el")
 TabContainer/colors/font_disabled_color = Color(0.9, 0.9, 0.9, 0.2)
 TabContainer/colors/font_selected_color = Color(0.94, 0.94, 0.94, 1)
 TabContainer/colors/font_unselected_color = Color(0.69, 0.69, 0.69, 1)

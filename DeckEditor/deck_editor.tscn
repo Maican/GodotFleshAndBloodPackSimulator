@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bcmdh6sv5mepl"]
+[gd_scene load_steps=10 format=3 uid="uid://bcmdh6sv5mepl"]
 
 [ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="1_d5sny"]
 [ext_resource type="Script" uid="uid://dwwn2tcj7po2m" path="res://DeckEditor/deck_editor.gd" id="1_ppl21"]
@@ -8,7 +8,6 @@
 [ext_resource type="PackedScene" uid="uid://ecm7t8qssguc" path="res://Resources/Cards/card_hover_panel.tscn" id="5_u50s5"]
 [ext_resource type="Script" uid="uid://bu33ndglsq2ou" path="res://DeckEditor/filter_panel.gd" id="6_0tsrf"]
 [ext_resource type="Script" uid="uid://cxykw1xj63ex1" path="res://DeckEditor/binder_cards.gd" id="7_d5sny"]
-[ext_resource type="Script" uid="uid://bpr6s1igxy2bp" path="res://json_importer.gd" id="7_psw1p"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_psw1p"]
 bg_color = Color(0, 0, 0, 1)
@@ -99,12 +98,42 @@ size_flags_horizontal = 0
 theme = ExtResource("1_d5sny")
 columns = 5
 
+[node name="BanlistLabel" type="Label" parent="."]
+layout_mode = 2
+anchor_left = 0.622837
+anchor_top = 0.00221484
+anchor_right = 0.622837
+anchor_bottom = 0.00221484
+offset_left = 89.0
+offset_top = 9.0
+offset_right = 131.0
+offset_bottom = 26.0
+theme = ExtResource("1_d5sny")
+theme_override_font_sizes/font_size = 16
+text = "Banlist"
+metadata/_edit_use_anchors_ = true
+
+[node name="BanlistList" type="OptionButton" parent="."]
+custom_minimum_size = Vector2(150, 25)
+layout_mode = 2
+anchor_left = 0.622837
+anchor_top = 0.00221484
+anchor_right = 0.622837
+anchor_bottom = 0.00221484
+offset_left = 146.0
+offset_top = 2.0
+offset_right = 296.0
+offset_bottom = 33.0
+theme = ExtResource("1_d5sny")
+text_overrun_behavior = 3
+metadata/_edit_use_anchors_ = true
+
 [node name="BinderLabel" type="Label" parent="."]
 layout_mode = 2
-anchor_left = 0.757093
-anchor_top = 0.00998336
-anchor_right = 0.805494
-anchor_bottom = 0.0341938
+anchor_left = 0.831142
+anchor_top = 0.013289
+anchor_right = 0.879543
+anchor_bottom = 0.0374995
 theme = ExtResource("1_d5sny")
 theme_override_font_sizes/font_size = 16
 text = "Binder:"
@@ -114,7 +143,7 @@ metadata/_edit_use_anchors_ = true
 custom_minimum_size = Vector2(150, 25)
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.8
+anchor_left = 0.865052
 anchor_top = 0.00775194
 anchor_right = 0.990311
 anchor_bottom = 0.0354374
@@ -439,12 +468,13 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -450.0
-offset_right = 330.0
-offset_bottom = 31.0
+offset_left = -633.5
+offset_top = 2.0
+offset_right = 295.5
+offset_bottom = 33.0
 grow_horizontal = 2
 theme = ExtResource("1_d5sny")
-theme_override_constants/separation = 5
+theme_override_constants/separation = 15
 
 [node name="AddDeckButton" type="Button" parent="HBoxContainer"]
 layout_mode = 2
@@ -452,13 +482,6 @@ size_flags_horizontal = 0
 size_flags_vertical = 0
 theme = ExtResource("1_d5sny")
 text = "Add Deck"
-
-[node name="LoadDeckButton" type="Button" parent="HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 0
-theme = ExtResource("1_d5sny")
-text = "Load Deck"
 
 [node name="DeckListOptions" type="OptionButton" parent="HBoxContainer"]
 custom_minimum_size = Vector2(100, 30)
@@ -492,8 +515,8 @@ text = "Export (clipboard)"
 [node name="DeckTypeLabel" type="Label" parent="HBoxContainer"]
 layout_mode = 2
 theme = ExtResource("1_d5sny")
-theme_override_font_sizes/font_size = 24
-text = "Deck Type"
+theme_override_font_sizes/font_size = 15
+text = "Type"
 
 [node name="DeckTypeOptions" type="OptionButton" parent="HBoxContainer"]
 layout_mode = 2
@@ -510,8 +533,5 @@ popup/item_3/text = "Commoner"
 popup/item_3/id = 3
 popup/item_4/text = "UPF"
 popup/item_4/id = 4
-
-[node name="Node" type="Node" parent="."]
-script = ExtResource("7_psw1p")
 
 [connection signal="pressed" from="MainMenuButton" to="." method="_on_main_menu_button_pressed"]

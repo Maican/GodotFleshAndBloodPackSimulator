@@ -6,9 +6,10 @@ class_name DeckCard
 @onready var inventory_button: Button = $CardMenuPanel/VBoxContainer/InventoryButton
 @onready var maybe_button: Button = $CardMenuPanel/VBoxContainer/MaybeButton
 @onready var main_button: Button = $CardMenuPanel/VBoxContainer/MainButton
+@onready var banned_rect: TextureRect = $BannedRect
+
 @onready var card_menu_panel: Panel = $CardMenuPanel
 @onready var v_box_container: VBoxContainer = $VBoxContainer
-
 signal card_hovered
 signal card_unhovered
 signal card_remove
@@ -19,6 +20,7 @@ signal card_move_to_maybe
 var card_location : DeckHelper.CardLocation = DeckHelper.CardLocation.MAIN
 var card_resource : CardResource
 var quantity : int = 1
+var is_banned : bool = false
 
 func _ready() -> void:
 	mouse_entered.connect(_on_mouse_entered.bind(card_resource))
@@ -31,6 +33,14 @@ func _ready() -> void:
 		DeckHelper.CardLocation.INVENTORY:
 			inventory_button.hide()
 		DeckHelper.CardLocation.MAYBE:
+			maybe_button.hide()
+		DeckHelper.CardLocation.BANLIST:
+			main_button.hide()
+			inventory_button.hide()
+			maybe_button.hide()
+		DeckHelper.CardLocation.BINDER:
+			main_button.hide()
+			inventory_button.hide()
 			maybe_button.hide()
 
 	remove_button.pressed.connect(func(): card_remove.emit(self))
@@ -67,3 +77,20 @@ func update_display():
 func set_card_quantity(new_quantity : int):
 	quantity = new_quantity
 	update_display()
+
+func ban_card() -> void:
+	banned_rect.show()
+	is_banned = true
+
+func unban_card() -> void:
+	banned_rect.hide()
+	is_banned = false
+
+func check_if_banned(banlist : BanlistResource) -> void:
+	if banlist != null:
+		if card_resource.id in banlist.cards.keys():
+			ban_card()
+		else:
+			unban_card()
+	else:
+		unban_card()

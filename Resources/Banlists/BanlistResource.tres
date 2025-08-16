@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="BanlistResource" load_steps=3 format=3 uid="uid://dhb7i03ib6ggi"]
+
+[ext_resource type="Script" uid="uid://cqfxe0eqg72ph" path="res://Resources/Cards/CardResource.gd" id="1_dqoug"]
+[ext_resource type="Script" uid="uid://bx6d08yup7hgv" path="res://Resources/Banlists/banlist_resource.gd" id="2_w0mb4"]
+
+[resource]
+script = ExtResource("2_w0mb4")
+cards = Array[ExtResource("1_dqoug")]([])
+heroes = Dictionary[int, int]({})

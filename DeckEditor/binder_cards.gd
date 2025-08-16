@@ -8,6 +8,8 @@ signal hide_hover_panel
 signal add_card_to_inventory
 signal add_card_to_main
 signal add_card_to_maybe
+signal add_card_to_banlist
+signal add_card_to_binder
 
 @onready var binder_cards_scroll: ScrollContainer = $BinderCardsScroll
 @onready var binder_cards_v_box: VBoxContainer = $BinderCardsScroll/BinderCardsVBox
@@ -18,6 +20,8 @@ signal add_card_to_maybe
 
 @onready var clear_filters_button: Button = $FilterPanel/ClearFiltersButton
 
+@export var is_banlist : bool = false
+@export var is_binder : bool = false
 const BINDER_CARD = preload("res://DeckEditor/binder_card.tscn")
 
 var loaded_binder_card_scenes : Dictionary[String, BinderCard] = {}
@@ -34,7 +38,7 @@ const SCROLL_BUFFER := 1500
 
 var current_sort_index : int = 0
 var current_search_text : String = ""
-
+var current_banlist : BanlistResource
 func _ready() -> void:
 	scrolled.emit(binder_cards_scroll.get_global_rect())
 	sort_list.item_selected.connect(sort_binder_cards)
@@ -77,14 +81,21 @@ func update_visible_cards():
 		else:
 			var card_scene : BinderCard = BINDER_CARD.instantiate()
 			card_scene.card_resource = card_resource
+			card_scene.is_binder_card = is_binder
+			card_scene.is_banlist_card = is_banlist
 			card_scene.quantity = binder.cards[card_id][0]
 			card_scene.card_hovered.connect(show_hover_panel.emit)
 			card_scene.card_unhovered.connect(hide_hover_panel.emit)
 			card_scene.card_add_to_inventory.connect(add_card_to_inventory.emit)
 			card_scene.card_add_to_main.connect(add_card_to_main.emit)
 			card_scene.card_add_to_maybe.connect(add_card_to_maybe.emit)
+			card_scene.card_add_to_banlist.connect(add_card_to_banlist.emit)
+			card_scene.card_add_to_binder.connect(add_card_to_binder.emit)
 			scrolled.connect(card_scene.should_load_texture)
 			binder_cards_v_box.add_child(card_scene)
+			if current_banlist:
+				if card_resource.id in current_banlist.cards.keys():
+					card_scene.ban_card()
 			card_scene.name = card_id
 			loaded_binder_card_scenes[card_id] = card_scene
 	await get_tree().create_timer(0.001).timeout
@@ -103,6 +114,21 @@ func _on_scroll_changed():
 		first_visible_index = max(first_visible_index - batch_size, 0)
 		update_visible_cards()
 		binder_cards_scroll.scroll_vertical += SCROLL_BUFFER
+
+func load_binder(binder_path : String) -> void:
+	binder = ResourceLoader.load(binder_path)
+
+	for key : String in binder.cards:
+		filtered_binder_card_resources.append(binder.cards[key][1])
+
+	filtered_binder_card_resources.sort_custom(func(a:CardResource, b:CardResource):
+		return a.name < b.name
+	)
+
+	first_visible_index = 0
+	# Only load the first batch
+	update_visible_cards()
+	binder_cards_scroll.scroll_vertical = 0
 
 func binder_selected(index: int, binder_list : OptionButton) -> void:
 	if index <= 0:
@@ -228,3 +254,11 @@ func sort_binder_cards(sort_index: int) -> void:
 func search_binder_cards(search_text: String) -> void:
 	current_search_text = search_text
 	update_binder_display()
+
+func set_banlist(index : int, banlist_list : OptionButton) -> void:
+	if index <= 0:
+		current_banlist = null
+		return
+	var banlist_name : String = banlist_list.get_item_text(index)
+	var banlist : BanlistResource = BanlistHelper.banlists.get(banlist_name)
+	current_banlist = banlist

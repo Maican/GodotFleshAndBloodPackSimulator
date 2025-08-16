@@ -85,3 +85,5 @@ func dev_menu_button_pressed(item_id : int) -> void:
 		clear_cards_and_packs()
 	elif item_id == 1:
 		json_importer.import_cards()
+	elif item_id == 2:
+		OS.shell_show_in_file_manager(ProjectSettings.globalize_path("user://"))

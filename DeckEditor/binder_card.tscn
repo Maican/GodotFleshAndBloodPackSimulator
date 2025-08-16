@@ -1,10 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://cb045wgw5aag"]
+[gd_scene load_steps=5 format=3 uid="uid://cb045wgw5aag"]
 
 [ext_resource type="Script" uid="uid://cktfgc7ktp1gk" path="res://DeckEditor/binder_card.gd" id="1_7u3du"]
 [ext_resource type="Texture2D" uid="uid://dlr3q06mubnc5" path="res://Resources/Images/fab_card_back.webp" id="2_7u3du"]
 [ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="3_2ccbo"]
+[ext_resource type="Texture2D" uid="uid://cme7edi1k51gg" path="res://Resources/Images/banned.png" id="4_shg1q"]
 
-[node name="BinderCard" type="Panel"]
+[node name="BinderCard" type="Panel" groups=["bannable_card"]]
 offset_right = 357.0
 offset_bottom = 208.0
 size_flags_horizontal = 3
@@ -181,7 +182,6 @@ text = "Defense:"
 autowrap_mode = 3
 
 [node name="CardMenuPanel" type="Panel" parent="."]
-visible = false
 layout_mode = 0
 offset_left = 1.0
 offset_top = 1.0
@@ -215,6 +215,28 @@ theme = ExtResource("3_2ccbo")
 theme_override_font_sizes/font_size = 38
 text = "Main"
 
+[node name="Banlist" type="Button" parent="CardMenuPanel/VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 1
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 38
+text = "Ban Card"
+
+[node name="Binder" type="Button" parent="CardMenuPanel/VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 1
+theme = ExtResource("3_2ccbo")
+theme_override_font_sizes/font_size = 38
+text = "Binder"
+text_overrun_behavior = 3
+autowrap_mode = 1
+
 [node name="Inventory" type="Button" parent="CardMenuPanel/VBoxContainer"]
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
@@ -232,3 +254,11 @@ mouse_filter = 1
 theme = ExtResource("3_2ccbo")
 theme_override_font_sizes/font_size = 38
 text = "Maybe"
+
+[node name="BannedRect" type="TextureRect" parent="."]
+visible = false
+offset_right = 146.0
+offset_bottom = 209.0
+mouse_filter = 2
+texture = ExtResource("4_shg1q")
+expand_mode = 1

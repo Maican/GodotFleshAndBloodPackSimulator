@@ -12,7 +12,9 @@ enum CardLocation {
 	HERO_EQUIP,
 	MAIN,
 	INVENTORY,
-	MAYBE
+	MAYBE,
+	BANLIST,
+	BINDER
 }
 var decks : Dictionary[String, DeckResource] = {}
 

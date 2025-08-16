@@ -8,7 +8,6 @@
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 5.0
 offset_top = 2.0
 offset_right = 5.0
 offset_bottom = 2.0
@@ -41,13 +40,11 @@ text = "Deck Editor
 [node name="BinderEditorButton" type="Button" parent="VBoxContainer2"]
 layout_mode = 2
 size_flags_vertical = 3
-disabled = true
 text = "Binder management"
 
 [node name="BanlistEditorButton" type="Button" parent="VBoxContainer2"]
 layout_mode = 2
 size_flags_vertical = 3
-disabled = true
 text = "Banlist editor"
 
 [node name="ExitButton" type="Button" parent="VBoxContainer2"]
@@ -84,7 +81,7 @@ offset_left = 523.0
 offset_top = 38.0
 offset_right = 917.0
 offset_bottom = 71.0
-text = "Flesh and Blood Pack Simulator"
+text = "Flesh and Blood Progression Tool"
 
 [node name="Legal Disclaimer" type="Label" parent="."]
 layout_mode = 1
@@ -93,13 +90,13 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -502.5
-offset_top = -41.0
-offset_right = 502.5
+offset_left = -584.5
+offset_top = -39.0
+offset_right = 584.5
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_font_sizes/font_size = 15
-text = "All information and graphics on this application relating to Flesh and Blood including but not limited to card and pack images, card/game symbols and icons, related fonts, and card/game text, is copyright of Legend Story Studios Inc. This website is not produced, endorsed, supported, or affiliated with in any way by Legend Story Studios Inc."
+theme_override_font_sizes/font_size = 17
+text = "All information and graphics on this application relating to Flesh and Blood including but not limited to card and pack images, card/game symbols and icons, related fonts, and card/game text, is copyright of Legend Story Studios Inc. This application is not produced, endorsed, supported, or affiliated with in any way by Legend Story Studios Inc."
 autowrap_mode = 2
 
 [node name="BuyPacksDisclaimer" type="Label" parent="."]
@@ -123,8 +120,10 @@ offset_top = 2.0
 offset_right = 1430.0
 offset_bottom = 27.0
 text = "Dev tools"
-item_count = 2
+item_count = 3
 popup/item_0/text = "Clear Pack Resource"
 popup/item_0/id = 0
 popup/item_1/text = "Import Cards"
 popup/item_1/id = 1
+popup/item_2/text = "Open Save Folder"
+popup/item_2/id = 2

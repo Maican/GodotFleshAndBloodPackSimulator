@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://dyhuwhq4bi7jo"]
+
+[ext_resource type="Script" uid="uid://btstvky11bxs5" path="res://Resources/Banlists/hero_ll_entry.gd" id="1_6d5gx"]
+
+[node name="HBoxContainer" type="HBoxContainer"]
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_6d5gx")
+
+[node name="HeroLabel" type="Label" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 74
+text = "Azalea"
+
+[node name="HeroPointsTextEdit" type="LineEdit" parent="."]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_font_sizes/font_size = 52
+text = "0"
+placeholder_text = "Points"
+max_length = 3

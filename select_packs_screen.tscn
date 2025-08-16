@@ -69,6 +69,7 @@ offset_bottom = 196.5
 grow_horizontal = 0
 grow_vertical = 2
 theme = ExtResource("1_rr6st")
+max_value = 96.0
 value = 24.0
 
 [node name="Label" type="Label" parent="Panel/SpinBox"]
