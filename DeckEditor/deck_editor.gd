@@ -2,7 +2,7 @@ extends Panel
 
 class_name DeckEditor
 
-@onready var hero_arena_container: HBoxContainer = $ScrollContainer/VBoxContainer/HeroArenaContainer
+@onready var hero_arena_container: GridContainer = $ScrollContainer/VBoxContainer/HeroArenaContainer
 @onready var main_deck_grid_container: GridContainer = $ScrollContainer/VBoxContainer/MainDeckGridContainer
 @onready var inventory_grid_container: GridContainer = $ScrollContainer/VBoxContainer/InventoryGridContainer
 @onready var maybe_grid_container: GridContainer = $ScrollContainer/VBoxContainer/MaybeGridContainer
@@ -433,7 +433,7 @@ func export_deck() -> void:
 	var inventory_non_equipment_cards : Dictionary[String, Array] = {}
 	for card_id : String in deck.inventory:
 		var card_resource : CardResource = deck.inventory[card_id][1]
-		if card_resource.types.find(CardHelper.Type.Equipment):
+		if CardHelper.Type.Equipment in card_resource.types:
 			deck_string += str(deck.inventory[card_id][0]) + "x " + card_resource.name + "\n"
 		else:
 			inventory_non_equipment_cards.set(card_id, deck.inventory[card_id])

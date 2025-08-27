@@ -52,11 +52,11 @@ theme = ExtResource("1_d5sny")
 theme_override_font_sizes/font_size = 66
 text = "Hero + Arena"
 
-[node name="HeroArenaContainer" type="HBoxContainer" parent="ScrollContainer/VBoxContainer"]
+[node name="HeroArenaContainer" type="GridContainer" parent="ScrollContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 theme = ExtResource("1_d5sny")
-theme_override_constants/separation = 20
+columns = 5
 
 [node name="DeckLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
 layout_mode = 2

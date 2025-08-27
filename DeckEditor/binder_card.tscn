@@ -257,6 +257,7 @@ text = "Maybe"
 
 [node name="BannedRect" type="TextureRect" parent="."]
 visible = false
+layout_mode = 0
 offset_right = 146.0
 offset_bottom = 209.0
 mouse_filter = 2
