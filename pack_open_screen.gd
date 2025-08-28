@@ -33,7 +33,7 @@ const short_print_majestic_rate : float = 0.65
 
 var cards_saved : bool = false
 var opened_card_labels : Dictionary = {}
-
+var binders_cards_saved_to : Array[String] = []
 func _ready() -> void:
 	PackOpenHelper.opened_cards = {}
 	await generate_pack()
@@ -56,7 +56,7 @@ func next_pack() -> void:
 	for child in grid_container.get_children():
 		child.queue_free()
 		
-	if PackOpenHelper.packs_to_open == 1:
+	if PackOpenHelper.packs_to_open <= 1:
 		save_cards_button.disabled = false
 		save_as_cards_button.disabled = false
 	
@@ -80,9 +80,9 @@ func open_remaining_packs() -> void:
 	for i in range(0, PackOpenHelper.packs_to_open):
 		await flip_all_cards(0.02)
 		await next_pack()
-		save_cards_button.disabled = false
-		save_as_cards_button.disabled = false
 	await flip_all_cards(0.02)
+	save_cards_button.disabled = false
+	save_as_cards_button.disabled = false
 	
 func generate_pack() -> void:
 	PackOpenHelper.packs_to_open -= 1
@@ -354,6 +354,14 @@ func save_cards() -> void:
 	if binder == null:
 		print("Binder resource not found: " + binder_path)
 		return
+	if binder.name in binders_cards_saved_to:
+		var dialog = AcceptDialog.new()
+		dialog.dialog_text = "Cards already saved to this binder."
+		dialog.title = "Oopsie Poopsie"
+		add_child(dialog)
+		dialog.popup_centered()
+		await dialog.confirmed
+		return
 	for card_key : String in PackOpenHelper.opened_cards.keys():
 		if binder.cards.has(card_key):
 			binder.cards[card_key][0] += PackOpenHelper.opened_cards[card_key][0]
@@ -364,13 +372,13 @@ func save_cards() -> void:
 			binder.cards[card_resource.id] = [3, card_resource]
 	ResourceSaver.save(binder, binder.resource_path)
 	cards_saved = true
+	binders_cards_saved_to.append(binder.name)
 	var dialog = AcceptDialog.new()
 	dialog.dialog_text = "Cards saved to binder."
 	dialog.title = "Success"
 	add_child(dialog)
 	dialog.popup_centered()
 	await dialog.confirmed
-	return
 
 func fill_binder_list() -> void:
 	binder_list.clear()

@@ -442,8 +442,9 @@ func export_deck() -> void:
 	for card_id : String in deck.main_deck:
 		var card_resource : CardResource = deck.main_deck[card_id][1]
 		deck_string += str(deck.main_deck[card_id][0]) + "x " + card_resource.name + "\n"
+	deck_string += "Inventory cards\n"
 	for card_id : String in inventory_non_equipment_cards:
-		var card_resource : CardResource = deck.main_deck[card_id][1]
+		var card_resource : CardResource = deck.inventory[card_id][1]
 		deck_string += str(inventory_non_equipment_cards[card_id][0]) + "x " + card_resource.name + "\n"
 	DisplayServer.clipboard_set(deck_string)
 	var dialog = AcceptDialog.new()
