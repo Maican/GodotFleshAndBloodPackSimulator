@@ -24,9 +24,11 @@ const CARD_FLIP_SCENE = preload("res://Resources/card_flip_scene.tscn")
 @onready var binder_list: OptionButton = $HBoxContainer/BinderList
 @onready var save_cards_button: Button = $HBoxContainer/SaveCardsButton
 @onready var save_as_cards_button: Button = $HBoxContainer/SaveAsCardsButton
-@onready var include_tokens: CheckButton = $IncludeTokens
+@onready var include_tokens: CheckButton = $VBoxContainer/IncludeTokens
+@onready var include_non_token_heroes: CheckButton = $VBoxContainer/IncludeHeroes
 
 @onready var hover_panel: CardHoverPanel = $HoverPanel
+@onready var total_label: Label = $ScrollContainer2/CardsOpenedContainer/TotalLabel
 
 #This is a 40% modifier to pull a short_print.
 const short_print_majestic_rate : float = 0.65
@@ -34,6 +36,7 @@ const short_print_majestic_rate : float = 0.65
 var cards_saved : bool = false
 var opened_card_labels : Dictionary = {}
 var binders_cards_saved_to : Array[String] = []
+var total_cards_opened : int = 0
 func _ready() -> void:
 	PackOpenHelper.opened_cards = {}
 	await generate_pack()
@@ -85,6 +88,7 @@ func open_remaining_packs() -> void:
 	save_as_cards_button.disabled = false
 	
 func generate_pack() -> void:
+	print("packs to open " + str(PackOpenHelper.packs_to_open))
 	PackOpenHelper.packs_to_open -= 1
 	var pack_commons : Array[CardResource] = PackOpenHelper.opening_pack_resource.generic_common_cards.duplicate()
 	pack_commons.shuffle()
@@ -339,14 +343,15 @@ func add_binder(and_save_cards : bool = false) -> void:
 		popup.queue_free())
 		
 func save_cards() -> void:
+	var total_cards_saved : int = 0
 	var selected_idx = binder_list.selected
 	if selected_idx == 0:
-		var dialog = AcceptDialog.new()
-		dialog.dialog_text = "No binder selected to save cards to."
-		dialog.title = "Warning"
-		add_child(dialog)
-		dialog.popup_centered()
-		await dialog.confirmed
+		var no_binder_selected_dialog = AcceptDialog.new()
+		no_binder_selected_dialog.dialog_text = "No binder selected to save cards to."
+		no_binder_selected_dialog.title = "Warning"
+		add_child(no_binder_selected_dialog)
+		no_binder_selected_dialog.popup_centered()
+		await no_binder_selected_dialog.confirmed
 		return
 	var binder_name : String = binder_list.get_item_text(selected_idx)
 	var binder_path : String = "user://BinderResources/" + binder_name + ".res"
@@ -355,26 +360,71 @@ func save_cards() -> void:
 		print("Binder resource not found: " + binder_path)
 		return
 	if binder.name in binders_cards_saved_to:
-		var dialog = AcceptDialog.new()
-		dialog.dialog_text = "Cards already saved to this binder."
-		dialog.title = "Oopsie Poopsie"
-		add_child(dialog)
-		dialog.popup_centered()
-		await dialog.confirmed
+		var already_saved_dialog = AcceptDialog.new()
+		already_saved_dialog.dialog_text = "Cards already saved to this binder."
+		already_saved_dialog.title = "Oopsie Poopsie"
+		add_child(already_saved_dialog)
+		already_saved_dialog.popup_centered()
+		await already_saved_dialog.confirmed
 		return
 	for card_key : String in PackOpenHelper.opened_cards.keys():
 		if binder.cards.has(card_key):
 			binder.cards[card_key][0] += PackOpenHelper.opened_cards[card_key][0]
 		else:
 			binder.cards[card_key] = PackOpenHelper.opened_cards[card_key]
+		total_cards_saved += PackOpenHelper.opened_cards[card_key][0]
+	var included_tokens : int = 0
+	var included_heroes : int = 0
 	if include_tokens.button_pressed:
 		for card_resource : CardResource in PackOpenHelper.opening_pack_resource.token_cards:
-			binder.cards[card_resource.id] = [3, card_resource]
+			if CardHelper.Type.Hero in card_resource.types:
+				binder.cards[card_resource.id] = [1, card_resource]
+				included_heroes += 1
+			else:
+				binder.cards[card_resource.id] = [3, card_resource]
+				included_tokens += 3
+				
+	if include_non_token_heroes.button_pressed:
+		for card_resource : CardResource in PackOpenHelper.opening_pack_resource.class_common_cards:
+			if CardHelper.Type.Hero in card_resource.types:
+				binder.cards[card_resource.id] = [1, card_resource]
+				included_heroes += 1
+		for card_resource : CardResource in PackOpenHelper.opening_pack_resource.generic_common_cards:
+			if CardHelper.Type.Hero in card_resource.types:
+				binder.cards[card_resource.id] = [1, card_resource]
+				included_heroes += 1
+		for card_resource : CardResource in PackOpenHelper.opening_pack_resource.rare_cards:
+			if CardHelper.Type.Hero in card_resource.types:
+				binder.cards[card_resource.id] = [1, card_resource]
+				included_heroes += 1
+		for card_resource : CardResource in PackOpenHelper.opening_pack_resource.majestic_cards:
+			if CardHelper.Type.Hero in card_resource.types:
+				binder.cards[card_resource.id] = [1, card_resource]
+				included_heroes += 1
+		for card_resource : CardResource in PackOpenHelper.opening_pack_resource.legendary_cards:
+			if CardHelper.Type.Hero in card_resource.types:
+				binder.cards[card_resource.id] = [1, card_resource]
+				included_heroes += 1
+		for card_resource : CardResource in PackOpenHelper.opening_pack_resource.fabled_cards:
+			if CardHelper.Type.Hero in card_resource.types:
+				binder.cards[card_resource.id] = [1, card_resource]
+				included_heroes += 1
+		for card_resource : CardResource in PackOpenHelper.opening_pack_resource.marvel_cards:
+			if CardHelper.Type.Hero in card_resource.types:
+				binder.cards[card_resource.id] = [1, card_resource]
+				included_heroes += 1
+		for card_resource : CardResource in PackOpenHelper.opening_pack_resource.super_rare_cards:
+			if CardHelper.Type.Hero in card_resource.types:
+				binder.cards[card_resource.id] = [1, card_resource]
+				included_heroes += 1
+
 	ResourceSaver.save(binder, binder.resource_path)
 	cards_saved = true
 	binders_cards_saved_to.append(binder.name)
 	var dialog = AcceptDialog.new()
-	dialog.dialog_text = "Cards saved to binder."
+	dialog.dialog_text = str(total_cards_saved) + " pulled cards saved to binder.\n"
+	dialog.dialog_text += str("Included Tokens: " + str(included_tokens) + "\n")
+	dialog.dialog_text += str("Included Heroes: " + str(included_heroes) + "\n")
 	dialog.title = "Success"
 	add_child(dialog)
 	dialog.popup_centered()
@@ -405,6 +455,7 @@ func card_flipped_handler(card_resource : CardResource) -> void:
 		PackOpenHelper.opened_cards[card_resource.id][0] += 1
 		var label : Label = opened_card_labels[card_resource.id]
 		label.text = str(PackOpenHelper.opened_cards[card_resource.id][0]) + "x " + card_resource.name
+		
 	else:
 		PackOpenHelper.opened_cards.set(card_resource.id, [1, card_resource])
 		var new_label : Label  = CARD_OPENED_LABEL.instantiate()
@@ -412,6 +463,8 @@ func card_flipped_handler(card_resource : CardResource) -> void:
 		new_label.name = card_resource.id
 		add_label_to_rarity_child(card_resource, new_label)
 		opened_card_labels[card_resource.id] = new_label
+	total_cards_opened += 1
+	total_label.text = "Total: " + str(total_cards_opened)
 		
 func add_label_to_rarity_child(card_resource, new_label) -> void:
 	match card_resource.rarity:

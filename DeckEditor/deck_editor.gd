@@ -9,7 +9,7 @@ class_name DeckEditor
 @onready var binder_cards : BinderCards = $BinderCards
 @onready var binder_list: OptionButton = $BinderList
 @onready var hover_panel: CardHoverPanel = $HoverPanel
-@onready var banlist_list: OptionButton = $BanlistList
+@onready var banlist_list: OptionButton = $HBoxContainer/BanlistList
 
 
 @onready var hero_arena_label: Label = $ScrollContainer/VBoxContainer/HeroArenaLabel
@@ -151,8 +151,6 @@ func add_card_to_inventory(quantity_and_card_array: Array):
 	var card_resource : CardResource = quantity_and_card_array[1]
 	var types = card_resource.types
 	var is_hero = card_resource.types.has(CardHelper.Type.Hero)
-	var is_equipment = CardHelper.Type.Equipment in card_resource.types
-	var is_weapon = CardHelper.Type.Weapon in card_resource.types
 	if is_hero:
 		return
 		
@@ -189,8 +187,6 @@ func add_card_to_maybe(quantity_and_card_array: Array):
 	var card_resource : CardResource = quantity_and_card_array[1]
 	var types = card_resource.types
 	var is_hero = card_resource.types.has(CardHelper.Type.Hero)
-	var is_equipment = CardHelper.Type.Equipment in card_resource.types
-	var is_weapon = CardHelper.Type.Weapon in card_resource.types
 	if is_hero:
 		return
 		
@@ -399,12 +395,12 @@ func remove_all_cards() -> void:
 func export_deck() -> void:
 	var selected_idx = deck_list_options.get_selected_id()
 	if selected_idx == -1:
-		var dialog = AcceptDialog.new()
-		dialog.dialog_text = "No deck selected to export"
-		dialog.title = "Warning"
-		add_child(dialog)
-		dialog.popup_centered()
-		await dialog.confirmed
+		var no_deck_selected_dialog = AcceptDialog.new()
+		no_deck_selected_dialog.dialog_text = "No deck selected to export"
+		no_deck_selected_dialog.title = "Warning"
+		add_child(no_deck_selected_dialog)
+		no_deck_selected_dialog.popup_centered()
+		await no_deck_selected_dialog.confirmed
 		return
 	var deck_name : String = deck_list_options.get_item_text(selected_idx)
 	var deck_path : String = "user://DeckResources/" + deck_name + ".res"
@@ -413,12 +409,12 @@ func export_deck() -> void:
 		print("Deck resource not found: " + deck_path)
 		return
 	if deck.hero == null:
-		var dialog = AcceptDialog.new()
-		dialog.dialog_text = "No hero selected to export deck. (Did you forget to save first?)"
-		dialog.title = "Warning"
-		add_child(dialog)
-		dialog.popup_centered()
-		await dialog.confirmed
+		var no_hero_selected_dialog = AcceptDialog.new()
+		no_hero_selected_dialog.dialog_text = "No hero selected to export deck. (Did you forget to save first?)"
+		no_hero_selected_dialog.title = "Warning"
+		add_child(no_hero_selected_dialog)
+		no_hero_selected_dialog.popup_centered()
+		await no_hero_selected_dialog.confirmed
 		return
 
 	var deck_string = ""

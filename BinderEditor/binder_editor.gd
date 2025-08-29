@@ -16,6 +16,7 @@ class_name BinderEditor
 @onready var export_binder_button: Button = $HBoxContainer/ExportBinderButton
 @onready var delete_binder_button: Button = $HBoxContainer/DeleteBinderbutton
 @onready var main_menu_button: Button = $MainMenuButton
+@onready var binder_cards_label: Label = $ScrollContainer/VBoxContainer/BinderCardsLabel
 
 const DECK_CARD = preload("res://DeckEditor/deck_card.tscn")
 
@@ -188,13 +189,15 @@ func load_cards_from_binder() -> void:
 		return
 	
 	remove_all_cards()
+	var total_binder_cards : int = 0
 	for card_id : String in binder.cards.keys():
 		var card_resource : CardResource = binder.cards[card_id][1]
 		var card_quantity : int = binder.cards[card_id][0]
+		total_binder_cards += card_quantity
 		add_card_to_binder([card_quantity, card_resource])
+	binder_cards_label.text = "Binder Cards " + str(total_binder_cards)
 
 func remove_card(card_scene : DeckCard) -> void:
-	var new_quantity: int = 0
 	match card_scene.card_location:
 		DeckHelper.CardLocation.BINDER:
 			if selected_binder_cards.has(card_scene.card_resource.id):
@@ -208,12 +211,12 @@ func remove_all_cards() -> void:
 func export_binder() -> void:
 	var selected_idx = binder_list_options.get_selected_id()
 	if selected_idx == -1:
-		var dialog = AcceptDialog.new()
-		dialog.dialog_text = "No binder selected to export"
-		dialog.title = "Warning"
-		add_child(dialog)
-		dialog.popup_centered()
-		await dialog.confirmed
+		var no_binder_selected_dialog = AcceptDialog.new()
+		no_binder_selected_dialog.dialog_text = "No binder selected to export"
+		no_binder_selected_dialog.title = "Warning"
+		add_child(no_binder_selected_dialog)
+		no_binder_selected_dialog.popup_centered()
+		await no_binder_selected_dialog.confirmed
 		return
 	var binder_name : String = binder_list_options.get_item_text(selected_idx)
 	var binder_path : String = "user://binderResources/" + binder_name + ".res"
@@ -237,12 +240,12 @@ func export_binder() -> void:
 func delete_binder() -> void:
 	var selected_idx = binder_list_options.get_selected_id()
 	if selected_idx == -1:
-		var dialog = AcceptDialog.new()
-		dialog.dialog_text = "No binder selected to export"
-		dialog.title = "Warning"
-		add_child(dialog)
-		dialog.popup_centered()
-		await dialog.confirmed
+		var no_binder_selected_dialog = AcceptDialog.new()
+		no_binder_selected_dialog.dialog_text = "No binder selected to export"
+		no_binder_selected_dialog.title = "Warning"
+		add_child(no_binder_selected_dialog)
+		no_binder_selected_dialog.popup_centered()
+		await no_binder_selected_dialog.confirmed
 		return
 	var binder_name : String = binder_list_options.get_item_text(selected_idx)
 	var binder_path : String = "user://BinderResources/" + binder_name + ".res"

@@ -95,3 +95,15 @@ offset_right = 548.0
 offset_bottom = 765.0
 mouse_filter = 2
 texture = ExtResource("4_uulb8")
+
+[node name="QuantityLabel" type="Label" parent="."]
+visible = false
+layout_mode = 1
+offset_left = 228.0
+offset_top = 520.0
+offset_right = 324.0
+offset_bottom = 649.0
+theme = ExtResource("3_gtsu3")
+theme_override_constants/outline_size = 27
+theme_override_font_sizes/font_size = 128
+text = "x1"

@@ -62,7 +62,6 @@ func _on_main_menu_button_pressed() -> void:
 	SceneChanger.switch_to_main_menu_scene()
 	
 func add_card_to_banlist(card_resource : CardResource):
-	var types = card_resource.types
 	var card_id = card_resource.id
 	if banned_cards.has(card_id):
 		print("Cannot add that many of this card.")
@@ -195,7 +194,6 @@ func remove_all_hero_lls() -> void:
 	hero_ll_list.clear()
 		
 func remove_card(card_scene : DeckCard) -> void:
-	var new_quantity: int = 0
 	match card_scene.card_location:
 		DeckHelper.CardLocation.BANLIST:
 			if banned_cards.has(card_scene.card_resource.id):
@@ -209,12 +207,12 @@ func remove_all_cards() -> void:
 func export_banlist() -> void:
 	var selected_idx = banlist_list_options.get_selected_id()
 	if selected_idx == -1:
-		var dialog = AcceptDialog.new()
-		dialog.dialog_text = "No banlist selected to export"
-		dialog.title = "Warning"
-		add_child(dialog)
-		dialog.popup_centered()
-		await dialog.confirmed
+		var no_banlist_selected_dialog = AcceptDialog.new()
+		no_banlist_selected_dialog.dialog_text = "No banlist selected to export"
+		no_banlist_selected_dialog.title = "Warning"
+		add_child(no_banlist_selected_dialog)
+		no_banlist_selected_dialog.popup_centered()
+		await no_banlist_selected_dialog.confirmed
 		return
 	var banlist_name : String = banlist_list_options.get_item_text(selected_idx)
 	var banlist_path : String = "user://BanlistResources/" + banlist_name + ".res"
@@ -245,12 +243,12 @@ func export_banlist() -> void:
 func delete_banlist() -> void:
 	var selected_idx = banlist_list_options.get_selected_id()
 	if selected_idx == -1:
-		var dialog = AcceptDialog.new()
-		dialog.dialog_text = "No banlist selected to export"
-		dialog.title = "Warning"
-		add_child(dialog)
-		dialog.popup_centered()
-		await dialog.confirmed
+		var no_banlist_selected_dialog = AcceptDialog.new()
+		no_banlist_selected_dialog.dialog_text = "No banlist selected to export"
+		no_banlist_selected_dialog.title = "Warning"
+		add_child(no_banlist_selected_dialog)
+		no_banlist_selected_dialog.popup_centered()
+		await no_banlist_selected_dialog.confirmed
 		return
 	var banlist_name : String = banlist_list_options.get_item_text(selected_idx)
 	var banlist_path : String = "user://BanlistResources/" + banlist_name + ".res"

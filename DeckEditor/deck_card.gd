@@ -10,6 +10,8 @@ class_name DeckCard
 
 @onready var card_menu_panel: Panel = $CardMenuPanel
 @onready var v_box_container: VBoxContainer = $VBoxContainer
+@onready var quantity_label: Label = $QuantityLabel
+
 signal card_hovered
 signal card_unhovered
 signal card_remove
@@ -42,6 +44,7 @@ func _ready() -> void:
 			main_button.hide()
 			inventory_button.hide()
 			maybe_button.hide()
+			quantity_label.show()
 
 	remove_button.pressed.connect(func(): card_remove.emit(self))
 	inventory_button.pressed.connect(func(): card_move_to_inventory.emit(self))
@@ -61,21 +64,28 @@ func _on_mouse_exited(new_card_resource : CardResource):
 func update_display():
 	if v_box_container == null:
 		return
-	var child_count : int = 0
-	for child in v_box_container.get_children():
-		if child_count > quantity - 1:
-			v_box_container.get_child(child_count).hide()
-		else:
-			var child_rect : TextureRect = v_box_container.get_child(child_count)
+	if card_location == DeckHelper.CardLocation.BINDER:
+		if v_box_container.get_child_count() > 0:
+			var child_rect : TextureRect = v_box_container.get_child(0)
 			child_rect.texture = card_resource.load_texture()
 			child_rect.show()
-		child_count += 1
+	else:
+		var child_count : int = 0
+		for child in v_box_container.get_children():
+			if child_count > quantity - 1:
+				v_box_container.get_child(child_count).hide()
+			else:
+				var child_rect : TextureRect = v_box_container.get_child(child_count)
+				child_rect.texture = card_resource.load_texture()
+				child_rect.show()
+			child_count += 1
 		
 	await get_tree().create_timer(0.001).timeout
 	custom_minimum_size = v_box_container.get_rect().size
 
 func set_card_quantity(new_quantity : int):
 	quantity = new_quantity
+	quantity_label.text = "x" + str(quantity)
 	update_display()
 
 func ban_card() -> void:

@@ -98,41 +98,11 @@ size_flags_horizontal = 0
 theme = ExtResource("1_d5sny")
 columns = 5
 
-[node name="BanlistLabel" type="Label" parent="."]
-layout_mode = 2
-anchor_left = 0.622837
-anchor_top = 0.00221484
-anchor_right = 0.622837
-anchor_bottom = 0.00221484
-offset_left = 89.0
-offset_top = 9.0
-offset_right = 131.0
-offset_bottom = 26.0
-theme = ExtResource("1_d5sny")
-theme_override_font_sizes/font_size = 16
-text = "Banlist"
-metadata/_edit_use_anchors_ = true
-
-[node name="BanlistList" type="OptionButton" parent="."]
-custom_minimum_size = Vector2(150, 25)
-layout_mode = 2
-anchor_left = 0.622837
-anchor_top = 0.00221484
-anchor_right = 0.622837
-anchor_bottom = 0.00221484
-offset_left = 146.0
-offset_top = 2.0
-offset_right = 296.0
-offset_bottom = 33.0
-theme = ExtResource("1_d5sny")
-text_overrun_behavior = 3
-metadata/_edit_use_anchors_ = true
-
 [node name="BinderLabel" type="Label" parent="."]
 layout_mode = 2
-anchor_left = 0.831142
+anchor_left = 0.846367
 anchor_top = 0.013289
-anchor_right = 0.879543
+anchor_right = 0.894768
 anchor_bottom = 0.0374995
 theme = ExtResource("1_d5sny")
 theme_override_font_sizes/font_size = 16
@@ -143,9 +113,9 @@ metadata/_edit_use_anchors_ = true
 custom_minimum_size = Vector2(150, 25)
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.865052
+anchor_left = 0.878893
 anchor_top = 0.00775194
-anchor_right = 0.990311
+anchor_right = 0.989619
 anchor_bottom = 0.0354374
 grow_horizontal = 0
 theme = ExtResource("1_d5sny")
@@ -533,5 +503,19 @@ popup/item_3/text = "Commoner"
 popup/item_3/id = 3
 popup/item_4/text = "UPF"
 popup/item_4/id = 4
+
+[node name="BanlistLabel" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_d5sny")
+theme_override_font_sizes/font_size = 16
+text = "Banlist"
+metadata/_edit_use_anchors_ = true
+
+[node name="BanlistList" type="OptionButton" parent="HBoxContainer"]
+custom_minimum_size = Vector2(150, 25)
+layout_mode = 2
+theme = ExtResource("1_d5sny")
+text_overrun_behavior = 3
+metadata/_edit_use_anchors_ = true
 
 [connection signal="pressed" from="MainMenuButton" to="." method="_on_main_menu_button_pressed"]

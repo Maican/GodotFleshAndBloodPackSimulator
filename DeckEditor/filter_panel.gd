@@ -52,7 +52,6 @@ func _ready() -> void:
 	clear_filters_button.pressed.connect(clear_filters)
 	
 func set_filter(is_pressed:bool, filter_name : String, value:int) -> void:
-	var field = current_filters[filter_name][0]
 	if is_pressed:
 		current_filters[filter_name][1].append(value)
 	else:

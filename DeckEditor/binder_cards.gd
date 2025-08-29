@@ -34,7 +34,7 @@ var previous_scroll_vertical : int = 0
 var batch_size := 10
 var max_loaded := 100
 var first_visible_index := 0
-const SCROLL_BUFFER := 1500
+const SCROLL_BUFFER := 2000
 
 var current_sort_index : int = 0
 var current_search_text : String = ""
@@ -68,16 +68,29 @@ func _input(event) -> void:
 	previous_scroll_vertical = binder_cards_scroll.scroll_vertical
 
 func update_visible_cards():
-	var end_index = min(first_visible_index + max_loaded, filtered_binder_card_resources.size())
-	var before_msec : int = Time.get_ticks_msec()
+	var total = filtered_binder_card_resources.size()
+	# Compute the largest valid first_visible_index so the window can include the last card.
+	var max_first = max(0, total - max_loaded)
+	if first_visible_index > max_first:
+		first_visible_index = max_first
+
+	var end_index = min(first_visible_index + max_loaded, total)
+	# Debug: show range being requested
+	print("[BinderCards] update_visible_cards -> total:", total, " first:", first_visible_index, " end:", end_index, " max_first:", max_first)
+	var _before_msec : int = Time.get_ticks_msec()
 	for child : BinderCard in loaded_binder_card_scenes.values():
 		child.hide()
 	
 	for i in range(first_visible_index, end_index):
 		var card_resource = filtered_binder_card_resources[i]
+		
 		var card_id = card_resource.id
 		if loaded_binder_card_scenes.has(card_id):
 			loaded_binder_card_scenes[card_id].show()
+			if i == end_index - 1:
+				loaded_binder_card_scenes[card_id].custom_minimum_size = Vector2(0, 208)
+			else:
+				loaded_binder_card_scenes[card_id].custom_minimum_size = Vector2.ZERO
 		else:
 			var card_scene : BinderCard = BINDER_CARD.instantiate()
 			card_scene.card_resource = card_resource
@@ -98,15 +111,23 @@ func update_visible_cards():
 					card_scene.ban_card()
 			card_scene.name = card_id
 			loaded_binder_card_scenes[card_id] = card_scene
-	await get_tree().create_timer(0.001).timeout
+			if i == end_index - 1:
+				card_scene.custom_minimum_size = Vector2(0, 208)
+			else:
+				card_scene.custom_minimum_size = Vector2.ZERO
+	await get_tree().process_frame
 	scrolled.emit(binder_cards_scroll.get_global_rect())
-
+	
 func _on_scroll_changed():
 	var scroll_pos = binder_cards_scroll.scroll_vertical
 	var max_scroll = binder_cards_scroll.get_v_scroll_bar().max_value
-	# If near the end, load next batch
-	if scroll_pos > max_scroll - SCROLL_BUFFER and first_visible_index + max_loaded <= filtered_binder_card_resources.size():
-		first_visible_index += batch_size
+
+	var total = filtered_binder_card_resources.size()
+	# If near the end, load next batch (only if there are more items past the current window)
+	if scroll_pos > max_scroll - SCROLL_BUFFER and first_visible_index + max_loaded < total:
+		# Advance but clamp so we never go past the max_first that still shows the last element
+		var max_first = max(0, total - max_loaded)
+		first_visible_index = min(first_visible_index + batch_size, max_first)
 		update_visible_cards()
 		binder_cards_scroll.scroll_vertical -= SCROLL_BUFFER
 	# If near the start, cull beginning
@@ -118,6 +139,8 @@ func _on_scroll_changed():
 func load_binder(binder_path : String) -> void:
 	binder = ResourceLoader.load(binder_path)
 
+	# Reset the filtered list before populating (prevents duplicates)
+	filtered_binder_card_resources.clear()
 	for key : String in binder.cards:
 		filtered_binder_card_resources.append(binder.cards[key][1])
 
@@ -158,6 +181,8 @@ func update_binder_display() -> void:
 	binder_cards_scroll.scroll_vertical = 0
 	if binder == null:
 		return
+	# Rebuild the filtered list from the binder (clear first to avoid accumulation)
+	filtered_binder_card_resources.clear()
 	for key : String in binder.cards:
 		filtered_binder_card_resources.append(binder.cards[key][1])
 	
@@ -166,7 +191,6 @@ func update_binder_display() -> void:
 	for key in filter_map.keys():
 		var filter_map_array : Array = filter_map[key]
 		if filter_map_array.size() > 1:
-			var filter_field : Dictionary = filter_map[key][0]
 			var filter_values : Array = filter_map[key][1]
 			if filter_values.size() > 0:
 				filtered_binder_card_resources = filtered_binder_card_resources.filter(func(binder_card:CardResource):

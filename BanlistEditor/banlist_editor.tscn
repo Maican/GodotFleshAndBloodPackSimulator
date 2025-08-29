@@ -1,24 +1,24 @@
-[gd_scene load_steps=10 format=3 uid="uid://28qpm6mwubdv"]
+[gd_scene load_steps=10 format=3 uid="uid://i5070p3pt0kw"]
 
-[ext_resource type="Script" uid="uid://bfiu1gi6w8k5v" path="res://binder_editor.gd" id="1_lsr2a"]
-[ext_resource type="PackedScene" uid="uid://ecm7t8qssguc" path="res://Resources/Cards/card_hover_panel.tscn" id="2_grjlq"]
-[ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="3_14l7q"]
-[ext_resource type="Script" uid="uid://cxykw1xj63ex1" path="res://DeckEditor/binder_cards.gd" id="4_ejpor"]
-[ext_resource type="Texture2D" uid="uid://brkiomx2rb8wd" path="res://Resources/Images/filter_pressed.png" id="5_c4bfe"]
-[ext_resource type="Texture2D" uid="uid://bk616vaur2fd2" path="res://Resources/Images/filter.png" id="6_c37jm"]
-[ext_resource type="Texture2D" uid="uid://186i4ui484qm" path="res://Resources/Images/filter_hovered.png" id="7_cgagq"]
-[ext_resource type="Script" uid="uid://bu33ndglsq2ou" path="res://DeckEditor/filter_panel.gd" id="8_xl1gr"]
+[ext_resource type="Script" uid="uid://b82gq1xpjyox4" path="res://BanlistEditor/banlist_editor.gd" id="1_00feo"]
+[ext_resource type="PackedScene" uid="uid://ecm7t8qssguc" path="res://Resources/Cards/card_hover_panel.tscn" id="2_j37f2"]
+[ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="3_4wmci"]
+[ext_resource type="Script" uid="uid://cxykw1xj63ex1" path="res://DeckEditor/binder_cards.gd" id="4_evgp1"]
+[ext_resource type="Texture2D" uid="uid://brkiomx2rb8wd" path="res://Resources/Images/filter_pressed.png" id="5_tdgqr"]
+[ext_resource type="Texture2D" uid="uid://bk616vaur2fd2" path="res://Resources/Images/filter.png" id="6_nbnsk"]
+[ext_resource type="Texture2D" uid="uid://186i4ui484qm" path="res://Resources/Images/filter_hovered.png" id="7_4h4t4"]
+[ext_resource type="Script" uid="uid://bu33ndglsq2ou" path="res://DeckEditor/filter_panel.gd" id="8_h16yb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2sseo"]
 bg_color = Color(0, 0, 0, 1)
 
-[node name="BinderEditor" type="Panel"]
+[node name="BanlistEditor" type="Panel"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_lsr2a")
+script = ExtResource("1_00feo")
 
 [node name="MainMenuButton" type="Button" parent="."]
 layout_mode = 0
@@ -26,7 +26,7 @@ offset_right = 96.0
 offset_bottom = 28.0
 text = "Back"
 
-[node name="HoverPanel" parent="." instance=ExtResource("2_grjlq")]
+[node name="HoverPanel" parent="." instance=ExtResource("2_j37f2")]
 visible = false
 top_level = true
 layout_mode = 0
@@ -39,7 +39,7 @@ offset_top = 52.0
 offset_right = 3065.0
 offset_bottom = 2429.0
 scale = Vector2(0.35, 0.35)
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 horizontal_scroll_mode = 0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
@@ -47,18 +47,29 @@ clip_contents = true
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 theme_override_constants/separation = 24
 
-[node name="BinderCardsLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
+[node name="HeroLLLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 78
-text = "Binder Cards"
+text = "Hero LL Leaderboard"
 
-[node name="BinderCardsGrid" type="GridContainer" parent="ScrollContainer/VBoxContainer"]
+[node name="HeroLLList" type="GridContainer" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_4wmci")
+theme_override_constants/h_separation = 20
+columns = 6
+
+[node name="BannedCardsLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 78
+text = "Banned Cards"
+
+[node name="BannedCards" type="GridContainer" parent="ScrollContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 theme_override_constants/h_separation = 20
 theme_override_constants/v_separation = 20
 columns = 5
@@ -66,13 +77,13 @@ columns = 5
 [node name="AllCardsLabel" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.870833
-anchor_top = 0.00777778
-anchor_right = 0.916667
-anchor_bottom = 0.0322222
-theme = ExtResource("3_14l7q")
+anchor_left = 0.757093
+anchor_top = 0.00998336
+anchor_right = 0.805494
+anchor_bottom = 0.0341938
+theme = ExtResource("3_4wmci")
 theme_override_font_sizes/font_size = 16
-text = "All Cards"
+text = "All Cards:"
 metadata/_edit_use_anchors_ = true
 
 [node name="BinderCards" type="Control" parent="."]
@@ -88,8 +99,8 @@ offset_right = -12.0
 offset_bottom = 437.5
 grow_horizontal = 0
 grow_vertical = 2
-script = ExtResource("4_ejpor")
-is_binder = true
+script = ExtResource("4_evgp1")
+is_banlist = true
 
 [node name="HBoxContainer" type="HBoxContainer" parent="BinderCards"]
 layout_mode = 0
@@ -101,7 +112,7 @@ offset_bottom = 41.0
 [node name="SortLabel" type="Label" parent="BinderCards/HBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 theme_override_font_sizes/font_size = 16
 text = "Sort:"
 
@@ -109,7 +120,7 @@ text = "Sort:"
 custom_minimum_size = Vector2(50, 0)
 layout_mode = 2
 size_flags_vertical = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 autowrap_mode = 3
 item_count = 10
 popup/item_0/text = "Name ASC"
@@ -137,7 +148,7 @@ popup/item_9/id = 9
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 placeholder_text = "\"legendary\"..etc"
 
 [node name="FilterButton" type="TextureButton" parent="BinderCards/HBoxContainer"]
@@ -145,11 +156,11 @@ custom_minimum_size = Vector2(32, 32)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 toggle_mode = true
-texture_normal = ExtResource("5_c4bfe")
-texture_pressed = ExtResource("6_c37jm")
-texture_hover = ExtResource("7_cgagq")
+texture_normal = ExtResource("5_tdgqr")
+texture_pressed = ExtResource("6_nbnsk")
+texture_hover = ExtResource("7_4h4t4")
 ignore_texture_size = true
 stretch_mode = 0
 
@@ -166,14 +177,14 @@ offset_right = 7.0
 offset_bottom = 418.5
 grow_horizontal = 0
 grow_vertical = 2
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 horizontal_scroll_mode = 0
 
 [node name="BinderCardsVBox" type="VBoxContainer" parent="BinderCards/BinderCardsScroll"]
 layout_mode = 2
 size_flags_horizontal = 2
 size_flags_vertical = 2
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 theme_override_constants/separation = 210
 
 [node name="FilterPanel" type="Panel" parent="BinderCards"]
@@ -186,9 +197,9 @@ offset_left = -607.0
 offset_top = 42.0
 offset_bottom = 521.0
 grow_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 theme_override_styles/panel = SubResource("StyleBoxFlat_2sseo")
-script = ExtResource("8_xl1gr")
+script = ExtResource("8_h16yb")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="BinderCards/FilterPanel"]
 layout_mode = 0
@@ -199,7 +210,7 @@ offset_bottom = 441.0
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 theme_override_constants/separation = 4
 
 [node name="SpinBoxGridContainer" type="GridContainer" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
@@ -210,7 +221,7 @@ columns = 8
 [node name="PitchSpinBox" type="SpinBox" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer/SpinBoxGridContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 min_value = -1.0
 max_value = 6.0
 value = -1.0
@@ -219,7 +230,7 @@ prefix = "Pitch"
 [node name="CostSpinBox" type="SpinBox" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer/SpinBoxGridContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 min_value = -1.0
 max_value = 40.0
 value = -1.0
@@ -228,7 +239,7 @@ prefix = "Cost"
 [node name="DefenseSpinBox" type="SpinBox" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer/SpinBoxGridContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 min_value = -1.0
 max_value = 40.0
 value = -1.0
@@ -237,7 +248,7 @@ prefix = "Def"
 [node name="PowerSpinBox" type="SpinBox" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer/SpinBoxGridContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 min_value = -1.0
 max_value = 40.0
 value = -1.0
@@ -246,7 +257,7 @@ prefix = "Atk"
 [node name="LifeSpinBox" type="SpinBox" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer/SpinBoxGridContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 min_value = -1.0
 max_value = 40.0
 value = -1.0
@@ -255,7 +266,7 @@ prefix = "Life"
 [node name="IntellectSpinBox" type="SpinBox" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer/SpinBoxGridContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 min_value = -1.0
 max_value = 40.0
 value = -1.0
@@ -264,7 +275,7 @@ prefix = "Int"
 [node name="ClassLabel" type="Label" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text = "Class"
 
 [node name="ClassGridContainer" type="GridContainer" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
@@ -276,7 +287,7 @@ columns = 4
 [node name="Rarity" type="Label" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text = "Rarity"
 
 [node name="RarityGridContainer" type="GridContainer" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
@@ -288,7 +299,7 @@ columns = 4
 [node name="TypeLabel" type="Label" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text = "Type"
 
 [node name="TypeGridContainer" type="GridContainer" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
@@ -300,7 +311,7 @@ columns = 4
 [node name="SubTypeLabel" type="Label" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text = "SubType"
 
 [node name="SubTypeGridContainer" type="GridContainer" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
@@ -312,7 +323,7 @@ columns = 4
 [node name="Hero" type="Label" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text = "Hero"
 
 [node name="HeroGridContainer" type="GridContainer" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
@@ -324,7 +335,7 @@ columns = 4
 [node name="Talents" type="Label" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text = "Talent"
 
 [node name="TalentGridContainer" type="GridContainer" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
@@ -336,7 +347,7 @@ columns = 4
 [node name="Keywords" type="Label" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text = "Talent"
 
 [node name="KeywordGridContainer" type="GridContainer" parent="BinderCards/FilterPanel/ScrollContainer/VBoxContainer"]
@@ -358,7 +369,7 @@ offset_right = 102.0
 offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text = "Clear Filters"
 
 [node name="SetFiltersButton" type="Button" parent="BinderCards/FilterPanel"]
@@ -382,83 +393,50 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -604.0
-offset_top = 3.0
-offset_right = 160.0
-offset_bottom = 34.0
+offset_left = -433.5
+offset_right = 330.5
+offset_bottom = 31.0
 grow_horizontal = 2
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 theme_override_constants/separation = 15
 
-[node name="AddBinderButton" type="Button" parent="HBoxContainer"]
+[node name="AddBanlistButton" type="Button" parent="HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
-theme = ExtResource("3_14l7q")
-text = "Add Binder"
+theme = ExtResource("3_4wmci")
+text = "Add Banlist"
 
-[node name="BinderListOptions" type="OptionButton" parent="HBoxContainer"]
+[node name="BanlistListOptions" type="OptionButton" parent="HBoxContainer"]
 custom_minimum_size = Vector2(100, 30)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text_overrun_behavior = 3
 
-[node name="SaveBinderButton" type="Button" parent="HBoxContainer"]
+[node name="SaveBanlistButton" type="Button" parent="HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
-theme = ExtResource("3_14l7q")
-text = "Save Binder"
+theme = ExtResource("3_4wmci")
+text = "Save Banlist"
 
-[node name="SaveBinderAsButton" type="Button" parent="HBoxContainer"]
+[node name="SaveBanlistAsButton" type="Button" parent="HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text = "Save As..."
 
-[node name="ExportBinderButton" type="Button" parent="HBoxContainer"]
+[node name="ExportBanlistButton" type="Button" parent="HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
-theme = ExtResource("3_14l7q")
+theme = ExtResource("3_4wmci")
 text = "Export (clipboard)"
 
-[node name="DeleteBinderbutton" type="Button" parent="HBoxContainer"]
+[node name="DeleteBanlistbutton" type="Button" parent="HBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 0
 text = "Delete"
-
-[node name="BanlistLabel" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.658333
-anchor_top = -0.00222222
-anchor_right = 0.658333
-anchor_bottom = -0.00222222
-offset_left = 89.0
-offset_top = 9.0
-offset_right = 131.0
-offset_bottom = 26.0
-theme = ExtResource("3_14l7q")
-theme_override_font_sizes/font_size = 16
-text = "Banlist"
-metadata/_edit_use_anchors_ = true
-
-[node name="BanlistList" type="OptionButton" parent="."]
-custom_minimum_size = Vector2(150, 25)
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.658333
-anchor_top = -0.00222222
-anchor_right = 0.658333
-anchor_bottom = -0.00222222
-offset_left = 146.0
-offset_top = 2.0
-offset_right = 296.0
-offset_bottom = 33.0
-theme = ExtResource("3_14l7q")
-text_overrun_behavior = 3
-metadata/_edit_use_anchors_ = true
