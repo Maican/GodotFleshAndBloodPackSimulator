@@ -17,6 +17,8 @@ class_name CardResource
 @export var power : int
 @export var intellect : int
 @export var life : int
+@export var arcane : int
+@export var color : String = ""
 @export var flavour_text : String = ""
 @export var image_url : String
 @export var artist_name = ""

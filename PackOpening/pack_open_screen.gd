@@ -37,6 +37,8 @@ var cards_saved : bool = false
 var opened_card_labels : Dictionary = {}
 var binders_cards_saved_to : Array[String] = []
 var total_cards_opened : int = 0
+var cards_flipping : bool = false
+
 func _ready() -> void:
 	PackOpenHelper.opened_cards = {}
 	await generate_pack()
@@ -70,8 +72,10 @@ func next_pack() -> void:
 		flip_all_cards()
 
 func flip_all_cards(flip_time : float = 0.30) -> void:
+	open_remaining_button.disabled = true
 	for card : CardFlipScene in grid_container.get_children():
 		await card.flip_card(flip_time)
+	open_remaining_button.disabled = false
 
 func autoflip_toggled(toggled : bool) -> void:
 	if toggled:
@@ -80,6 +84,7 @@ func autoflip_toggled(toggled : bool) -> void:
 func open_remaining_packs() -> void:
 	open_remaining_button.disabled = true
 	next_pack_button.disabled = true
+	auto_flip_button.button_pressed = false
 	for i in range(0, PackOpenHelper.packs_to_open):
 		await flip_all_cards(0.02)
 		await next_pack()
@@ -191,7 +196,7 @@ func generate_pack() -> void:
 					printerr("Generated null card_resource for premium foil rarity - rare")
 				card_flip_scene.card_resource = card_resource
 			CardHelper.Rarity.Common:
-				if randf() <= 0.5:
+				if randf() <= 0.5 or PackOpenHelper.opening_pack_resource.generic_common_cards.size() == 0:
 					var card_resource = PackOpenHelper.opening_pack_resource.class_common_cards.pick_random()
 					if card_resource == null:
 						printerr("Generated null card_resource for premium foil rarity - class common")

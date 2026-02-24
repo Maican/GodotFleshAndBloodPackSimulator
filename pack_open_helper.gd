@@ -22,7 +22,11 @@ TheHunted,
 GemPack2,
 TreasurePack,
 HighSeas,
-MasteryPackGuardian
+MasteryPackGuardian,
+GemPack3,
+SuperSlam,
+CompendiumOfRathe,
+AntiquityPack
 }
 
 var opening_pack_resource : PackResource

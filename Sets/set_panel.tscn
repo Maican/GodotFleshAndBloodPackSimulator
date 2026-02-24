@@ -1,16 +1,44 @@
-[gd_scene load_steps=3 format=3 uid="uid://3r0383radg8x"]
+[gd_scene format=3 uid="uid://3r0383radg8x"]
 
+[ext_resource type="Theme" uid="uid://b3kq74llqlv3x" path="res://Resources/Json/MinimalUI.tres" id="1_bxy01"]
 [ext_resource type="Script" uid="uid://cncehkc2xkyk2" path="res://Sets/set_panel.gd" id="1_goaxn"]
 
-[sub_resource type="Theme" id="Theme_hk61m"]
-
-[node name="SetTexture" type="TextureRect"]
-theme = SubResource("Theme_hk61m")
+[node name="SetTexture" type="TextureRect" unique_id=1006205304]
+custom_minimum_size = Vector2(175, 150)
+offset_right = 150.0
+offset_bottom = 150.0
+theme = ExtResource("1_bxy01")
 script = ExtResource("1_goaxn")
 
-[node name="CheckBox" type="CheckBox" parent="."]
-layout_mode = 2
+[node name="CheckBox" type="CheckBox" parent="." unique_id=619506929]
+layout_mode = 0
 offset_top = 4.0
 offset_right = 96.0
 offset_bottom = 55.0
+theme = ExtResource("1_bxy01")
+theme_override_font_sizes/font_size = 24
 text = "High Seas"
+
+[node name="CardCountLabel" type="Label" parent="." unique_id=1771053322]
+layout_mode = 0
+offset_top = 55.0
+offset_right = 160.0
+offset_bottom = 75.0
+theme = ExtResource("1_bxy01")
+theme_override_font_sizes/font_size = 16
+
+[node name="PackSizeLabel" type="Label" parent="." unique_id=292239118]
+layout_mode = 0
+offset_top = 75.0
+offset_right = 160.0
+offset_bottom = 95.0
+theme = ExtResource("1_bxy01")
+theme_override_font_sizes/font_size = 16
+
+[node name="ReleaseDateLabel" type="Label" parent="." unique_id=884641967]
+layout_mode = 0
+offset_top = 95.0
+offset_right = 160.0
+offset_bottom = 115.0
+theme = ExtResource("1_bxy01")
+theme_override_font_sizes/font_size = 16

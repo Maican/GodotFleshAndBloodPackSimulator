@@ -6,6 +6,7 @@ class_name PackResource
 @export var pack_enum : PackOpenHelper.Sets = PackOpenHelper.Sets.WelcomeToRathe
 @export var number_of_cards : int = 246
 @export var pack_size : int = 16
+@export var release_date : String = "2019-10-11"
 
 func clear_cards():
 	rare_cards = []

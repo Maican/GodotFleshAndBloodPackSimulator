@@ -1,0 +1,762 @@
+[
+	{
+		"name": "WelcomeToRathe",
+		"number_of_cards": 226,
+		"pack_contents": {
+			"class_commons_per_pack": 9,
+			"equipment_per_pack": 1,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 2,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 0,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 9.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 8.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 6.0
+		},
+		"set_code": "WTR",
+		"released_on": "2019-10-11"
+	},
+	{
+		"name": "ArcaneRising",
+		"number_of_cards": 219,
+		"pack_contents": {
+			"class_commons_per_pack": 9,
+			"equipment_per_pack": 1,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 2,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 1,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 9.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 8.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 6.0
+		},
+		"set_code": "ARC",
+		"released_on": "2020-03-27"
+	},
+	{
+		"name": "CrucibleOfWar",
+		"number_of_cards": 198,
+		"pack_contents": {
+			"class_commons_per_pack": 6,
+			"equipment_per_pack": 1,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 2,
+		"pack_size": 10,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 9.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 8.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 6.0
+		},
+		"set_code": "CRU",
+		"released_on": "2020-08-28"
+	},
+	{
+		"name": "Monarch",
+		"number_of_cards": 307,
+		"pack_contents": {
+			"class_commons_per_pack": 9,
+			"equipment_per_pack": 1,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 2,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 3,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 8.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "MON",
+		"released_on": "2021-05-07"
+	},
+	{
+		"name": "TalesOfAria",
+		"number_of_cards": 238,
+		"pack_contents": {
+			"class_commons_per_pack": 10,
+			"equipment_per_pack": 1,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 1,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 4,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 88.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "ELE",
+		"released_on": "2021-09-24"
+	},
+	{
+		"name": "Everfest",
+		"number_of_cards": 198,
+		"pack_contents": {
+			"class_commons_per_pack": 7,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 5,
+		"pack_size": 10,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 160.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "EVR",
+		"released_on": "2022-02-04"
+	},
+	{
+		"name": "HistoryPack1",
+		"number_of_cards": 427,
+		"pack_contents": {
+			"class_commons_per_pack": 7,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 20,
+		"pack_size": 10,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 82.0,
+			"majestic_rarity": 3.15,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "1HP",
+		"released_on": "2022-05-06"
+	},
+	{
+		"name": "Uprising",
+		"number_of_cards": 226,
+		"pack_contents": {
+			"class_commons_per_pack": 9,
+			"equipment_per_pack": 1,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 2,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 6,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 80.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "UPR",
+		"released_on": "2022-06-24"
+	},
+	{
+		"name": "Dynasty",
+		"number_of_cards": 247,
+		"pack_contents": {
+			"class_commons_per_pack": 7,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 7,
+		"pack_size": 10,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "DYN",
+		"released_on": "2022-11-11"
+	},
+	{
+		"name": "HistoryPack2",
+		"number_of_cards": 536,
+		"pack_contents": {
+			"class_commons_per_pack": 7,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 21,
+		"pack_size": 10,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 82.0,
+			"majestic_rarity": 3.15,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "2HP",
+		"released_on": "2023-02-24"
+	},
+	{
+		"name": "Outsiders",
+		"number_of_cards": 239,
+		"pack_contents": {
+			"class_commons_per_pack": 9,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 1,
+			"generics_commons_per_pack": 2,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 8,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "OUT",
+		"released_on": "2023-03-24"
+	},
+	{
+		"name": "DuskTillDawn",
+		"number_of_cards": 236,
+		"pack_contents": {
+			"class_commons_per_pack": 7,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 9,
+		"pack_size": 10,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "DTD",
+		"released_on": "2023-07-14"
+	},
+	{
+		"name": "BrightLights",
+		"number_of_cards": 251,
+		"pack_contents": {
+			"class_commons_per_pack": 7,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 1,
+			"generics_commons_per_pack": 4,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 10,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "EVO",
+		"released_on": "2023-10-06"
+	},
+	{
+		"name": "HeavyHitters",
+		"number_of_cards": 255,
+		"pack_contents": {
+			"class_commons_per_pack": 7,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 1,
+			"generics_commons_per_pack": 4,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 11,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "HVY",
+		"released_on": "2024-02-02"
+	},
+	{
+		"name": "PartTheMistveil",
+		"number_of_cards": 239,
+		"pack_contents": {
+			"class_commons_per_pack": 10,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 1,
+			"generics_commons_per_pack": 1,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 12,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "MST",
+		"released_on": "2024-05-31"
+	},
+	{
+		"name": "Rosetta",
+		"number_of_cards": 258,
+		"pack_contents": {
+			"class_commons_per_pack": 10,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 1,
+			"generics_commons_per_pack": 1,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 13,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "ROS",
+		"released_on": "2024-09-20"
+	},
+	{
+		"name": "TheHunted",
+		"number_of_cards": 265,
+		"pack_contents": {
+			"class_commons_per_pack": 10,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 1,
+			"generics_commons_per_pack": 1,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 14,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "HNT",
+		"released_on": "2025-01-31"
+	},
+	{
+		"name": "GemPack1",
+		"number_of_cards": 30,
+		"pack_contents": {
+			"class_commons_per_pack": 0,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 0,
+			"juicer_rares_per_pack": 0,
+			"non_token_premium_foil_per_pack": 2,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 16,
+		"pack_size": 2,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 12.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "GEM",
+		"starts": "GEM001",
+		"ends": "GEM035",
+		"released_on": "2025-02-01"
+	},
+	{
+		"name": "GemPack2",
+		"number_of_cards": 34,
+		"pack_contents": {
+			"class_commons_per_pack": 0,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 0,
+			"juicer_rares_per_pack": 0,
+			"non_token_premium_foil_per_pack": 2,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 18,
+		"pack_size": 2,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 12.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "GEM",
+		"starts": "GEM036",
+		"ends": "GEM070",
+		"released_on": "2025-06-06"
+	},
+	{
+		"name": "HighSeas",
+		"number_of_cards": 265,
+		"pack_contents": {
+			"class_commons_per_pack": 7,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 1,
+			"generics_commons_per_pack": 4,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 15,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "SEA",
+		"released_on": "2025-06-06"
+	},
+	{
+		"name": "TreasurePack",
+		"released_on": "2025-06-06",
+		"number_of_cards": 81,
+		"pack_contents": {
+			"class_commons_per_pack": 0,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 0,
+			"juicer_rares_per_pack": 0,
+			"non_token_premium_foil_per_pack": 3,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 19,
+		"pack_size": 2,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 12.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "SEA"
+	},
+	{
+		"name": "MasteryPackGuardian",
+		"number_of_cards": 120,
+		"pack_contents": {
+			"class_commons_per_pack": 4,
+			"equipment_per_pack": 1,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 3,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 17,
+		"pack_size": 13,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 12.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "MPG",
+		"released_on": "2025-08-08"
+	},
+	{
+		"name": "GemPack3",
+		"number_of_cards": 34,
+		"pack_contents": {
+			"class_commons_per_pack": 0,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 0,
+			"juicer_rares_per_pack": 0,
+			"non_token_premium_foil_per_pack": 2,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 22,
+		"pack_size": 2,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 12.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "GEM",
+		"starts": "GEM071",
+		"ends": "GEM104",
+		"released_on": "2025-09-26"
+	},
+	{
+		"name": "SuperSlam",
+		"number_of_cards": 230,
+		"pack_contents": {
+			"class_commons_per_pack": 10,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 1,
+			"generics_commons_per_pack": 1,
+			"guaranteed_rares_per_pack": 1,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 1
+		},
+		"pack_enum": 23,
+		"pack_size": 16,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 9.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 3.0
+		},
+		"set_code": "SUP",
+		"released_on": "2025-09-26"
+	},
+	{
+		"name": "AntiquityPack",
+		"number_of_cards": 90,
+		"pack_contents": {
+			"class_commons_per_pack": 0,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 0,
+			"guaranteed_rares_per_pack": 2,
+			"juicer_rares_per_pack": 0,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 25,
+		"pack_size": 3,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "ANQ",
+		"released_on": "2026-02-13"
+	},
+	{
+		"name": "CompendiumOfRathe",
+		"number_of_cards": 348,
+		"pack_contents": {
+			"class_commons_per_pack": 4,
+			"equipment_per_pack": 0,
+			"expansion_slot_cards_per_pack": 0,
+			"generics_commons_per_pack": 1,
+			"guaranteed_rares_per_pack": 2,
+			"juicer_rares_per_pack": 1,
+			"non_token_premium_foil_per_pack": 1,
+			"tokens_per_pack": 0
+		},
+		"pack_enum": 24,
+		"pack_size": 9,
+		"pull_rates": {
+			"expansion_slot_rarity": 15.0,
+			"fabled_rarity": 960.0,
+			"foil_majestic_rarity": 18.0,
+			"foil_rare_rarity": 5.0,
+			"foil_super_rare_rarity": 0.0,
+			"legendary_rarity": 96.0,
+			"majestic_rarity": 4.0,
+			"marvel_rarity": 100.0,
+			"super_rare_rarity": 0.0
+		},
+		"set_code": "PEN",
+		"released_on": "2026-02-13"
+	}
+]
