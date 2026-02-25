@@ -2,6 +2,7 @@
 
 A Godot 4.6 application for simulating the Flesh and Blood TCG progression experience — open packs, collect cards, build decks, and manage banlists.
 
+Special thanks to Legend Story Studios for the amazing game, and Cimoooooooo and Nyhmnim's progression series which inspired this for FaB!
 ## User Experience Flow
 
 ### 1. Open Packs
