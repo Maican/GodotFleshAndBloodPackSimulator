@@ -3,6 +3,9 @@
 A Godot 4.6 application for simulating the Flesh and Blood TCG progression experience — open packs, collect cards, build decks, and manage banlists.
 
 Special thanks to Legend Story Studios for the amazing game, and Cimoooooooo and Nyhmnim's progression series which inspired this for FaB!
+
+![Main Menu](Resources/Images/Screenshots/main_menu.png)
+
 ## User Experience Flow
 
 ### 1. Open Packs
@@ -23,6 +26,10 @@ On the **Pack Opening Screen**, each pack is laid out as a grid of face-down car
 
 Pull rates follow the real-world odds configured per set — including foil slots, short-print majestics, equipment slots, expansion slots, and premium foils with weighted rarity rolls.
 
+![Select Pack Screen](Resources/Images/Screenshots/select_pack_screen.png)
+
+![Opening Pack Screen](Resources/Images/Screenshots/opening_pack_screen.png)
+
 ### 2. Save Cards to a Binder
 
 After opening packs, save your pulls to a **Binder** before leaving:
@@ -35,6 +42,8 @@ After opening packs, save your pulls to a **Binder** before leaving:
 
 ### 3. Manage Binders
 
+![Binder Management Screen](Resources/Images/Screenshots/binder_management_screen.png)
+
 Select **Binder Editor** from the Main Menu to view and curate your card collection.
 
 - A master binder (`all_cards`) is automatically generated containing every imported card for easy browsing.
@@ -45,6 +54,8 @@ Select **Binder Editor** from the Main Menu to view and curate your card collect
 - Hover over cards for a detailed preview.
 
 ### 4. Build Decks
+
+![Deck Editor Screen](Resources/Images/Screenshots/deck_editor_screen.png)
 
 Select **Deck Editor** from the Main Menu to construct decks from your binder.
 
@@ -71,6 +82,8 @@ Select **Banlist Editor** from the Main Menu to manage custom banned/restricted 
 - Set **Living Legend points** for each hero.
 - Save, delete, and export banlists.
 - Banlists can be applied in both the **Deck Editor** and **Binder Editor** to visually flag banned cards.
+
+![Banlist Screen](Resources/Images/Screenshots/banlist_screen.png)
 
 ### Flow Summary
 
